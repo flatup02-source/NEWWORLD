@@ -1,0 +1,12 @@
+# Local Netlify folder
+.netlify
+node_modules
+
+# Next.js build output
+.next/
+
+# macOS specific files
+.DS_Store
+**/.DS_Store
+._*
+**._*

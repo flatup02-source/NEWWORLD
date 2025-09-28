@@ -1,0 +1,1 @@
+"use strict";exports.id=305,exports.ids=[305],exports.modules={20305:(t,e,r)=>{r.r(e),r.d(e,{default:()=>i});var s=r(60687);r(43210);let i=({size:t=24,children:e,...r})=>(0,s.jsx)("svg",{xmlns:"http://www.w3.org/2000/svg",width:t,height:t,viewBox:"0 0 24 24",fill:"currentColor",...r,children:e})}};
