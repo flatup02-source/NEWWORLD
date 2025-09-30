@@ -34,7 +34,7 @@ const ThoughtsSection = () => {
               特に女性や子どもたちには、護身術として、そして自信をつけるツールとして、格闘技の素晴らしさを知ってほしいのです。
             </p>
             <p className="text-xl font-bold text-green-600">
-              あなたが笑顔になれる場所、それがFLAT-UPGYMです。
+              あなたが笑顔になれる場所、それがFLATUPGYMです。
             </p>
           </div>
         </div>

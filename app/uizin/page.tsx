@@ -1,6 +1,5 @@
 'use client';
 
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OptimizedImage from '@/components/OptimizedImage';
 import { useEffect } from 'react';
@@ -33,8 +32,7 @@ export default function Uizin() {
       rootMargin: '0px 0px -50px 0px'
     };
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
+    const observer = new IntersectionObserver((entries) => {.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fadeInUp');
           observer.unobserve(entry.target);
@@ -66,7 +64,6 @@ export default function Uizin() {
         description="FLATUPGYM主催の格闘技大会「UIZIN」。初心者、女性、キッズも安心して参加できるアマチュアキックボクシング大会です。熱い戦いと感動を体験しよう。"
         jsonLd={uizinBreadcrumbs}
       />
-      <Header />
 
       <main>
         {/* ヒーローセクション - 新しい画像を使用 */}
