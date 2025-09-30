@@ -65,8 +65,8 @@ export default function Schedule() {
           className="relative min-h-screen flex items-center overflow-hidden"
         >
           <OptimizedImage
-            src="https://ik.imagekit.io/FLATUPGYM/DSC07248.png?tr=w-3840,f-auto"
-            alt="ジムのトレーニング風景"
+            src="https://ik.imagekit.io/FLATUPGYM/%E3%82%AB%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%99%E3%83%BC.png?updatedAt=1756924824761"
+            alt="クラス時間割"
             className="object-cover object-center brightness-75 w-full h-full absolute inset-0"
             width={1920}
             height={1080}
