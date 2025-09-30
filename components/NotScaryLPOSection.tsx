@@ -1,5 +1,5 @@
 import React from 'react';
-import RobustImage from './RobustImage'; // Assuming it's in the same directory
+import RobustImage from './RobustImage';
 
 interface NotScaryLPOSectionProps {
   headline?: string;

@@ -7,8 +7,8 @@ import { breadcrumbJsonLd } from '../../lib/json-ld';
 import OptimizedImage from '../../components/OptimizedImage';
 
 const VoicePage: NextPage = () => {
-  const pageTitle = "お客様の声";
-  const pageDescription = "FLATUPGYMに実際に通われている会員様のリアルな声をご紹介します。";
+  const pageTitle = "お客様の声｜成田の女性・初心者向けキックボクシングジムFLATUPGYM";
+  const pageDescription = "FLATUPGYMに実際に通われている会員様のリアルな声をご紹介します。「自分に自信が持てるようになった」「ストレス発散に最高！」など、喜びの声が続々。";
 
   const breadcrumbs = breadcrumbJsonLd([
     { name: 'Home', url: 'https://flat-up.jp' },
@@ -28,8 +28,8 @@ const VoicePage: NextPage = () => {
 
             <div className="space-y-12">
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
-                    <OptimizedImage alt="M.Iさん アバター" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/VOICE1.png"/>
+                    <OptimizedImage alt="M.Iさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                         src="https://ik.imagekit.io/FLATUPGYM/A.png?updatedAt=1758977054985"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">M.Iさん (30代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">自分に自信が持てるようになりました！</p>
@@ -38,8 +38,8 @@ const VoicePage: NextPage = () => {
                 </div>
 
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
-                    <OptimizedImage alt="K.Tさん アバター" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/VOICE2.png"/>
+                    <OptimizedImage alt="K.Tさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                         src="https://ik.imagekit.io/FLATUPGYM/B.png?updatedAt=1758977055273"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">K.Tさん (20代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">ストレス発散に最高です！</p>
@@ -48,12 +48,12 @@ const VoicePage: NextPage = () => {
                 </div>
 
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
-                    <OptimizedImage alt="S.Yさん アバター" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/VOICE3.png"/>
+                    <OptimizedImage alt="S.Yさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
+                         src="https://ik.imagekit.io/FLATUPGYM/C.png?updatedAt=1758977055196"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">S.Yさん (40代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">産後の体型戻しに成功しました</p>
-                        <p className="mt-3 text-gray-700 leading-relaxed">産後太りがなかなか解消されませんでしたが、パーソナルトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。</p>
+                        <p className="mt-3 text-gray-700 leading-relaxed">産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。</p>
                     </div>
                 </div>
             </div>

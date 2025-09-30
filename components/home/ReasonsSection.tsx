@@ -20,7 +20,7 @@ const ReasonsSection = () => {
             <OptimizedImage
               width={800}
               height={600}
-              src="https://source.unsplash.com/800x600/?gym-entrance,modern"
+              src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845"
               alt="24時間使えるアクセスシステム"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-green-300"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -37,7 +37,7 @@ const ReasonsSection = () => {
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 格闘技ジムでは珍しい24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-center space-x-2">
                   <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-green-600"></i>
                   <span>早朝・深夜も利用可能</span>
@@ -51,6 +51,13 @@ const ReasonsSection = () => {
                   <span>忙しい方でも継続しやすい</span>
                 </li>
               </ul>
+              <OptimizedImage
+                src="https://ik.imagekit.io/FLATUPGYM/tiny.png?updatedAt=1757331481711"
+                alt="24時間使えるシステム"
+                width={300}
+                height={200}
+                className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+              />
             </div>
 
             <div className="bg-gradient-to-br from-pink-100 to-purple-200 p-8 rounded-3xl shadow-xl border-4 border-pink-300">
@@ -63,7 +70,7 @@ const ReasonsSection = () => {
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
                 格闘技ジムでは珍しい女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-center space-x-2">
                   <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-pink-700"></i>
                   <span>レディース専用時間帯</span>
@@ -77,6 +84,13 @@ const ReasonsSection = () => {
                   <span>護身術専門クラス</span>
                 </li>
               </ul>
+              <OptimizedImage
+                src="https://ik.imagekit.io/FLATUPGYM/MISAKI2.png?updatedAt=1756897204004"
+                alt="女性クラスが充実"
+                width={300}
+                height={200}
+                className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+              />
             </div>
           </div>
         </div>
@@ -127,7 +141,7 @@ const ReasonsSection = () => {
             <OptimizedImage
               width={800}
               height={600}
-              src="https://source.unsplash.com/800x600/?martial-arts,women"
+              src="https://ik.imagekit.io/FLATUPGYM/reddy.png?tr=w-3840,f-auto"
               alt="女性向け護身術クラス"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-red-300"
               sizes="(max-width: 1024px) 100vw, 50vw"

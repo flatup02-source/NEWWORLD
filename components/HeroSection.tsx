@@ -10,19 +10,13 @@ const HeroSection = memo(() => {
       aria-label="メインヒーロー"
     >
       {/* RobustImageの代わりにvideoタグを配置 */}
-      <video
-        src="/newTOP.mov"
-        autoPlay
-        loop
-        muted
-        playsInline
-        preload="auto" // これを追加
-        poster="https://ik.imagekit.io/FLATUPGYM/tr:q-auto,f-auto/TOPP.png"
+      <iframe
+        src="https://imagekit.io/player/embed/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650&thumbnail=https%3A%2F%2Fik.imagekit.io%2FFLATUPGYM%2Foutput_compressed.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1758848662650&updatedAt=1758848662650"
+        title="ImageKit video player"
+        frameBorder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
         className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <track kind="captions" src="/captions.vtt" srcLang="ja" label="日本語字幕" />
-        Your browser does not support the video tag.
-      </video>
+      ></iframe>
       
       {/* 洗練されたオーバーレイグラデーション */}
       <div className="absolute inset-0 bg-gradient-to-br from-black/30 via-transparent to-black/20"></div>

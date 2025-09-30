@@ -64,11 +64,13 @@ export default function Schedule() {
         <section
           className="relative min-h-screen flex items-center overflow-hidden"
         >
-          {/* TODO: Replace /images/schedule-hero-placeholder.jpg with your actual optimized image in the public directory for better performance. */}
-          <img
-                    src="https://via.placeholder.com/1920x1080?text=Schedule+Image" // Using a generic placeholder image
-            alt="週間スケジュールヒーロー画像"
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/DSC07248.png?tr=w-3840,f-auto"
+            alt="ジムのトレーニング風景"
             className="object-cover object-center brightness-75 w-full h-full absolute inset-0"
+            width={1920}
+            height={1080}
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 via-green-500/20 to-purple-400/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

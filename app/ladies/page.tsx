@@ -119,11 +119,11 @@ export default function Ladies() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
-            <img
+            <OptimizedImage
               width={1200}
               height={800}
-              src="https://via.placeholder.com/1200x800?text=Ladies+Gym+Image" // Using a generic placeholder image
-              alt="女性向けジムのイメージ"
+              src="https://ik.imagekit.io/FLATUPGYM/reddy.png?tr=w-3840,f-auto"
+              alt="女性向けジムのトレーニング風景"
               className="w-full h-full object-cover rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-500"
             />
               </div>

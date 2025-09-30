@@ -2,292 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ベーススタイル */
-@layer base {
-  * {
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* 画像の最適化 */
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* リンクのスタイル */
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  /* ボタンのリセット */
-  button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-family: inherit;
-  }
-  
-  /* リストのリセット */
-  ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* 見出しのリセット */
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    font-weight: inherit;
-  }
-  
-  /* 段落のリセット */
-  p {
-    margin: 0;
-  }
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
-  }
-  .dark {
-    --background: 0 0% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 0 0% 9%;
-    --secondary: 0 0% 14.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
-    --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 0 0% 83.1%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-  }
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
 }
 
-/* コンポーネントスタイル */
-@layer components {
-  /* コンテナ */
-  .container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-  
-  /* ボタンスタイル */
-  .btn-primary {
-    @apply bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white font-bold py-4 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg;
-  }
-  
-  .btn-secondary {
-    @apply bg-gradient-to-r from-blue-500 to-green-600 hover:from-blue-600 hover:to-green-700 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg;
-  }
-  
-  /* カードスタイル */
-  .card {
-    @apply bg-white rounded-3xl shadow-2xl p-8 border border-gray-100;
-  }
-  
-  /* セクションスタイル */
-  .section {
-    @apply py-20;
-  }
-  
-  /* ヒーローセクション */
-  .hero-section {
-    @apply relative min-h-screen flex items-center justify-center overflow-hidden;
-  }
-  
-  /* グラデーション背景 */
-  .gradient-bg {
-    @apply bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50;
-  }
-  
-  /* テキストグラデーション */
-  .text-gradient {
-    @apply bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent;
-  }
-  
-  /* アニメーション */
-  .animate-float {
-    animation: float 3s ease-in-out infinite;
-  }
-  
-  .animate-pulse-slow {
-    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  }
-  
-  /* レスポンシブテキスト */
-  .responsive-text {
-    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
-  }
-  
-  .responsive-text-sm {
-    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
-  }
-}
-
-/* ユーティリティスタイル */
-@layer utilities {
-  /* カスタムアニメーション */
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  
-  /* スクロールバーのカスタマイズ */
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #ec4899, #8b5cf6);
-    border-radius: 4px;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, #db2777, #7c3aed);
-  }
-  
-  /* フォーカススタイル */
-  .focus-ring {
-    @apply focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2;
-  }
-  
-  /* テキストシャドウ */
-  .text-shadow {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  .text-shadow-lg {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-  }
-  
-  /* 背景ブラー */
-  .backdrop-blur-custom {
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-  
-  /* グラデーションテキスト */
-  .gradient-text {
-    background: linear-gradient(135deg, #ec4899, #8b5cf6, #3b82f6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-}
-
-/* レスポンシブデザインの補助 */
-@media (max-width: 640px) {
-  .mobile-hidden {
-    display: none;
-  }
-  
-  .mobile-text-center {
-    text-align: center;
-  }
-}
-
-@media (min-width: 641px) {
-  .desktop-hidden {
-    display: none;
-  }
-}
-
-/* パフォーマンス最適化 */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-/* ダークモード対応（将来の拡張用） */
 @media (prefers-color-scheme: dark) {
-  /* ダークモードのスタイルをここに追加 */
-}
-
-/* 印刷スタイル */
-@media print {
-  .no-print {
-    display: none !important;
-  }
-  
-  .print-break {
-    page-break-before: always;
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
-/* Responsive iframe container */
-.responsive-iframe-container {
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Responsive YouTube Embed Container */
+.youtube-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
-  max-width: 100%;
-  background: #000; /* Optional: background color while loading */
+  border-radius: 1rem; /* Added for better aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added for depth */
 }
 
-.responsive-iframe-container iframe {
+.youtube-container iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -295,90 +50,27 @@
   height: 100%;
 }
 
-/* New Hero Video Styles */
-.hero-video-wrap {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-video {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,.25);
-  z-index: 2;
-}
-  .hero-content {
-    position: relative;
-    z-index: 3;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .video-aspect-ratio-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (height / width * 100) */
-    height: 0;
-    overflow: hidden;
-  }
-  
-  .video-aspect-ratio-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 
-/* ========== LINE 固定ボタンのスタイル ========== */
-
-.line-float-button {
-  /* 位置を画面右下に固定 */
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  z-index: 1000; /* 他の要素より手前に表示 */
-
-  /* ボタンのデザイン */
-  display: flex; /* アイコンとテキストを横並びにする */
-  align-items: center; /* 中央揃え（垂直方向） */
-  gap: 8px; /* アイコンとテキストの間隔 */
-  padding: 12px 20px; /* 内側の余白 */
-  background-color: #06c755; /* LINEのブランドカラー */
-  color: #ffffff; /* テキストとアイコンの色 */
-  border-radius: 50px; /* 角を丸くしてカプセル型に */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 影をつけて立体感を出す */
-  
-  /* テキストのスタイル */
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none; /* リンクの下線を消す */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-
-  /* ホバー時のアニメーション */
-  transition: transform 0.2s ease-in-out;
+/* LINE Fixed Button Styles */
+.line-icon-link {
+    position: fixed; /* 画面に固定 */
+    bottom: 20px;    /* 画面下からの距離 */
+    right: 20px;     /* 画面右からの距離 */
+    z-index: 1000;   /* 他の要素の上に表示 */
+    display: block;  /* リンクとして機能させるため */
+    line-height: 0; /* 画像の余白をなくす */
 }
 
-/* マウスカーソルを乗せたときの効果 */
-.line-float-button:hover {
-  transform: scale(1.05); /* 少しだけ拡大する */
+.line-icon {
+    width: 60px;     /* アイコンの幅 */
+    height: 60px;    /* アイコンの高さ（正方形にする場合） */
+    border-radius: 50%; /* もし画像を丸くしたい場合 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影を付けて浮き上がらせる */
+    /* その他、必要に応じてホバー効果など */
 }
 
-/* アイコンのサイズ調整 */
-.line-float-button .line-icon {
-  width: 28px;
-  height: 28px;
+/* ホバー時の効果（任意） */
+.line-icon-link:hover .line-icon {
+    transform: scale(1.05); /* 少し拡大 */
+    transition: transform 0.2s ease-in-out;
 }

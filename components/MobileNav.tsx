@@ -63,7 +63,7 @@ export default function MobileNav({ isOpen, setIsOpen }: MobileNavProps) {
           {/* Mobile CTA */}
           <div className="pt-4 border-t border-gray-200">
             <Link
-              href="https://lin.ee/JUxTlYr"
+              href="https://lin.ee/21ape6V"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative w-full bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-6 py-4 rounded-full transition-all duration-500 cursor-pointer text-center font-bold text-lg shadow-xl transform hover:scale-105 block overflow-hidden"

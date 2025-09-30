@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Pacifico } from 'next/font/google';
-import './globals.css';
+// import './globals.css';
 import Script from 'next/script';
-import { Partytown } from '@builder.io/partytown/react';
+import { Partytown } from '@qwik.dev/partytown/react';
 import Header from '../components/Header'; // Import the Header component
 import DynamicFooter from '../components/DynamicFooter';
+import FloatingLineButton from '../components/FloatingLineButton';
+import BackToHomeButton from '../components/BackToHomeButton';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -80,9 +82,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//static.readdy.ai" />
         <link rel="dns-prefetch" href="//lin.ee" />
         <link rel="dns-prefetch" href="//maps.google.com" />
-        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/tr:q-auto,f-auto/TOPP.png" fetchPriority="high" />
+        
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/TOPP.png?updatedAt=1756928058451" />
         <Script id="structured-data" type="application/ld+json">
           {`
             {
@@ -110,7 +113,7 @@ export default function RootLayout({
                 "Su 09:00-18:00"
               ],
               "sameAs": [
-                "https://lin.ee/JUxTlYr",
+                "https://lin.ee/21ape6V",
                 "https://www.instagram.com/flatup.narita"
               ],
               "sport": "Kickboxing",
@@ -129,6 +132,48 @@ export default function RootLayout({
             }
           `}
         </Script>
+        <style>{`
+          /* Manually extracted critical CSS */
+          body {
+            color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)) rgb(214, 219, 220);
+          }
+          .youtube-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .youtube-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+          .line-icon-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: block;
+            line-height: 0;
+          }
+          .line-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+          .line-icon-link:hover .line-icon {
+            transform: scale(1.05);
+            transition: transform 0.2s ease-in-out;
+          }
+        `}</style>
+        <link rel="preload" href="/globals.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/globals.css" /></noscript>
       </head>
       <body className={`${inter.className} ${pacifico.className}`}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5TLG6T7"
@@ -153,6 +198,8 @@ height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
           `}
         </Script>
         <DynamicFooter />
+        <FloatingLineButton />
+        <BackToHomeButton />
       </body>
     </html>
   );

@@ -24,10 +24,13 @@ export default function Postpartum() {
         <section
           className="relative min-h-screen flex items-center overflow-hidden"
         >
-          <img
-            src="https://via.placeholder.com/1920x1080?text=Postpartum+Hero+Image"
-            alt="産後クラス"
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png?updatedAt=1756924825619"
+            alt="産後クラスのトレーニング風景"
             className="object-cover z-0 w-full h-full absolute inset-0"
+            width={1920}
+            height={1080}
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-green-600/30 via-blue-500/20 to-purple-400/20 z-10"></div>
           <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-left sm:text-center">
@@ -60,7 +63,7 @@ export default function Postpartum() {
                 <div className="order-2 lg:order-1">
                   <div className="bg-gradient-to-r from-pink-100 to-yellow-100 p-8 rounded-2xl border-4 border-pink-300 shadow-xl">
                     <OptimizedImage
-                      src="/sango1.jpeg?tr=q-auto,f-auto"
+                      src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png?updatedAt=1756924825619"
                       alt="産後の女性の為のキックボクシングメソッド"
                       width={500}
                       height={500}
@@ -246,8 +249,8 @@ export default function Postpartum() {
               </div>
               <div className="bg-gradient-to-br from-blue-100 to-purple-200 p-6 rounded-2xl shadow-xl border-4 border-blue-300">
                 <div className="flex items-center mb-4">
-                  <img
-                    src="https://via.placeholder.com/128x128?text=Tanaka+Avatar"
+                  <OptimizedImage
+                    src="https://ik.imagekit.io/FLATUPGYM/B.png"
                     alt="ママの声"
                     width={64}
                     height={64}

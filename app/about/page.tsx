@@ -7,8 +7,8 @@ import { breadcrumbJsonLd } from '../../lib/json-ld';
 import OptimizedImage from '../../components/OptimizedImage';
 
 const AboutPage: NextPage = () => {
-  const pageTitle = "私たちの想い";
-  const pageDescription = "FLATUPGYMが選ばれる理由、私たちの想いをご紹介します。";
+  const pageTitle = "FLATUPGYMの想い｜成田の女性・初心者向け格闘技ジム";
+  const pageDescription = "成田の女性・初心者向け格闘技ジム、FLATUPGYMが選ばれる理由や私たちの想いをご紹介します。";
 
   const breadcrumbs = breadcrumbJsonLd([
     { name: 'Home', url: 'https://flat-up.jp' },

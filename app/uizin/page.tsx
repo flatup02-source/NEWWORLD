@@ -73,7 +73,7 @@ export default function Uizin() {
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center observe-animation"
           style={{ 
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/UIZIN1.png?updatedAt=1756928062826')",
+            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/UIZIN2.png.png?updatedAt=1756928062857')",
             backgroundAttachment: 'fixed'
           }}
         >
@@ -104,7 +104,7 @@ export default function Uizin() {
                   href="https://docs.google.com/forms/d/e/1FAIpQLSein6DGBmLo1DO1ErFK_vxvefNrs4Y733QLMaNTSkHeDibQeA/viewform"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 hover:from-red-700 hover:via-orange-600 hover:to-yellow-600 text-white px-8 sm:px-16 py-6 sm:py-8 rounded-full text-xl sm:text-2xl font-bold transition-all duration-300 cursor-pointer text-center whitespace-nowrap shadow-2xl transform hover:scale-105 animate-pulse border-8 border-white"
+                  className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white px-8 sm:px-16 py-6 sm:py-8 rounded-full text-xl sm:text-2xl font-bold transition-all duration-300 cursor-pointer text-center whitespace-nowrap shadow-2xl transform hover:scale-105 animate-pulse border-4 border-white"
                 >
                   🥊 大会エントリーはこちら 🥊
                 </a>

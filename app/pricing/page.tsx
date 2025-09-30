@@ -7,8 +7,8 @@ import { breadcrumbJsonLd } from '../../lib/json-ld';
 import { CheckCircle, Star } from 'lucide-react';
 
 const PricingPage: NextPage = () => {
-  const pageTitle = "料金・システム";
-  const pageDescription = "FLATUPGYMの料金プランとシステムのご案内です。明朗会計で安心、あなたに合ったプランをお選びいただけます。";
+  const pageTitle = "料金・システム｜成田の女性・初心者向けキックボクシングジムFLATUPGYM";
+  const pageDescription = "FLATUPGYMの料金プランとシステムのご案内。月額7,700円から始められる、女性や初心者にも安心のプランをご用意しています。";
 
   const breadcrumbs = breadcrumbJsonLd([
     { name: 'Home', url: 'https://flat-up.jp' },
@@ -165,7 +165,7 @@ const PricingPage: NextPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">入会金半額</h3><p>通常¥10,000の入会金が今なら半額！体験からそのまま入会でさらにお得に。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">体験時は手ぶらでOK</h3><p>グローブ・プロテクターは無料レンタル。タオルと飲み物だけお持ちください。</p></div>
-                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">ひとりにさせません</h3><p>いつでもGYM公式LINEで相談・サポート可能。24時間対応。</p></div>
+                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">ひとりにさせません</h3><p>いつでもジム公式LINEで相談・サポート可能。24時間対応。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">グローブプレゼント</h3><p>毎月先着5名様限定で新品グローブをプレゼント！</p></div>
             </div>
             <div className="mt-16 bg-blue-50 p-8 rounded-2xl text-center">

@@ -172,7 +172,7 @@ export default function Access() {
                       <OptimizedImage
                         width={600}
                         height={400}
-                        src="/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845"
+                        src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845"
                         alt="FLAT-UPGYMの外観と大型駐車場"
                         className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
                       />
@@ -201,7 +201,7 @@ export default function Access() {
                     <div className="relative">
             <div className="responsive-iframe-container mb-8">
               <iframe
-                src="https://maps.google.com/maps?q=FLATUPGYM%20Narita&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.593143597535!2d140.3152220762999!3d35.78493192583973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228a63381a256d%3A0x8f7a1c3b9b1d953f!2z5LiW55WM5LiA5oSb44GX44GE44GN44KL5qCq6K2J5oqA44K444OgIEZMQVRVUEdZTSDvvIjlhYjnlJ_kvobvvIjpnZPlpKfljrvvvIjvvIjlupTpgZTvvIjvvIjkvZPvvIjvvIjkvY3vvIjvvIjkvobvvIjvvIjkvZPvvIjvvIjkvY0!5e0!3m2!1sen!2sjp!4v1722236789123!5m2!1sen!2sjp"
                 width="600"
                 height="450"
                 style={{ border: 0 }}

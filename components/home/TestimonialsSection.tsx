@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
               <div className="flex items-center mb-4">
                   <OptimizedImage alt="M.Iさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px"
-                       src="https://i.pravatar.cc/64?u=mi" />
+                       src="https://ik.imagekit.io/FLATUPGYM/A.png?updatedAt=1758977054985" />
                   <div>
                       <h3 className="text-lg font-bold text-gray-800">M.Iさん (30代女性)</h3>
                       <p className="text-sm text-gray-600">自分に自信が持てるようになりました！</p>
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
           </div>
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
               <div className="flex items-center mb-4">
-<OptimizedImage alt="K.Tさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://i.pravatar.cc/64?u=kt" />
+                  <OptimizedImage alt="K.Tさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://ik.imagekit.io/FLATUPGYM/B.png?updatedAt=1758977055273" />
                   <div>
                       <h3 className="text-lg font-bold text-gray-800">K.Tさん (20代女性)</h3>
                       <p className="text-sm text-gray-600">ストレス発散に最高です！</p>
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
           </div>
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
               <div className="flex items-center mb-4">
-<OptimizedImage alt="S.Yさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://i.pravatar.cc/64?u=sy" />
+<OptimizedImage alt="S.Yさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://ik.imagekit.io/FLATUPGYM/C.png?updatedAt=1758977055196" />
                   <div>
                       <h3 className="text-lg font-bold text-gray-800">S.Yさん (40代女性)</h3>
                       <p className="text-sm text-gray-600">産後の体型戻しに成功しました</p>
@@ -47,6 +47,11 @@ const TestimonialsSection = () => {
         <div className="mt-12 text-center">
           <Link href="/voice" className="inline-block bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
             もっとお客様の声を見る
+          </Link>
+        </div>
+        <div className="mt-8 text-center">
+          <Link href="/trial-lesson" className="inline-block bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
+            無料体験レッスンを予約する
           </Link>
         </div>
       </div>

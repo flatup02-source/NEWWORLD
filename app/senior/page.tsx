@@ -17,10 +17,13 @@ export default function Senior() {
         <section
           className="relative min-h-screen flex items-center"
         >
-          <img
-            src="https://via.placeholder.com/1920x1080?text=Senior+Hero+Image"
-            alt="シニアクラス ヒーロー画像"
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/%E3%82%B7%E3%83%8B%E3%82%A21.png?updatedAt=1756897205280"
+            alt="シニアクラスのトレーニング風景"
             className="object-cover brightness-50 z-0 w-full h-full absolute inset-0"
+            width={1920}
+            height={1080}
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-orange-600/30 via-yellow-500/20 to-green-400/20 z-10"></div>
           <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -191,10 +194,10 @@ export default function Senior() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-orange-100 to-yellow-200 p-6 rounded-2xl shadow-xl border-4 border-orange-300">
                 <div className="flex items-center mb-4">
-                  <img
+                  <OptimizedImage
                     width={100}
                     height={100}
-                    src="https://via.placeholder.com/256x256?text=Yamada+Avatar"
+                    src="https://ik.imagekit.io/FLATUPGYM/A.png"
                     alt="シニアの声"
                     className="w-16 h-16 rounded-full object-cover object-top mr-4 border-4 border-orange-400"
                   />
@@ -209,10 +212,10 @@ export default function Senior() {
               </div>
               <div className="bg-gradient-to-br from-yellow-100 to-green-200 p-6 rounded-2xl shadow-xl border-4 border-yellow-300">
                 <div className="flex items-center mb-4">
-                  <img
+                  <OptimizedImage
                     width={100}
                     height={100}
-                    src="https://via.placeholder.com/256x256?text=Sato+Avatar"
+                    src="https://ik.imagekit.io/FLATUPGYM/C.png"
                     alt="シニアの声"
                     className="w-16 h-16 rounded-full object-cover object-top mr-4 border-4 border-yellow-400"
                   />

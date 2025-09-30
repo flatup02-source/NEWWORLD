@@ -13,8 +13,8 @@ export default function Pricing() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="プログラム・料金｜月額x円〜無理なく始められる - FLATUPGYM"
-        description="あなたの目的やライフスタイルに合わせた最適なプランをご提案。ダイエットからボディメイクまで。分かりやすい料金体系で、追加料金の心配もありません。"
+        title="プログラム・料金｜成田の女性・初心者向けキックボクシングジムFLATUPGYM"
+        description="あなたの目的やライフスタイルに合わせた最適なプランをご提案。キックボクシング、ブラジリアン柔術、キッズクラスなど、多彩なプログラムをご用意しています。"
         jsonLd={pricingBreadcrumbs}
       />
       
@@ -358,7 +358,7 @@ export default function Pricing() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-4">ひとりにさせません</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  いつでもGYM公式LINEで相談・サポート可能。ひとりで悩まず气軽にお声がけください。
+                  いつでもジム公式LINEで相談・サポート可能。ひとりで悩まず气軽にお声がけください。
                 </p>
                 <div className="bg-green-100 p-3 rounded-xl border-2 border-green-300">
                   <p className="text-sm text-green-800 font-bold">

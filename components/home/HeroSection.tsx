@@ -4,24 +4,17 @@ import { useRef, useEffect } from 'react';
 import OptimizedImage from '../OptimizedImage';
 
 /**
- * Renders the hero section with a background video.
- * This component is client-side rendered ('use client') because it uses the useEffect and useRef hooks
- * to manage the video playback, ensuring it autoplays correctly across different browsers.
- * @returns {JSX.Element} The rendered HeroSection component.
+ * Renders the hero section with a background video and primary call-to-action buttons.
  */
 const HeroSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   // This effect handles the automatic playback of the background video.
-  // It ensures that the play() command is only called when the video is ready,
-  // preventing potential race condition errors on slower connections.
   useEffect(() => {
     const videoElement = videoRef.current;
     if (!videoElement) return;
 
     const playVideo = () => {
-      // The play() method returns a promise. We handle potential rejections
-      // to avoid unhandled promise rejection errors in the console.
       const playPromise = videoElement.play();
       if (playPromise !== undefined) {
         playPromise.catch(error => {
@@ -30,17 +23,12 @@ const HeroSection = () => {
       }
     };
 
-    // Check if the video is already in a state where it can play.
-    // readyState >= 3 means HAVE_FUTURE_DATA or HAVE_ENOUGH_DATA.
     if (videoElement.readyState >= 3) {
       playVideo();
     } else {
-      // If not ready, wait for the 'canplaythrough' event which indicates
-      // the video can be played without interruption.
       videoElement.addEventListener('canplaythrough', playVideo, { once: true });
     }
 
-    // Cleanup function to remove the event listener when the component unmounts.
     return () => {
       videoElement.removeEventListener('canplaythrough', playVideo);
     };
@@ -54,23 +42,43 @@ const HeroSection = () => {
       </video>
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-lg">
             昨日までの自分と、サヨナラする場所。
           </h1>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto drop-shadow-md">
             ほんの少しの好奇心で、新しい自分に出会える。
           </p>
-          <a href="https://lin.ee/EcVg03t" target="_blank" rel="noopener noreferrer">
-            <OptimizedImage
-              src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
-              alt="友だち追加"
-              width={232}
-              height={72}
-              className="h-18 w-auto mx-auto"
-              priority
-            />
-          </a>
+          
+          {/* ▼▼▼ ここからが修正後のボタンエリアです ▼▼▼ */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+            {/* Pink LINE Button */}
+            <a 
+              href="https://lin.ee/JUxTlYr" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-block transform hover:scale-105 transition-transform duration-300"
+            >
+              <OptimizedImage
+                src="https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_tk1gjctk1gjctk1g.png?updatedAt=1759015745806"
+                alt="LINEで無料体験はこちら"
+                width={250}
+                height={86} // Adjusted for aspect ratio
+                className="h-auto"
+                style={{ width: '250px' }}
+              />
+            </a>
+            
+            {/* Orange Phone Button */}
+            <a 
+              href="tel:070-9035-3485" 
+              className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-orange-500 rounded-full shadow-lg hover:bg-orange-600 transition-colors duration-300 transform hover:scale-105"
+            >
+              070-9035-3485
+            </a>
+          </div>
+          {/* ▲▲▲ ここまでが修正後のボタンエリアです ▲▲▲ */}
+
         </div>
       </div>
     </div>

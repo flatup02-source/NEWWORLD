@@ -33,14 +33,37 @@ export default function Home() {
 
         <main className="flex min-h-screen flex-col items-center justify-between">
       
-          <div style={{ position: 'relative', width: '100%', paddingBottom: '56.25%', height: 0 }}>
-            <iframe
-              src="https://imagekit.io/player/embed/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650&thumbnail=https%3A%2F%2Fik.imagekit.io%2FFLATUPGYM%2Foutput_compressed.mp4%2Fik-thumbnail.jpg%3FupdatedAt%3D1758848662650&updatedAt=1758848662650"
-              title="ImageKit video player"
-              frameBorder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
-              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
-            ></iframe>
+          <div style={{ position: 'relative', width: '100%', height: '100vh', overflow: 'hidden' }}>
+            <video
+              src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650"
+              poster="https://ik.imagekit.io/FLATUPGYM/TOPP.png?updatedAt=1756928058451"
+              autoPlay
+              loop
+              muted
+              playsInline
+              style={{ position: 'absolute', top: '50%', left: '50%', width: 'auto', height: 'auto', minWidth: '100%', minHeight: '100%', transform: 'translate(-50%, -50%)', zIndex: 0 }}
+            />
+            <div style={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              transform: 'translate(-50%, -50%)',
+              color: 'white',
+              textAlign: 'center',
+              zIndex: 1,
+              textShadow: '2px 2px 8px rgba(0,0,0,0.7)',
+              padding: '20px',
+              borderRadius: '10px',
+              width: '90%',
+              maxWidth: '800px'
+            }}>
+              <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }}>
+                殴り合う場所だと思ってた。<br />本当は、昨日までの自分とサヨナラする場所だった。
+              </h1>
+              <p style={{ fontSize: '1.2rem' }}>
+                運動不足の私が、一番ハマった場所。鏡を見るのが、少し好きになる。世界一優しい格闘技ジムへGO
+              </p>
+            </div>
           </div>
 
           <ServicesSection />

@@ -66,13 +66,12 @@ export default function Header() {
           {/* Desktop CTA Button */}
           <div className="hidden md:flex items-center">
             <Link
-              href="https://lin.ee/EcVg03t"
+              href="https://lin.ee/21ape6V"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500 hover:from-pink-600 hover:via-purple-700 hover:to-pink-600 text-white px-6 py-3 rounded-full transition-all duration-500 whitespace-nowrap font-bold text-base shadow-xl transform hover:scale-105 animate-pulse overflow-hidden"
+              className="group relative bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-all duration-300 whitespace-nowrap font-bold text-base shadow-lg transform hover:scale-105"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-              <span className="relative z-10">LINEで予約</span>
+              <span className="relative z-10">LINE 友だち追加</span>
             </Link>
           </div>
 

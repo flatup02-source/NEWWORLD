@@ -29,8 +29,8 @@ const faqItems = [
  * @returns {JSX.Element} The rendered FAQ page.
  */
 const FaqPage: NextPage = () => {
-  const pageTitle = "よくある質問";
-  const pageDescription = "FLATUPGYMに寄せられる、よくあるご質問にお答えします。";
+  const pageTitle = "よくある質問｜成田の女性・初心者向けキックボクシングジムFLATUPGYM";
+  const pageDescription = "「持ち物は？」「初心者でも大丈夫？」FLATUPGYMに寄せられるよくあるご質問にお答えします。見学や無料体験もお気軽にどうぞ。";
 
   // JSON-LD for breadcrumbs
   const breadcrumbs = breadcrumbJsonLd([
