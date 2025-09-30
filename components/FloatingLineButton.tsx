@@ -1,14 +1,27 @@
+// components/FloatingLineButton.tsx
+
 'use client';
 
-import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const FloatingLineButton = () => {
   return (
-    <>
-      <a href="https://lin.ee/1TPJ2JH" target="_blank" rel="noopener noreferrer" className="line-icon-link">
-          <img src="https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_tk1gjctk1gjctk1g.png?updatedAt=1759015745806" alt="無料体験はこちら" className="line-icon" />
-      </a>
-    </>
+    <Link
+      href="https://page.line.me/jfl0054o?oat_content=url&openQrModal=true"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-5 right-5 z-50 transform hover:scale-110 transition-transform duration-300"
+      aria-label="LINEで無料体験はこちら"
+    >
+      <Image
+        src="https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_tk1gjctk1gjctk1g.png?updatedAt=1759015745806"
+        alt="LINEで無料体験はこちら"
+        width={100} // 画像の表示幅
+        height={100} // 画像の表示高さ
+        priority // 常に表示される重要な要素なので、優先的に読み込みます
+      />
+    </Link>
   );
 };
 

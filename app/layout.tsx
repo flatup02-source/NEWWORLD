@@ -1,11 +1,11 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Pacifico } from 'next/font/google';
-// import './globals.css';
+import './globals.css';
 import Script from 'next/script';
 import { Partytown } from '@qwik.dev/partytown/react';
 import Header from '../components/Header'; // Import the Header component
 import DynamicFooter from '../components/DynamicFooter';
-import FloatingLineButton from '../components/FloatingLineButton';
+import FloatingLineButton from '@/components/FloatingLineButton';
 import BackToHomeButton from '../components/BackToHomeButton';
 
 const inter = Inter({
@@ -172,8 +172,7 @@ export default function RootLayout({
             transition: transform 0.2s ease-in-out;
           }
         `}</style>
-        <link rel="preload" href="/globals.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="/globals.css" /></noscript>
+
       </head>
       <body className={`${inter.className} ${pacifico.className}`}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5TLG6T7"

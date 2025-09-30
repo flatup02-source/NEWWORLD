@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3011],{1966:(e,r,s)=>{"use strict";s.r(r),s.d(r,{default:()=>h});var n=s(5155);function h(){return(0,n.jsx)("div",{children:(0,n.jsx)("h1",{children:"テストページ"})})}},6022:(e,r,s)=>{Promise.resolve().then(s.bind(s,1966))}},e=>{var r=r=>e(e.s=r);e.O(0,[8441,1684,7358],()=>r(6022)),_N_E=e.O()}]);
