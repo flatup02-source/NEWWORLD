@@ -32,7 +32,8 @@ export default function Uizin() {
       rootMargin: '0px 0px -50px 0px'
     };
 
-    const observer = new IntersectionObserver((entries) => {.forEach((entry) => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate-fadeInUp');
           observer.unobserve(entry.target);
