@@ -29,7 +29,7 @@ const VoicePage: NextPage = () => {
             <div className="space-y-12">
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
                     <OptimizedImage alt="M.Iさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/A.png?updatedAt=1758977054985"/>
+                         src="https://ik.imagekit.io/FLATUPGYM/VOICE1.png?updatedAt=1756897198273"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">M.Iさん (30代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">自分に自信が持てるようになりました！</p>
@@ -39,7 +39,7 @@ const VoicePage: NextPage = () => {
 
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
                     <OptimizedImage alt="K.Tさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/B.png?updatedAt=1758977055273"/>
+                         src="https://ik.imagekit.io/FLATUPGYM/VOICE2.png?updatedAt=1756897200414"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">K.Tさん (20代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">ストレス発散に最高です！</p>
@@ -49,7 +49,7 @@ const VoicePage: NextPage = () => {
 
                 <div className="bg-gray-50 p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200 flex flex-col sm:flex-row items-center gap-6">
                     <OptimizedImage alt="S.Yさん" width={100} height={100} className="w-24 h-24 rounded-full object-cover flex-shrink-0"
-                         src="https://ik.imagekit.io/FLATUPGYM/C.png?updatedAt=1758977055196"/>
+                         src="https://ik.imagekit.io/FLATUPGYM/VOICE3.png?updatedAt=1756897201430"/>
                     <div className="text-center sm:text-left">
                         <h3 className="text-xl font-bold text-gray-800">S.Yさん (40代女性)</h3>
                         <p className="mt-1 text-lg font-semibold text-pink-600">産後の体型戻しに成功しました</p>

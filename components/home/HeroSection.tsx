@@ -36,10 +36,19 @@ const HeroSection = () => {
 
   return (
     <div className="hero-video-wrap">
-      <video ref={videoRef} className="hero-video" autoPlay muted playsInline loop preload="metadata" poster="https://ik.imagekit.io/FLATUPGYM/tr:q-auto,f-auto/TOPP.png" fetchpriority="high">
-        <source src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650" type="video/mp4" />
-        <track kind="captions" src="/captions.vtt" srcLang="ja" label="日本語字幕" />
-      </video>
+      <video
+ref={videoRef}
+className="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full -translate-x-1/2 -translate-y-1/2 object-cover"
+src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650"
+autoPlay
+loop
+muted
+playsInline
+poster="https://ik.imagekit.io/FLATUPGYM/TOPP.png?updatedAt=1756928058451"
+>
+<source src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650" type="video/mp4" />
+Your browser does not support the video tag.
+</video>
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <div className="max-w-4xl mx-auto px-4 text-center">
