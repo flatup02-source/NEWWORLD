@@ -4,9 +4,9 @@ import { memo } from 'react';
 
 const HeroSection = memo(() => {
   return (
-    <section
+    <div
       data-hero
-      className="relative h-[50vh] bg-cover bg-center bg-no-repeat flex items-center overflow-hidden"
+      className="w-full h-[60vh] overflow-hidden"
       aria-label="メインヒーロー"
     >
       {/* RobustImageの代わりにvideoタグを配置 */}
@@ -34,7 +34,7 @@ const HeroSection = memo(() => {
         <div className="absolute w-1 h-1 bg-purple-400/40 rounded-full animate-bounce" style={{ top: '40%', left: '70%', animationDelay: '2s' }}></div>
         <div className="absolute w-2 h-2 bg-blue-400/25 rounded-full animate-pulse" style={{ top: '80%', left: '20%', animationDelay: '1.5s' }}></div>
       </div>
-    </section>
+    </div>
   );
 });
 
