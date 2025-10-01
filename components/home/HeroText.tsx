@@ -5,7 +5,7 @@ import { memo } from 'react';
 
 const HeroText = memo(() => {
   return (
-    <div className="bg-black text-white text-center py-16 px-4 sm:px-6 lg:px-8">
+    <div className="absolute inset-0 flex flex-col items-center justify-start pt-12 z-10 text-white text-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-16 leading-[0.85] drop-shadow-2xl tracking-wider">
           <div className="text-white text-3xl sm:text-5xl md:text-6xl font-bold mb-8 drop-shadow-lg tracking-wide">

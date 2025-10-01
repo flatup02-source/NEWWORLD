@@ -15,10 +15,10 @@ const FloatingLineButton = () => {
       aria-label="LINEで無料体験はこちら"
     >
       <Image
-        src="https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_tk1gjctk1gjctk1g.png?updatedAt=1759015745806"
+        src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
         alt="LINEで無料体験はこちら"
-        width={100} // 画像の表示幅
-        height={100} // 画像の表示高さ
+        width={80} // 画像の表示幅
+        height={80} // 画像の表示高さ
         priority // 常に表示される重要な要素なので、優先的に読み込みます
       />
     </Link>
