@@ -29,7 +29,7 @@ export default function Access() {
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center overflow-hidden"
           style={{
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845')",
+            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_32g1lx32g1lx32g1.png?updatedAt=1759300542353')",
           }}
         >
           {/* 洗練されたオーバーレイ */}
