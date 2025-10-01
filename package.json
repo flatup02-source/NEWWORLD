@@ -18,7 +18,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    "build": "next build",
+    "build": "next build && node scripts/critical.js",
     "build:analyze": "cross-env ANALYZE=true npm run build",
     "build:production": "cross-env NODE_ENV=production npm run build",
     "export": "next export",
@@ -68,6 +68,7 @@
     "@types/react-dom": "^18.3.7",
     "autoprefixer": "^10.4.21",
     "broken-link-checker": "^0.7.8",
+    "critical": "^7.2.1",
     "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "15.3.2",
