@@ -6,7 +6,7 @@ const HeroSection = memo(() => {
   return (
     <div
       data-hero
-      className="w-full h-[60vh] overflow-hidden"
+      className="relative w-full h-[60vh] overflow-hidden"
       aria-label="メインヒーロー"
     >
       {/* RobustImageの代わりにvideoタグを配置 */}
@@ -19,7 +19,6 @@ const HeroSection = memo(() => {
         muted
         playsInline
         preload="none"
-        loading="lazy"
         className="absolute inset-0 w-full h-full object-cover z-0"
       ></video>
       
