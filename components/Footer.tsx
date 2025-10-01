@@ -127,7 +127,7 @@ export default function Footer() {
               </a>
               <span className="hidden sm:block">|</span>
               <a href="https://lin.ee/21ape6V" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-green-400 transition-colors">
-                <Image
+                <OptimizedImage
   src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
   alt="LINEで問い合わせ"
   width={32}
