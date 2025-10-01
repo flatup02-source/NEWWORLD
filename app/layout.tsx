@@ -85,7 +85,7 @@ export default function RootLayout({
         
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/TOPP.png?updatedAt=1756928058451" />
+        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?updatedAt=1758848662650" />
         <Script id="structured-data" type="application/ld+json">
           {`
             {

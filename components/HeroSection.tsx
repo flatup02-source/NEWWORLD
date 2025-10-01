@@ -12,7 +12,7 @@ const HeroSection = memo(() => {
       {/* RobustImageの代わりにvideoタグを配置 */}
       <video
         src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650"
-        poster="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?updatedAt=1758848662650"
+        poster="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?tr=f-auto&updatedAt=1758848662650"
         title="ImageKit video player"
         autoPlay
         loop
