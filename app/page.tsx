@@ -11,8 +11,8 @@ import TestimonialsSection from '@/components/home/TestimonialsSection';
 export default function HomePage() {
   return (
     <main className="flex flex-col min-h-screen">
-      <HeroText />
       <HeroSection />
+      <HeroText />
       <ServicesSection />
       <ThoughtsSection />
       <TestimonialsSection />
