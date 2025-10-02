@@ -20,7 +20,9 @@ const HeroSection = memo(() => {
         playsInline
         preload="none"
         className="absolute inset-0 w-full h-full object-cover object-center z-0"
-      ></video>
+      >
+        <track kind="captions" src="/captions.vtt" srclang="ja" label="日本語キャプション" />
+      </video>
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60 z-10"></div>
