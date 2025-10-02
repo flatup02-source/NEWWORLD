@@ -6,10 +6,9 @@ const HeroSection = memo(() => {
   return (
     <div
       data-hero
-      className="relative w-full h-screen overflow-hidden flex items-center justify-center" // Modified for centering content
+      className="relative w-full h-screen overflow-hidden flex items-center justify-center"
       aria-label="メインヒーロー"
     >
-      {/* Video Background */}
       <video
         src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650"
         poster="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?tr=f-webp,q-80&updatedAt=1758848662650"
@@ -22,10 +21,8 @@ const HeroSection = memo(() => {
         className="absolute inset-0 w-full h-full object-cover object-center z-0"
       ></video>
       
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
 
-      {/* Text Content */}
       <div className="relative z-20 flex flex-col items-center justify-center text-white text-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-16 leading-[0.85] drop-shadow-2xl tracking-wider">

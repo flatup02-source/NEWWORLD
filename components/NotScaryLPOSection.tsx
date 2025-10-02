@@ -13,14 +13,13 @@ interface NotScaryLPOSectionProps {
 const NotScaryLPOSection: React.FC<NotScaryLPOSectionProps> = ({
   headline = '格闘技ジムは怖いと思っていませんか？',
   subheadline = 'FLAT-UP ジムは、あなたの不安を「楽しい！」に変える場所です。',
-  imageUrl = '/NEWTOP.png', // Default to NEWTOP.png from public folder
+  imageUrl = '/NEWTOP.png',
   ctaText = '今すぐ体験を予約する',
-  ctaLink = 'https://lin.ee/21ape6V', // LINE link
+  ctaLink = 'https://lin.ee/21ape6V',
   features = [],
 }) => {
   return (
     <section className="relative w-full min-h-screen flex items-start justify-center text-center overflow-hidden bg-gray-100 pt-24 sm:pt-0">
-      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <RobustImage
           src={imageUrl}
@@ -30,10 +29,9 @@ const NotScaryLPOSection: React.FC<NotScaryLPOSectionProps> = ({
           className="object-cover object-bottom brightness-75"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-orange-200/20"></div> {/* Warm overlay */}
+        <div className="absolute inset-0 bg-orange-200/20"></div>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 p-8 max-w-xl sm:max-w-4xl mx-auto text-white text-left sm:text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-lg text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-500">
           {headline}

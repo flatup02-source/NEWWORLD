@@ -1,11 +1,8 @@
-// app/page.tsx
-
 import HeroSection from '@/components/HeroSection';
 import ServicesSection from '@/components/home/ServicesSection';
 import ThoughtsSection from '@/components/home/ThoughtsSection';
 import TestimonialsSection from '@/components/home/TestimonialsSection';
-// 他に必要なコンポーネントがあれば、ここにインポート文を追加してください
-// import SomeOtherSection from '@/components/home/SomeOtherSection';
+
 
 export default function HomePage() {
   return (
@@ -14,8 +11,7 @@ export default function HomePage() {
       <ServicesSection />
       <ThoughtsSection />
       <TestimonialsSection />
-      {/* 他のセクションコンポーネントをここに追加します */}
-      {/* <SomeOtherSection /> */}
+
     </main>
   );
 }

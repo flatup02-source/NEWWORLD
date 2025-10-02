@@ -1,4 +1,3 @@
-// components/ui/LineIcon.tsx
 import React from 'react';
 
 const LineIcon = ({ className }: { className?: string }) => (

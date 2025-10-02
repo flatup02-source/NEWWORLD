@@ -1,5 +1,3 @@
-// lib/json-ld.ts
-
 export const breadcrumbJsonLd = (items: Array<{name: string, url: string}>) => ({
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",

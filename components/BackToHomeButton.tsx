@@ -11,7 +11,6 @@ const BackToHomeButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    // Show button if user is near the bottom of the page
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 20) {
       setIsVisible(true);
     } else {
@@ -25,20 +24,19 @@ const BackToHomeButton = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-    // Cleanup the event listener on component unmount
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <button
-      id="backToTopBtn" // ID from the original requirement
+      id="backToTopBtn"
       onClick={backToHome}
       style={{
         display: isVisible ? 'block' : 'none',
         position: 'fixed',
         right: '24px',
-        bottom: '90px', // Adjusted to not overlap with the FloatingLineButton
-        zIndex: 9998, // Below FloatingLineButton
+        bottom: '90px',
+        zIndex: 9998,
         padding: '12px 24px',
         backgroundColor: '#0073aa',
         color: '#fff',

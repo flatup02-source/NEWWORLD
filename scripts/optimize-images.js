@@ -36,4 +36,4 @@ fs.readdirSync(inputDir).forEach(file => {
   }
 });
 
-console.log('Image optimization complete.');
+

@@ -61,6 +61,8 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "@next/bundle-analyzer": "^15.3.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -70,6 +72,7 @@
     "broken-link-checker": "^0.7.8",
     "critical": "^7.2.1",
     "cross-env": "^7.0.3",
+    "depcheck": "^1.4.7",
     "eslint": "^8",
     "eslint-config-next": "15.3.2",
     "http-server": "^14.1.1",
@@ -86,10 +89,9 @@
     "npm": ">=9.0.0"
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
+    "> 0.5%",
     "not dead",
-    "not ie 11"
+    "not op_mini all"
   ],
   "repository": {
     "type": "git",
