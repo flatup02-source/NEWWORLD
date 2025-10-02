@@ -21,6 +21,9 @@ async function generateCriticalCSS() {
       },
       width: 1300,
       height: 900,
+      puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+      },
     });
     console.log('Critical CSS generated for index.html');
 
