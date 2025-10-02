@@ -27,7 +27,7 @@ export default function Footer() {
               ここは、あなたが主役になれる場所です。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:070-9035-3485" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105">
+              <a href="tel:070-9035-3485" aria-label="電話で無料体験を予約" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105">
                 <Phone className="w-5 h-5 mr-2" />
                 電話で無料体験を予約
               </a>
@@ -121,7 +121,7 @@ export default function Footer() {
                 千葉県成田市土屋516-4 2F
               </span>
               <span className="hidden sm:block">|</span>
-              <a href="tel:070-9035-3485" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800">
+              <a href="tel:070-9035-3485" aria-label="電話番号 070-9035-3485" className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-gray-800">
                 <Phone className="w-4 h-4 mr-2" />
                 070-9035-3485
               </a>

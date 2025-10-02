@@ -69,8 +69,8 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        <Partytown debug={false} forward={['dataLayer.push']} />
-        <script id="gtm-script" type="text/partytown" dangerouslySetInnerHTML={{
+        {/* <Partytown debug={false} forward={['dataLayer.push']} /> */}
+        {/* <script id="gtm-script" type="text/partytown" dangerouslySetInnerHTML={{
           __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -78,7 +78,7 @@ export default function RootLayout({
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-M5TLG6T7');
           `,
-        }} />
+        }} /> */}
         <link rel="dns-prefetch" href="//static.readdy.ai" />
         <link rel="dns-prefetch" href="//lin.ee" />
         <link rel="dns-prefetch" href="//maps.google.com" />
