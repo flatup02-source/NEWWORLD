@@ -54,7 +54,7 @@ const HeroSection = memo(() => {
             </span>
           </h1>
 
-          <div className="relative bg-white/15 backdrop-blur-lg p-8 sm:p-12 md:p-16 rounded-3xl shadow-2xl mb-16 sm:mb-24 md:mb-32 border border-white/20 max-w-6xl mx-auto transform hover:scale-[1.02] transition-all duration-500 group">
+          <div className="relative bg-white/15 backdrop-blur-lg px-4 py-8 sm:px-8 sm:py-12 md:px-12 md:py-16 rounded-3xl shadow-2xl mb-16 sm:mb-24 md:mb-32 border border-white/20 max-w-6xl mx-auto transform hover:scale-[1.02] transition-all duration-500 group">
             <div className="absolute -top-2 -left-2 w-4 h-4 bg-pink-400/50 rounded-full animate-pulse group-hover:animate-bounce"></div>
             <div className="absolute -top-2 -right-2 w-3 h-3 bg-yellow-400/50 rounded-full animate-pulse group-hover:animate-spin" style={{ animationDuration: '3s' }}></div>
             <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-purple-400/50 rounded-full animate-pulse group-hover:animate-ping"></div>
