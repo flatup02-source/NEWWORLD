@@ -16,6 +16,8 @@
   "author": "FLAT-UP GYM",
   "license": "MIT",
   "private": true,
+  "type": "module",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
     "build": "next build && node scripts/critical.js",
@@ -62,7 +64,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@fullhuman/postcss-purgecss": "^7.0.2",
     "@next/bundle-analyzer": "^15.3.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
