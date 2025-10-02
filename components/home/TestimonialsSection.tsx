@@ -12,36 +12,47 @@ const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-12">お客様の声</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
+          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-pink-300 text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
-                  <OptimizedImage alt="M.Iさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px"
-                       src="https://ik.imagekit.io/FLATUPGYM/A.png?updatedAt=1758977054985" />
-                  <div>
-                      <h3 className="text-lg font-bold text-gray-800">M.Iさん (30代女性)</h3>
-                      <p className="text-sm text-gray-600">自分に自信が持てるようになりました！</p>
-                  </div>
+                <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center mr-4 flex-shrink-0">
+                  <span className="text-white text-2xl font-bold">MI</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800">M.Iさん (30代女性)</h3>
+                </div>
               </div>
-              <p className="text-gray-700 leading-relaxed">運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。</p>
+              <div className="flex-grow">
+                <p className="text-lg font-semibold text-pink-600 mb-2">自分に自信が持てるようになりました！</p>
+                <p className="text-gray-700 leading-relaxed">運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。</p>
+              </div>
           </div>
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
+          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-purple-300 text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
-                  <OptimizedImage alt="K.Tさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://ik.imagekit.io/FLATUPGYM/B.png?updatedAt=1758977055273" />
-                  <div>
-                      <h3 className="text-lg font-bold text-gray-800">K.Tさん (20代女性)</h3>
-                      <p className="text-sm text-gray-600">ストレス発散に最高です！</p>
-                  </div>
+                <div className="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center mr-4 flex-shrink-0">
+                  <span className="text-white text-2xl font-bold">KT</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800">K.Tさん (20代女性)</h3>
+                </div>
               </div>
-              <p className="text-gray-700 leading-relaxed">仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。</p>
+              <div className="flex-grow">
+                <p className="text-lg font-semibold text-purple-600 mb-2">ストレス発散に最高です！</p>
+                <p className="text-gray-700 leading-relaxed">仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。</p>
+              </div>
           </div>
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-lg border-2 border-gray-200 text-left">
+          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-blue-300 text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
-<OptimizedImage alt="S.Yさんアバター" width={64} height={64} className="w-16 h-16 rounded-full mr-4 object-cover" sizes="64px" src="https://ik.imagekit.io/FLATUPGYM/C.png?updatedAt=1758977055196" />
-                  <div>
-                      <h3 className="text-lg font-bold text-gray-800">S.Yさん (40代女性)</h3>
-                      <p className="text-sm text-gray-600">産後の体型戻しに成功しました</p>
-                  </div>
+                <div className="w-16 h-16 rounded-full bg-blue-500 flex items-center justify-center mr-4 flex-shrink-0">
+                  <span className="text-white text-2xl font-bold">SY</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800">S.Yさん (40代女性)</h3>
+                </div>
               </div>
-              <p className="text-gray-700 leading-relaxed">産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。</p>
+              <div className="flex-grow">
+                <p className="text-lg font-semibold text-blue-600 mb-2">産後の体型戻しに成功しました</p>
+                <p className="text-gray-700 leading-relaxed">産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。</p>
+              </div>
           </div>
         </div>
         <div className="mt-12 text-center">

@@ -27,7 +27,7 @@ export default function KidsBoys() {
             backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/batch_IMG_9597%202.JPG?updatedAt=1756928167551')",
           }}
         >
-          <div className="absolute inset-0 bg-black/40 z-10"></div>
+          <div className="absolute inset-0 bg-black/50 z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-blue-300/30 via-transparent to-blue-300/30"></div>
           <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
