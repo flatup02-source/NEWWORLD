@@ -23,7 +23,7 @@ const HeroSection = memo(() => {
       ></video>
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      <div className="absolute inset-0 bg-black/60 z-10"></div>
 
       {/* Text Content */}
       <div className="relative z-20 flex flex-col items-center justify-center text-white text-center px-4 sm:px-6 lg:px-8">
