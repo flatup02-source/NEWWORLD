@@ -33,6 +33,7 @@ export default function KidsGirls() {
             className="object-cover z-0"
             priority
           />
+          <div className="absolute inset-0 bg-black/40 z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-pink-300/30 via-transparent to-pink-300/30 z-10"></div>
           <div className="relative z-20 w-full px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
