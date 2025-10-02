@@ -18,7 +18,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    "build": "next build && node scripts/critical.js",
+    "build": "next build",
     "build:analyze": "cross-env ANALYZE=true npm run build",
     "build:production": "cross-env NODE_ENV=production npm run build",
     "export": "next export",
