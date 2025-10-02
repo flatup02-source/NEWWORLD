@@ -77,6 +77,7 @@ const PricingPage: NextPage = () => {
       <SEO title={pageTitle} description={pageDescription} jsonLd={breadcrumbs} />
       
       <main className="bg-gray-50 text-gray-800">
+        {/* Hero Section */}
         <section className="relative h-80 flex items-center justify-center text-white text-center px-4">
           <div
             className="absolute inset-0 z-0 bg-cover bg-center"
@@ -89,6 +90,7 @@ const PricingPage: NextPage = () => {
           </div>
         </section>
 
+        {/* Monthly Plans Section */}
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-4">料金プラン</h2>
@@ -122,6 +124,7 @@ const PricingPage: NextPage = () => {
           </div>
         </section>
 
+        {/* Ticket Plans Section */}
         <section className="bg-white py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-4">ビジター・回数券システム</h2>
@@ -155,6 +158,7 @@ const PricingPage: NextPage = () => {
           </div>
         </section>
 
+        {/* Other Info Section */}
         <section className="py-16 md:py-20">
           <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-12">安心のシステム・特典</h2>
@@ -180,6 +184,7 @@ const PricingPage: NextPage = () => {
           </div>
         </section>
 
+        {/* Final CTA */}
         <section className="bg-pink-500 text-white text-center py-16">
             <h2 className="text-xl md:text-2xl font-bold mb-4">まずは無料体験から始めませんか？</h2>
             <p className="mb-8">料金やシステムについて詳しく説明いたします。<br/>不安な点は何でもお聞きください♪</p>

@@ -9,6 +9,7 @@ export const usePerformance = () => {
     const lcpObserver = new PerformanceObserver((list) => {
       const entries = list.getEntries();
       const lastEntry = entries[entries.length - 1];
+      console.log('LCP:', lastEntry.startTime);
     });
 
     lcpObserver.observe({ entryTypes: ['largest-contentful-paint'] });
@@ -18,7 +19,7 @@ export const usePerformance = () => {
       const entries = list.getEntries();
       entries.forEach((entry: any) => {
         if (entry.processingStart) {
-
+          console.log('FID:', entry.processingStart - entry.startTime);
         }
       });
     });
@@ -34,7 +35,7 @@ export const usePerformance = () => {
           clsValue += entry.value;
         }
       });
-
+      console.log('CLS:', clsValue);
     });
 
     clsObserver.observe({ entryTypes: ['layout-shift'] });
@@ -52,13 +53,14 @@ export const usePerformance = () => {
     // ページ読み込み時間の測定
     const navigationEntry = performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming;
     if (navigationEntry) {
-
+      console.log('DOM Content Loaded:', navigationEntry.domContentLoadedEventEnd - navigationEntry.domContentLoadedEventStart);
+      console.log('Load Complete:', navigationEntry.loadEventEnd - navigationEntry.loadEventStart);
     }
 
     // リソース読み込み時間の測定
     const resourceEntries = performance.getEntriesByType('resource');
     resourceEntries.forEach((entry) => {
-
+      console.log(`Resource ${entry.name}:`, entry.duration);
     });
   }, []);
 

@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: 'https://flat-up.jp/voice',
+      url: 'https://flat-up.jp/voice', // Updated from /testimonials
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

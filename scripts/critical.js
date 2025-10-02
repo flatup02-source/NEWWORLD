@@ -22,7 +22,7 @@ async function generateCriticalCSS() {
       width: 1300,
       height: 900,
     });
-
+    console.log('Critical CSS generated for index.html');
 
   } catch (err) {
     console.error('Error generating critical CSS:', err);

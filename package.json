@@ -16,8 +16,6 @@
   "author": "FLAT-UP GYM",
   "license": "MIT",
   "private": true,
-  "type": "module",
-  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
     "build": "next build && node scripts/critical.js",
@@ -63,7 +61,6 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
     "@next/bundle-analyzer": "^15.3.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -73,7 +70,6 @@
     "broken-link-checker": "^0.7.8",
     "critical": "^7.2.1",
     "cross-env": "^7.0.3",
-    "depcheck": "^1.4.7",
     "eslint": "^8",
     "eslint-config-next": "15.3.2",
     "http-server": "^14.1.1",
@@ -90,9 +86,10 @@
     "npm": ">=9.0.0"
   },
   "browserslist": [
-    "> 0.5%",
+    "> 1%",
+    "last 2 versions",
     "not dead",
-    "not op_mini all"
+    "not ie 11"
   ],
   "repository": {
     "type": "git",
