@@ -19,7 +19,7 @@ const HeroSection = memo(() => {
         muted
         playsInline
         preload="none"
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full object-cover object-center z-0"
       ></video>
       
       {/* Overlay */}
@@ -60,17 +60,17 @@ const HeroSection = memo(() => {
             <div className="absolute -bottom-2 -left-2 w-3 h-3 bg-purple-400/50 rounded-full animate-pulse group-hover:animate-ping"></div>
             <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-blue-400/50 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
 
-            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-black mb-6 sm:mb-8 md:mb-10 leading-tight drop-shadow-2xl tracking-wide">
-              💖 新しい自分に出会う場所 💖
+            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-black mb-4 sm:mb-6 leading-tight drop-shadow-2xl tracking-wide">
+              新しい自分へ、
             </p>
-            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-black animate-pulse mb-6 sm:mb-8 md:mb-10 tracking-wide drop-shadow-2xl">
-              身体で感じる場所だ。
+            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-black animate-pulse mb-6 sm:mb-8 tracking-wide drop-shadow-2xl">
+              心と身体で感じる。
             </p>
-            <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold leading-relaxed tracking-wide drop-shadow-2xl">
-              グローブをはめた瞬間、あなたは
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white font-bold leading-relaxed tracking-wide drop-shadow-2xl">
+              その一振りが、
               <br className="hidden sm:block" />
-              <span className="text-pink-300 text-2xl sm:text-3xl md:text-4xl lg:text-5xl block mt-4 drop-shadow-2xl transform hover:scale-105 transition-transform duration-300 cursor-default">
-                自ら未来を切り拓く主役へと変わる。
+              <span className="text-pink-300 text-xl sm:text-2xl md:text-3xl lg:text-4xl block mt-2 drop-shadow-2xl transform hover:scale-105 transition-transform duration-300 cursor-default">
+                未来を変える。
               </span>
             </p>
           </div>
