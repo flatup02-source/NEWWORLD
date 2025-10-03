@@ -23,6 +23,7 @@ async function generateCriticalCSS() {
       height: 900,
       puppeteer: {
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
       },
     });
     console.log('Critical CSS generated for index.html');
