@@ -84,8 +84,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//maps.google.com" />
         
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?updatedAt=1758848662650" />
+        <link rel="icon" href="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-center" type="image/png" />
+        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?updatedAt=1758848662650" fetchPriority="high" />
         <Script id="structured-data" type="application/ld+json">
           {`
             {

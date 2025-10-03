@@ -29,7 +29,7 @@
     "lint:fix": "eslint . --fix",
     "type-check": "tsc --noEmit",
     "analyze": "cross-env ANALYZE=true npm run build",
-    "sitemap": "next-sitemap",
+    "sitemap": "next-sitemap --config next-sitemap.config.cjs",
     "sitemap:generate": "npm run build && npm run sitemap",
     "check-links": "http-server ./out -p 8081 & PID=$! && npx blc http://localhost:8081 -r -o && kill $PID",
     "test": "jest",

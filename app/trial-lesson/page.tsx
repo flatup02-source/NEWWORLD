@@ -164,6 +164,13 @@ export default function TrialLesson() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold transition-all duration-300 cursor-pointer text-center block whitespace-nowrap shadow-lg transform hover:scale-105"
+                    style={{
+                      backgroundImage: `url('https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-200,h-100,fo-center,bl-10')`,
+                      backgroundBlendMode: 'soft-light',
+                      backgroundSize: '150%',
+                      backgroundPosition: 'center',
+                      animation: 'pulse-bg 4s infinite ease-in-out'
+                    }}
                   >
                     🌟 LINEで体験申込 🌟
                   </a>
@@ -248,6 +255,17 @@ export default function TrialLesson() {
       </main>
 
       <Footer />
+
+      <style jsx global>{`
+        @keyframes pulse-bg {
+          0%, 100% {
+            background-size: 150%;
+          }
+          50% {
+            background-size: 180%;
+          }
+        }
+      `}</style>
     </div>
   );
 }

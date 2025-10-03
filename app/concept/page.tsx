@@ -26,12 +26,39 @@ export default function Concept() {
         </div>
       </header>
 
+      {/* Concept Art Section */}
+      <section className="bg-white pt-16 pb-12 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-lg text-gray-600 mb-6">
+            私たちの想いは、一枚の絵に凝縮されています。
+          </p>
+          <div className="w-full overflow-hidden rounded-lg shadow-2xl">
+            <OptimizedImage
+              src="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png"
+              alt="新しい自分への扉"
+              width={1200}
+              height={675}
+              className="w-full h-auto"
+            />
+          </div>
+          <p className="mt-8 text-xl text-gray-700 font-semibold">
+            この扉は、新しい自分への入り口。
+          </p>
+          <p className="mt-2 text-lg text-gray-600 max-w-2xl mx-auto">
+            一歩踏み出すあなたの勇気を、私たちは全力でサポートします。
+          </p>
+        </div>
+      </section>
+
       <main className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
 
           {/* Section 1: Women's Classes */}
           <section className="text-center">
-            <h2 className="text-3xl font-bold mb-4">女性クラスが充実</h2>
+                        <div className="flex justify-center items-center gap-4 mb-4">
+              <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-auto" alt="扉のアイコン" width={40} height={40} />
+              <h2 className="text-3xl font-bold">女性クラスが充実</h2>
+            </div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">格闘技ジムでは珍しい女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-pink-50 p-6 rounded-lg shadow-md">
@@ -49,7 +76,10 @@ export default function Concept() {
           {/* Section 2: Self-Defense Class */}
           <section className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <h2 className="text-3xl font-bold mb-4">実用的な護身術クラス</h2>
+                          <div className="flex items-center gap-4 mb-4">
+              <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-auto" alt="扉のアイコン" width={40} height={40} />
+              <h2 className="text-3xl font-bold">実用的な護身術クラス</h2>
+            </div>
               <p className="text-lg text-gray-600 mb-6">日常で本当に使える護身術を、女性の視点で分かりやすく指導します。</p>
               <ul className="space-y-4 text-lg">
                 <li className="flex items-center"><span className="text-green-500 mr-2">✔</span> 痴漢対策の実践的技術</li>
@@ -64,7 +94,10 @@ export default function Concept() {
 
           {/* Section 3: Gym Environment */}
           <section className="text-center bg-gray-50 py-16 rounded-lg">
-              <h2 className="text-3xl font-bold mb-4">女性向けのジム内環境</h2>
+                            <div className="flex justify-center items-center gap-4 mb-4">
+                <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-auto" alt="扉のアイコン" width={40} height={40} />
+                <h2 className="text-3xl font-bold">女性向けのジム内環境</h2>
+              </div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">清潔で明るく、女性が「通いたくなる」空間作りにこだわりました。</p>
           </section>
 
@@ -74,7 +107,10 @@ export default function Concept() {
               <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/batch_IMG_7569%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC.jpeg?updatedAt=1756928163913" alt="女性オーナー AIKA" width={600} height={600} className="rounded-full shadow-2xl mx-auto" />
             </div>
             <div className="text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4">💝 私たちの想い 💝</h2>
+                            <div className="flex justify-center md:justify-start items-center gap-4 mb-4">
+                <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-auto" alt="扉のアイコン" width={40} height={40} />
+                <h2 className="text-3xl font-bold">私たちの想い</h2>
+              </div>
               <h3 className="text-2xl font-semibold text-pink-600 mb-4">女性オーナー AIKA</h3>
               <p className="text-2xl text-gray-700 leading-relaxed">「みんなが笑顔になれる場所を作りたい！」</p>
             </div>
