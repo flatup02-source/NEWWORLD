@@ -1,0 +1,393 @@
+
+[
+  {
+    "id": 1,
+    "name": "エメリヤーエンコ・ヒョードル",
+    "nickname": ["60億分の1の男", "人類最強の男", "氷の皇帝"],
+    "image": "/images/fedor.jpg",
+    "entrance_theme_name": "E.O.D. (End of Days)",
+    "entrance_theme_audio": "/sounds/entrance_theme_fedor_full.mp3",
+    "bio": "ロシアの孤高の皇帝。PRIDEヘビー級タイトルを保持し続け、圧倒的な強さで多くのファンを魅了した。",
+    "major_fights": [
+      {"opponent": "ミルコ・クロコップ", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 決勝戦"},
+      {"opponent": "アントニオ・ホドリゴ・ノゲイラ", "result": "WIN", "event": "PRIDE GRAND PRIX 2004 決勝戦"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "ヴァンダレイ・シウバ",
+    "nickname": ["PRIDEの番長", "クレイジーホース", "戦慄の膝小僧"],
+    "image": "/images/wanderlei.jpg",
+    "entrance_theme_name": "Darude - Sandstorm",
+    "entrance_theme_audio": "/sounds/entrance_theme_wanderlei_full.mp3",
+    "bio": "PRIDEミドル級の絶対王者として、常に激しいファイトを展開し、多くのファンを熱狂させた。",
+    "major_fights": [
+      {"opponent": "桜庭和志", "result": "WIN", "event": "PRIDE.13"},
+      {"opponent": "クイントン・"ランペイジ"・ジャクソン", "result": "WIN", "event": "PRIDE.28"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "桜庭和志",
+    "nickname": ["IQレスラー", "グレイシーハンター", "PRIDEのカリスマ"],
+    "image": "/images/sakuraba.jpg",
+    "entrance_theme_name": "Speed TK Re-Mix",
+    "entrance_theme_audio": "/sounds/entrance_theme_sakuraba_full.mp3",
+    "bio": "トリッキーな動きと頭脳的な戦術で、数々の強敵を破り、グレイシー一族を次々と撃破した日本の英雄。",
+    "major_fights": [
+      {"opponent": "ホイス・グレイシー", "result": "WIN", "event": "PRIDE GRAND PRIX 2000 決勝戦"},
+      {"opponent": "ヴァンダレイ・シウバ", "result": "LOSE", "event": "PRIDE.13"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "アントニオ・ホドリゴ・ノゲイラ",
+    "nickname": ["霊長類最強の柔術家", "暴走柔術", "PRIDEの柔術マスター"],
+    "image": "/images/nogueira.jpg",
+    "entrance_theme_name": "Gonna Fly Now (Rocky Theme)",
+    "entrance_theme_audio": "/sounds/entrance_theme_nogueira_full.mp3",
+    "bio": "その卓越した柔術スキルで、多くの強豪を極めてきたPRIDEヘビー級のトップファイター。",
+    "major_fights": [
+      {"opponent": "ボブ・サップ", "result": "WIN", "event": "PRIDE Shockwave 2002"},
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE GRAND PRIX 2004 決勝戦"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "ミルコ・クロコップ",
+    "nickname": ["クロアチアの最終兵器", "ハイキックの魔術師", "PRIDEのストライカー"],
+    "image": "/images/mirko.jpg",
+    "entrance_theme_name": "Wild Boys",
+    "entrance_theme_audio": "/sounds/entrance_theme_mirko_full.mp3",
+    "bio": "左ハイキックを武器に、多くのKO勝利を収めたPRIDEヘビー級のストライカー。",
+    "major_fights": [
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE GRAND PRIX 2005 決勝戦"},
+      {"opponent": "ジョシュ・バーネット", "result": "WIN", "event": "PRIDE GRAND PRIX 2006 決勝戦"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "マウリシオ・ショーグン",
+    "nickname": ["戦慄の膝小僧", "PRIDEの破壊神"],
+    "image": "/images/shogun.jpg",
+    "entrance_theme_name": "Sail",
+    "entrance_theme_audio": "/sounds/entrance_theme_shogun_full.mp3",
+    "bio": "強烈な膝蹴りで相手を圧倒したPRIDEミドル級のトップファイター。",
+    "major_fights": [
+      {"opponent": "クイントン・"ランペイジ"・ジャクソン", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 2nd ROUND"},
+      {"opponent": "アリスター・オーフレイム", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 決勝戦"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "ケビン・ランデルマン",
+    "nickname": ["怪力", "PRIDEの投げ"],
+    "image": "/images/randleman.jpg",
+    "entrance_theme_name": "Eye of the Tiger",
+    "entrance_theme_audio": "/sounds/entrance_theme_randleman_full.mp3",
+    "bio": "その圧倒的なパワーで、多くの選手を投げ飛ばしたPRIDEヘビー級のトップファイター。",
+    "major_fights": [
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE CRITICAL COUNTDOWN 2004"},
+      {"opponent": "ミルコ・クロコップ", "result": "WIN", "event": "PRIDE CRITICAL COUNTDOWN 2004"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "マーク・コールマン",
+    "nickname": ["鉄人", "PRIDEのタックル"],
+    "image": "/images/coleman.jpg",
+    "entrance_theme_name": "Iron Man",
+    "entrance_theme_audio": "/sounds/entrance_theme_coleman_full.mp3",
+    "bio": "そのタフネスとスタミナで、多くの激闘を繰り広げたPRIDEヘビー級のトップファイター。",
+    "major_fights": [
+      {"opponent": "ドン・フライ", "result": "WIN", "event": "PRIDE.10"},
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE 32"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ダン・ヘンダーソン",
+    "nickname": ["PRIDEの門番", "H-Bomb"],
+    "image": "/images/henderson.jpg",
+    "entrance_theme_name": "Lunatic Fringe",
+    "entrance_theme_audio": "/sounds/entrance_theme_henderson_full.mp3",
+    "bio": "PRIDEミドル級のトップ戦線で活躍し、多くの強豪と激闘を繰り広げた。",
+    "major_fights": [
+      {"opponent": "ヴァンダレイ・シウバ", "result": "WIN", "event": "PRIDE 33"},
+      {"opponent": "ヒカルド・アローナ", "result": "WIN", "event": "PRIDE SHOCKWAVE 2006"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "ヒカルド・アローナ",
+    "nickname": ["PRIDEの切り込み隊長", "ブラジルの猛牛"],
+    "image": "/images/arona.jpg",
+    "entrance_theme_name": "Roots Bloody Roots",
+    "entrance_theme_audio": "/sounds/entrance_theme_arona_full.mp3",
+    "bio": "そのアグレッシブなファイトスタイルで、常に試合を盛り上げたPRIDEミドル級のトップファイター。",
+    "major_fights": [
+      {"opponent": "ヴァンダレイ・シウバ", "result": "LOSE", "event": "PRIDE GRAND PRIX 2005 決勝戦"},
+      {"opponent": "ダン・ヘンダーソン", "result": "LOSE", "event": "PRIDE SHOCKWAVE 2006"}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ミノワマン",
+    "nickname": ["PRIDEの超人", "世界のミスターX"],
+    "image": "/images/minowa.jpg",
+    "entrance_theme_name": "Minowaman Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_minowa_full.mp3",
+    "bio": "その独特なファイトスタイルと、数々の番狂わせで、多くのファンを魅了した。",
+    "major_fights": [
+      {"opponent": "ジャイアント・シルバ", "result": "WIN", "event": "PRIDE 男祭り 2006"},
+      {"opponent": "ボブ・サップ", "result": "LOSE", "event": "PRIDE 男祭り 2007"}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "小川直也",
+    "nickname": ["PRIDEの破壊王", "暴走王"],
+    "image": "/images/ogawa.jpg",
+    "entrance_theme_name": "Hooligan",
+    "entrance_theme_audio": "/sounds/entrance_theme_ogawa_full.mp3",
+    "bio": "柔道銀メダリストとして、PRIDEに参戦し、その圧倒的なパワーで多くの選手をKOした。",
+    "major_fights": [
+      {"opponent": "吉田秀彦", "result": "LOSE", "event": "PRIDE 男祭り 2005"},
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE SHOCKWAVE 2004"}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "吉田秀彦",
+    "nickname": ["PRIDEの柔道王", "柔道一直線"],
+    "image": "/images/yoshida.jpg",
+    "entrance_theme_name": "Judo Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_yoshida_full.mp3",
+    "bio": "柔道金メダリストとして、PRIDEに参戦し、多くの激闘を繰り広げた。",
+    "major_fights": [
+      {"opponent": "小川直也", "result": "WIN", "event": "PRIDE 男祭り 2005"},
+      {"opponent": "ヴァンダレイ・シウバ", "result": "LOSE", "event": "PRIDE GRAND PRIX 2005 2nd ROUND"}
+    ]
+  },
+  {
+    "id": 14,
+    "name": "高田延彦",
+    "nickname": ["PRIDEの番人", "格闘王"],
+    "image": "/images/takada.jpg",
+    "entrance_theme_name": "Take a Chance",
+    "entrance_theme_audio": "/sounds/entrance_theme_takada_full.mp3",
+    "bio": "PRIDEの創設者の一人として、その歴史を支えた。",
+    "major_fights": [
+      {"opponent": "ヒクソン・グレイシー", "result": "LOSE", "event": "PRIDE.4"},
+      {"opponent": "マーク・コールマン", "result": "LOSE", "event": "PRIDE.6"}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "菊田早苗",
+    "nickname": ["PRIDEの寝技師", "柔術プリンス"],
+    "image": "/images/kikuta.jpg",
+    "entrance_theme_name": "Kikuta Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_kikuta_full.mp3",
+    "bio": "その卓越した寝技スキルで、多くの強豪を極めてきた。",
+    "major_fights": [
+      {"opponent": "ヴァンダレイ・シウバ", "result": "LOSE", "event": "PRIDE.12"},
+      {"opponent": "ダン・ヘンダーソン", "result": "LOSE", "event": "PRIDE.14"}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "石井慧",
+    "nickname": ["PRIDEの柔道家", "金メダリスト"],
+    "image": "/images/ishii.jpg",
+    "entrance_theme_name": "Ishii Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_ishii_full.mp3",
+    "bio": "柔道金メダリストとして、PRIDEに参戦し、その圧倒的なパワーで多くの選手をKOした。",
+    "major_fights": [
+      {"opponent": "ヒョードル・エメリヤーエンコ", "result": "LOSE", "event": "Dynamite!! 2011"},
+      {"opponent": "ジェロム・レ・バンナ", "result": "WIN", "event": "Dynamite!! 2010"}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "フィル・バローニ",
+    "nickname": ["ニューヨーク・バッドアス", "PRIDEの喧嘩屋"],
+    "image": "/images/baroni.jpg",
+    "entrance_theme_name": "New York, New York",
+    "entrance_theme_audio": "/sounds/entrance_theme_baroni_full.mp3",
+    "bio": "そのアグレッシブなファイトスタイルで、多くの観客を熱狂させた。",
+    "major_fights": [
+      {"opponent": "桜庭和志", "result": "LOSE", "event": "PRIDE.20"},
+      {"opponent": "ヴァンダレイ・シウバ", "result": "LOSE", "event": "PRIDE.26"}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "アリスター・オーフレイム",
+    "nickname": ["ザ・デモリッションマン", "PRIDEの最終兵器"],
+    "image": "/images/overeem.jpg",
+    "entrance_theme_name": "The Reem",
+    "entrance_theme_audio": "/sounds/entrance_theme_overeem_full.mp3",
+    "bio": "その圧倒的なフィジカルと打撃で、多くのKO勝利を収めた。",
+    "major_fights": [
+      {"opponent": "マウリシオ・ショーグン", "result": "LOSE", "event": "PRIDE GRAND PRIX 2005 決勝戦"},
+      {"opponent": "ファブリシオ・ヴェウドゥム", "result": "LOSE", "event": "PRIDE.31"}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "マーク・ハント",
+    "nickname": ["スーパーサモア人", "PRIDEの最終兵器"],
+    "image": "/images/hunt.jpg",
+    "entrance_theme_name": "The Super Samoan",
+    "entrance_theme_audio": "/sounds/entrance_theme_hunt_full.mp3",
+    "bio": "その強烈なパンチで、多くのKO勝利を収めた。",
+    "major_fights": [
+      {"opponent": "ミルコ・クロコップ", "result": "WIN", "event": "PRIDE SHOCKWAVE 2005"},
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE 男祭り 2006"}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "ジョシュ・バーネット",
+    "nickname": ["ザ・ウォーマスター", "PRIDEの柔術家"],
+    "image": "/images/barnett.jpg",
+    "entrance_theme_name": "War Master",
+    "entrance_theme_audio": "/sounds/entrance_theme_barnett_full.mp3",
+    "bio": "その卓越した柔術スキルで、多くの強豪を極めてきた。",
+    "major_fights": [
+      {"opponent": "ミルコ・クロコップ", "result": "LOSE", "event": "PRIDE GRAND PRIX 2006 決勝戦"},
+      {"opponent": "アントニオ・ホドリゴ・ノゲイラ", "result": "LOSE", "event": "PRIDE.27"}
+    ]
+  },
+  {
+    "id": 21,
+    "name": "ランディ・クートゥア",
+    "nickname": ["ザ・ナチュラル", "キャプテン・アメリカ"],
+    "image": "/images/couture.jpg",
+    "entrance_theme_name": "Natural Born Killaz",
+    "entrance_theme_audio": "/sounds/entrance_theme_couture_full.mp3",
+    "bio": "その卓越したレスリングスキルで、多くの強豪を極めてきた。",
+    "major_fights": [
+      {"opponent": "チャック・リデル", "result": "WIN", "event": "UFC 43"},
+      {"opponent": "ティム・シルビア", "result": "WIN", "event": "UFC 68"}
+    ]
+  },
+  {
+    "id": 22,
+    "name": "ドン・フライ",
+    "nickname": ["PRIDEの喧嘩師", "ザ・プレデター"],
+    "image": "/images/donfrye.jpg",
+    "entrance_theme_name": "The Predator",
+    "entrance_theme_audio": "/sounds/entrance_theme_donfrye_full.mp3",
+    "bio": "そのタフネスと打撃で、多くの激闘を繰り広げた。",
+    "major_fights": [
+      {"opponent": "高山善廣", "result": "WIN", "event": "PRIDE.21"},
+      {"opponent": "マーク・コールマン", "result": "LOSE", "event": "PRIDE.10"}
+    ]
+  },
+  {
+    "id": 23,
+    "name": "ゲーリー・グッドリッジ",
+    "nickname": ["PRIDEの暴君", "アイアンマン"],
+    "image": "/images/goodridge.jpg",
+    "entrance_theme_name": "Iron Man",
+    "entrance_theme_audio": "/sounds/entrance_theme_goodridge_full.mp3",
+    "bio": "その狂気的なファイトスタイルで、多くの観客を熱狂させた。",
+    "major_fights": [
+      {"opponent": "ドン・フライ", "result": "LOSE", "event": "PRIDE.4"},
+      {"opponent": "マーク・ハント", "result": "LOSE", "event": "PRIDE.13"}
+    ]
+  },
+  {
+    "id": 24,
+    "name": "イゴール・ボブチャンチン",
+    "nickname": ["PRIDEの用心棒", "アイスコールド"],
+    "image": "/images/bobchanchyn.jpg",
+    "entrance_theme_name": "Ice Cold",
+    "entrance_theme_audio": "/sounds/entrance_theme_bobchanchyn_full.mp3",
+    "bio": "その強靭な肉体と打撃で、多くの強敵を退けた。",
+    "major_fights": [
+      {"opponent": "マーク・コールマン", "result": "LOSE", "event": "PRIDE GRAND PRIX 2000 決勝戦"},
+      {"opponent": "ミルコ・クロコップ", "result": "LOSE", "event": "PRIDE.26"}
+    ]
+  },
+  {
+    "id": 25,
+    "name": "ファブリシオ・ヴェウドゥム",
+    "nickname": ["柔術マジシャン", "ハッピーフェイス"],
+    "image": "/images/werdum.jpg",
+    "entrance_theme_name": "Happy Face",
+    "entrance_theme_audio": "/sounds/entrance_theme_werdum_full.mp3",
+    "bio": "その卓越した柔術スキルで、多くの強敵を極めてきた。",
+    "major_fights": [
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "WIN", "event": "Strikeforce: Fedor vs. Werdum"},
+      {"opponent": "アリスター・オーフレイム", "result": "WIN", "event": "PRIDE.31"}
+    ]
+  },
+  {
+    "id": 26,
+    "name": "セルゲイ・ハリトーノフ",
+    "nickname": ["PRIDEのロシア兵", "コサック"],
+    "image": "/images/kharitonov.jpg",
+    "entrance_theme_name": "Kharitonov Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_kharitonov_full.mp3",
+    "bio": "その強靭な肉体と打撃で、多くの強敵を退けた。",
+    "major_fights": [
+      {"opponent": "アントニオ・ホドリゴ・ノゲイラ", "result": "LOSE", "event": "PRIDE GRAND PRIX 2004 決勝戦"},
+      {"opponent": "アリスター・オーフレイム", "result": "WIN", "event": "PRIDE.31"}
+    ]
+  },
+  {
+    "id": 27,
+    "name": "ヒース・ヒーリング",
+    "nickname": ["テキサスの暴れ馬", "PRIDEの悪童"],
+    "image": "/images/herring.jpg",
+    "entrance_theme_name": "Texas Bad Ass",
+    "entrance_theme_audio": "/sounds/entrance_theme_herring_full.mp3",
+    "bio": "そのアグレッシブなファイトスタイルで、多くの観客を熱狂させた。",
+    "major_fights": [
+      {"opponent": "アントニオ・ホドリゴ・ノゲイラ", "result": "LOSE", "event": "PRIDE.17"},
+      {"opponent": "エメリヤーエンコ・ヒョードル", "result": "LOSE", "event": "PRIDE.26"}
+    ]
+  },
+  {
+    "id": 28,
+    "name": "ボブ・サップ",
+    "nickname": ["ザ・ビースト", "野獣"],
+    "image": "/images/sapp.jpg",
+    "entrance_theme_name": "B-O-B",
+    "entrance_theme_audio": "/sounds/entrance_theme_sapp_full.mp3",
+    "bio": "その圧倒的なフィジカルで、多くの観客を魅了した。",
+    "major_fights": [
+      {"opponent": "アントニオ・ホドリゴ・ノゲイラ", "result": "LOSE", "event": "PRIDE Shockwave 2002"},
+      {"opponent": "ミルコ・クロコップ", "result": "LOSE", "event": "K-1 PREMIUM 2004 Dynamite!!"}
+    ]
+  },
+  {
+    "id": 29,
+    "name": "ジェロム・レ・バンナ",
+    "nickname": ["ハイパーバトルサイボーグ", "PRIDEの破壊王"],
+    "image": "/images/lebanner.jpg",
+    "entrance_theme_name": "Le Banner Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_lebanner_full.mp3",
+    "bio": "その強烈な打撃で、多くのKO勝利を収めた。",
+    "major_fights": [
+      {"opponent": "マーク・ハント", "result": "LOSE", "event": "K-1 WORLD GP 2002 決勝戦"},
+      {"opponent": "ミルコ・クロコップ", "result": "LOSE", "event": "K-1 WORLD GP 2001 決勝戦"}
+    ]
+  },
+  {
+    "id": 30,
+    "name": "武蔵",
+    "nickname": ["K-1の番長", "PRIDEの挑戦者"],
+    "image": "/images/musashi.jpg",
+    "entrance_theme_name": "Musashi Theme",
+    "entrance_theme_audio": "/sounds/entrance_theme_musashi_full.mp3",
+    "bio": "K-1のトップファイターとして、PRIDEにも参戦し、多くの激闘を繰り広げた。",
+    "major_fights": [
+      {"opponent": "ミルコ・クロコップ", "result": "LOSE", "event": "K-1 WORLD GP 2003 決勝戦"},
+      {"opponent": "レイ・セフォー", "result": "WIN", "event": "K-1 WORLD GP 2004 決勝戦"}
+    ]
+  }
+]
