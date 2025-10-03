@@ -24,6 +24,8 @@ const ReasonsSection = () => {
               alt="24時間使えるアクセスシステム"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-green-300"
               sizes="(max-width: 1024px) 100vw, 50vw"
+              quality={90}
+              priority
             />
           </div>
           <div className="space-y-8">
@@ -57,6 +59,7 @@ const ReasonsSection = () => {
                 width={300}
                 height={200}
                 className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+                quality={80}
               />
             </div>
 
@@ -90,6 +93,7 @@ const ReasonsSection = () => {
                 width={300}
                 height={200}
                 className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+                quality={80}
               />
             </div>
           </div>
@@ -145,6 +149,8 @@ const ReasonsSection = () => {
               alt="女性向け護身術クラス"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-red-300"
               sizes="(max-width: 1024px) 100vw, 50vw"
+              quality={90}
+              priority
             />
           </div>
         </div>

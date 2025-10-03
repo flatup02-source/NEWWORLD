@@ -18,6 +18,7 @@ const ThoughtsSection = () => {
               src="https://ik.imagekit.io/FLATUPGYM/_AIKA%20x.jpg?updatedAt=1756928160496"
               alt="女性オーナーあいか"
               className="w-32 h-32 rounded-full object-cover object-top border-8 border-green-400 mx-auto mb-6"
+              quality={80}
             />
             <h3 className="text-2xl font-bold text-gray-800">女性オーナー AIKA</h3>
             <p className="text-lg text-green-600 font-medium mt-2">「みんなが笑顔になれる場所を作りたい！」</p>

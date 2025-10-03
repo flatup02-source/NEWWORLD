@@ -12,7 +12,7 @@ const SelfDefenseSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-2xl font-bold text-gray-800">女性向け護身術クラス</h2>
         </div>
-        <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/bjj2.png?updatedAt=1756897178742" alt="女性向け護身術クラス" width={800} height={400} className="mx-auto rounded-lg shadow-lg" sizes="(max-width: 768px) 100vw, 800px" />
+        <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/bjj2.png?updatedAt=1756897178742" alt="女性向け護身術クラス" width={800} height={400} className="mx-auto rounded-lg shadow-lg" sizes="(max-width: 768px) 100vw, 800px" quality={80} />
       </div>
     </section>
   );
