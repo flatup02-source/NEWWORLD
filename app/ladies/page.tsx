@@ -24,7 +24,7 @@ export default function Ladies() {
         {/* Hero Section */}
         <section className="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
           <OptimizedImage
-            src="/reddy.png?tr=q-auto,f-auto"
+            src="https://ik.imagekit.io/FLATUPGYM/reddy.png"
             alt="レディースクラスでトレーニングに励む女性"
             fill
             sizes="100vw"
@@ -122,7 +122,7 @@ export default function Ladies() {
             <OptimizedImage
               width={1200}
               height={800}
-              src="https://ik.imagekit.io/FLATUPGYM/reddy.png?tr=w-3840,f-auto"
+              src="https://ik.imagekit.io/FLATUPGYM/reddy.png"
               alt="女性向けジムのトレーニング風景"
               className="w-full h-full object-cover rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-500"
             />
@@ -144,7 +144,7 @@ export default function Ladies() {
                 <div className="md:flex items-center gap-8">
                     <div className="md:w-1/3 text-center mb-6 md:mb-0">
                         <OptimizedImage
-                            src="/MISAKI3.jpg?tr=q-auto,f-auto"
+                            src="https://ik.imagekit.io/FLATUPGYM/MISAKI3.jpg"
                             alt="田中美咲さん"
                             width={150}
                             height={150}

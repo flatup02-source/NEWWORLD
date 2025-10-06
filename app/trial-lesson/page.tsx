@@ -165,7 +165,7 @@ export default function TrialLesson() {
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold transition-all duration-300 cursor-pointer text-center block whitespace-nowrap shadow-lg transform hover:scale-105"
                     style={{
-                      backgroundImage: `url('https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-200,h-100,fo-center,bl-10')`,
+                      backgroundImage: `url('https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-200,h-100,fo-center,bl-10,f-auto,q-75')`,
                       backgroundBlendMode: 'soft-light',
                       backgroundSize: '150%',
                       backgroundPosition: 'center',

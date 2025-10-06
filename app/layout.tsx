@@ -24,7 +24,7 @@ const pacifico = Pacifico({
 
 export const metadata: Metadata = {
   title: 'FLATUPGYM（フラットアップジム）- 成田の女性・初心者向け格闘技ジム',
-  description: '成田市の女性・初心者向けキックボクシングジムFLATUP。ダイエットやストレス解消に最適。強くて優しい、新しい自分に会いに来ませんか？無料体験受付中。',
+  description: '【成田市の格闘技ジム】FLATUPGYMで、楽しくストレス解消！女性や初心者も安心のキックボクシングで、強く美しい自分に。運動不足解消から本格トレーニングまで。まずは無料体験へ！',
   keywords: '成田,格闘技,ジム,女性,フィットネス,キックボクシング,ブラジリアン柔術,総合格闘技,24時間ジム,初心者,ダイエット,FLATUPGYM,フラットアップジム',
   authors: [{ name: 'FLATUPGYM' }],
   creator: 'FLATUPGYM',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   openGraph: {
     title: 'FLATUPGYM（フラットアップジム）- 成田の格闘技ジム',
-    description: '成田市の女性・初心者向けキックボクシングジムFLATUP。ダイエットやストレス解消に最適。強くて優しい、新しい自分に会いに来ませんか？無料体験受付中。',
+    description: '【成田市の格闘技ジム】FLATUPGYMで、楽しくストレス解消！女性や初心者も安心のキックボクシングで、強く美しい自分に。運動不足解消から本格トレーニングまで。まずは無料体験へ！',
     url: 'https://flat-up.jp',
     siteName: 'FLATUPGYM（フラットアップジム）',
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'FLATUPGYM（フラットアップジム）- 成田の格闘技ジム',
-    description: '成田市の女性・初心者向けキックボクシングジムFLATUP。ダイエットやストレス解消に最適。強くて優しい、新しい自分に会いに来ませんか？無料体験受付中。',
+    description: '【成田市の格闘技ジム】FLATUPGYMで、楽しくストレス解消！女性や初心者も安心のキックボクシングで、強く美しい自分に。運動不足解消から本格トレーニングまで。まずは無料体験へ！',
     images: ['https://flat-up.jp/og-image.jpg'],
   },
 };
@@ -72,10 +72,11 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//static.readdy.ai" />
         <link rel="dns-prefetch" href="//lin.ee" />
         <link rel="dns-prefetch" href="//maps.google.com" />
-        
+
+        <link rel="preconnect" href="https://incredible-tapioca-8aebd1.netlify.app" />
+        <link rel="preconnect" href="https://ik.imagekit.io" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
         <link rel="icon" href="https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-64,h-64,fo-center" type="image/png" />
-        <link rel="preload" as="image" href="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?updatedAt=1758848662650" fetchPriority="high" />
         <Script id="structured-data" type="application/ld+json">
           {`
             {
@@ -122,46 +123,6 @@ export default function RootLayout({
             }
           `}
         </Script>
-        <style>{`
-          /* Manually extracted critical CSS */
-          body {
-            color: rgb(0, 0, 0);
-            background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)) rgb(214, 219, 220);
-          }
-          .youtube-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 1rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          }
-          .youtube-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-          }
-          .line-icon-link {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            display: block;
-            line-height: 0;
-          }
-          .line-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          }
-          .line-icon-link:hover .line-icon {
-            transform: scale(1.05);
-            transition: transform 0.2s ease-in-out;
-          }
-        `}</style>
 
       </head>
       <body className={`${inter.className} ${pacifico.className}`}>

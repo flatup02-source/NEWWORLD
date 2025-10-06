@@ -25,7 +25,7 @@ export default function Postpartum() {
           className="relative min-h-screen flex items-center overflow-hidden"
         >
           <OptimizedImage
-            src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png?updatedAt=1756924825619"
+            src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png"
             alt="産後クラスのトレーニング風景"
             className="object-cover z-0 w-full h-full absolute inset-0"
             width={1920}
@@ -63,7 +63,7 @@ export default function Postpartum() {
                 <div className="order-2 lg:order-1">
                   <div className="bg-gradient-to-r from-pink-100 to-yellow-100 p-8 rounded-2xl border-4 border-pink-300 shadow-xl">
                     <OptimizedImage
-                      src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png?updatedAt=1756924825619"
+                      src="https://ik.imagekit.io/FLATUPGYM/%E7%94%A3%E5%BE%8C%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AETOP.png"
                       alt="産後の女性の為のキックボクシングメソッド"
                       width={500}
                       height={500}
@@ -232,7 +232,7 @@ export default function Postpartum() {
               <div className="bg-gradient-to-br from-green-100 to-blue-200 p-6 rounded-2xl shadow-xl border-4 border-green-300">
                 <div className="flex items-center mb-4">
                   <OptimizedImage
-                    src="/sango2.png?tr=q-auto,f-auto"
+                    src="https://ik.imagekit.io/FLATUPGYM/sango2.png"
                     alt="ママの声"
                     width={64}
                     height={64}

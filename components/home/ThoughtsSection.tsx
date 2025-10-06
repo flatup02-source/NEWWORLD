@@ -15,7 +15,7 @@ const ThoughtsSection = () => {
             <OptimizedImage
               width={128}
               height={128}
-              src="https://ik.imagekit.io/FLATUPGYM/_AIKA%20x.jpg?updatedAt=1756928160496"
+              src="https://ik.imagekit.io/FLATUPGYM/_AIKA%20x.jpg"
               alt="女性オーナーあいか"
               className="w-32 h-32 rounded-full object-cover object-top border-8 border-green-400 mx-auto mb-6"
               quality={80}

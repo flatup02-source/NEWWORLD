@@ -20,7 +20,7 @@ const ReasonsSection = () => {
             <OptimizedImage
               width={800}
               height={600}
-              src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845"
+              src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png"
               alt="24時間使えるアクセスシステム"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-green-300"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -54,7 +54,7 @@ const ReasonsSection = () => {
                 </li>
               </ul>
               <OptimizedImage
-                src="https://ik.imagekit.io/FLATUPGYM/tiny.png?updatedAt=1757331481711"
+                src="https://ik.imagekit.io/FLATUPGYM/tiny.png"
                 alt="24時間使えるシステム"
                 width={300}
                 height={200}
@@ -88,7 +88,7 @@ const ReasonsSection = () => {
                 </li>
               </ul>
               <OptimizedImage
-                src="https://ik.imagekit.io/FLATUPGYM/MISAKI2.png?updatedAt=1756897204004"
+                src="https://ik.imagekit.io/FLATUPGYM/MISAKI2.png"
                 alt="女性クラスが充実"
                 width={300}
                 height={200}
@@ -145,7 +145,7 @@ const ReasonsSection = () => {
             <OptimizedImage
               width={800}
               height={600}
-              src="https://ik.imagekit.io/FLATUPGYM/reddy.png?tr=w-3840,f-auto"
+              src="https://ik.imagekit.io/FLATUPGYM/reddy.png"
               alt="女性向け護身術クラス"
               className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-red-300"
               sizes="(max-width: 1024px) 100vw, 50vw"

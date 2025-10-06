@@ -1,6 +1,7 @@
 'use client';
 
 
+import OptimizedImage from '@/components/OptimizedImage';
 import SEO from '@/components/SEO';
 import { breadcrumbJsonLd } from '@/lib/json-ld';
 
@@ -23,10 +24,15 @@ export default function KidsBoys() {
         {/* ヒーローセクション */}
         <section 
           className="relative min-h-screen bg-cover bg-center flex items-center"
-          style={{
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/batch_IMG_9597%202.JPG?updatedAt=1756928167551')",
-          }}
         >
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/batch_IMG_9597%202.JPG"
+            alt="キッズクラス（男の子）の背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-black/50 z-10"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-blue-300/30 via-transparent to-blue-300/30"></div>
           <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8">

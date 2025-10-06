@@ -2,6 +2,7 @@ import { NextPage } from 'next';
 import Link from 'next/link';
 
 
+import OptimizedImage from '../../components/OptimizedImage';
 import SEO from '../../components/SEO';
 import { breadcrumbJsonLd } from '../../lib/json-ld';
 import { CheckCircle, Star } from 'lucide-react';
@@ -79,10 +80,14 @@ const PricingPage: NextPage = () => {
       <main className="bg-gray-50 text-gray-800">
         {/* Hero Section */}
         <section className="relative h-80 flex items-center justify-center text-white text-center px-4">
-          <div
-            className="absolute inset-0 z-0 bg-cover bg-center"
-            style={{ backgroundImage: 'url("https://ik.imagekit.io/FLATUPGYM/tr:q-auto,f-auto/ryoukinn.png")' }}
-          ></div>
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/ryoukinn.png"
+            alt="料金ページの背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="relative z-10">
             <h1 className="text-4xl md:text-5xl font-bold">{pageTitle}</h1>
             <p className="mt-4 text-xl md:text-2xl font-semibold">明朗会計で安心</p>

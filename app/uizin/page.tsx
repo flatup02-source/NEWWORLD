@@ -71,7 +71,7 @@ export default function Uizin() {
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center observe-animation"
           style={{ 
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/UIZIN2.png.png?updatedAt=1756928062857')",
+            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/UIZIN2.png.png?tr=f-auto,q-auto')",
             backgroundAttachment: 'fixed'
           }}
         >

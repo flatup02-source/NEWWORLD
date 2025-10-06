@@ -3,6 +3,7 @@
 
 import SEO from '@/components/SEO';
 import { breadcrumbJsonLd } from '@/lib/json-ld';
+import OptimizedImage from '@/components/OptimizedImage';
 
 export default function Pricing() {
   const pricingBreadcrumbs = breadcrumbJsonLd([
@@ -23,10 +24,15 @@ export default function Pricing() {
         {/* ヒーローセクション */}
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center"
-          style={{
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/tr:q-auto,f-auto/ryoukinn.png')",
-          }}
         >
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/ryoukinn.png"
+            alt="プログラムページの背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-600/30 via-green-500/20 to-yellow-400/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-4xl">

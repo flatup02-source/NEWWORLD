@@ -24,10 +24,15 @@ export default function Athlete() {
         {/* ヒーローセクション - トップ画像差し替え */}
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center"
-          style={{
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/MASAKIPRO3jpg.jpg?updatedAt=1756928056510')",
-          }}
         >
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/MASAKIPRO3jpg.jpg"
+            alt="選手育成クラスの背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-red-600/30 via-orange-500/20 to-yellow-400/20"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-3xl">

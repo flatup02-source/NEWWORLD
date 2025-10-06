@@ -2,6 +2,7 @@
 'use client';
 
 
+import OptimizedImage from '@/components/OptimizedImage';
 import SEO from '@/components/SEO';
 import { breadcrumbJsonLd } from '@/lib/json-ld';
 
@@ -22,7 +23,15 @@ export default function Contact() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative min-h-[50vh] bg-cover bg-center flex items-center justify-center text-center" style={{ backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/blog-placeholder.jpg?tr=q-auto,f-auto')" }}>
+        <section className="relative min-h-[50vh] bg-cover bg-center flex items-center justify-center text-center">
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/blog-placeholder.jpg"
+            alt="お問い合わせページの背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="relative z-10 text-white px-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">お問い合わせ</h1>

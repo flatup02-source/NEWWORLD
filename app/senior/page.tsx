@@ -18,7 +18,7 @@ export default function Senior() {
           className="relative min-h-screen flex items-center"
         >
           <OptimizedImage
-            src="https://ik.imagekit.io/FLATUPGYM/%E3%82%B7%E3%83%8B%E3%82%A21.png?updatedAt=1756897205280"
+            src="https://ik.imagekit.io/FLATUPGYM/%E3%82%B7%E3%83%8B%E3%82%A21.png"
             alt="シニアクラスのトレーニング風景"
             className="object-cover brightness-50 z-0 w-full h-full absolute inset-0"
             width={1920}

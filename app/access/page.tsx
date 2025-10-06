@@ -28,10 +28,15 @@ export default function Access() {
         {/* ヒーローセクション - 120点レベルに昇華 */}
         <section
           className="relative min-h-screen bg-cover bg-center flex items-center overflow-hidden"
-          style={{
-            backgroundImage: "url('https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_32g1lx32g1lx32g1.png?updatedAt=1759300542353')",
-          }}
         >
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/Gemini_Generated_Image_32g1lx32g1lx32g1.png"
+            alt="アクセスページの背景画像"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+          />
           {/* 洗練されたオーバーレイ */}
           <div className="absolute inset-0 bg-gradient-to-br from-blue-600/30 via-green-500/20 to-yellow-400/20"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
@@ -172,7 +177,7 @@ export default function Access() {
                       <OptimizedImage
                         width={600}
                         height={400}
-                        src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png?updatedAt=1757337702845"
+                        src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png"
                         alt="FLAT-UPGYMの外観と大型駐車場"
                         className="w-full h-64 object-cover transform group-hover:scale-110 transition-transform duration-700"
                       />
