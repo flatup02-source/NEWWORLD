@@ -44,8 +44,10 @@ const HeroSection = () => {
           muted
           playsInline
           poster={posterUrl} // Use optimized poster URL
+          fetchPriority="high"
         >
           <source src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650" type="video/mp4" />
+          <track kind="captions" />
           お使いのブラウザはビデオタグをサポートしていません。
         </video>
         <div className="relative z-20 px-4 text-white">

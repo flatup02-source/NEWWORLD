@@ -17,8 +17,8 @@ const FloatingLineButton = () => {
       <Image
         src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
         alt="LINEで無料体験はこちら"
-        width={80} // 画像の表示幅
-        height={80} // 画像の表示高さ
+        width={32} // 画像の表示幅
+        height={34} // 画像の表示高さ
         priority // 常に表示される重要な要素なので、優先的に読み込みます
       />
     </Link>

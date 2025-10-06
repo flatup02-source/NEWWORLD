@@ -69,7 +69,7 @@ export default function Header() {
               href="https://lin.ee/21ape6V"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-all duration-300 whitespace-nowrap font-bold text-base shadow-lg transform hover:scale-105"
+              className="group relative bg-green-800 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-all duration-300 whitespace-nowrap font-bold text-base shadow-lg transform hover:scale-105"
             >
               <span className="relative z-10">LINE 友だち追加</span>
             </Link>
