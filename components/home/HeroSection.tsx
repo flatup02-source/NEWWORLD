@@ -44,7 +44,7 @@ const HeroSection = () => {
           muted
           playsInline
           poster={posterUrl} // Use optimized poster URL
-          fetchPriority="high"
+          fetchpriority="high"
         >
           <source src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650" type="video/mp4" />
           <track kind="captions" />
