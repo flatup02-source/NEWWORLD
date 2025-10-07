@@ -19,7 +19,7 @@ const HeroSection = () => {
   }, []);
 
     // Manually optimized poster URL
-    const posterUrl = "https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?tr=w-463,h-823,q-80";
+    const posterUrl = "https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?tr=w-300,h-533,q-80";
 
     return (
       <section className="relative h-screen flex items-center justify-center text-center overflow-hidden bg-black">
