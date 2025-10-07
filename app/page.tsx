@@ -1,5 +1,8 @@
 import HeroSection from '@/components/HeroSection';
-import ClientContent from '@/components/home/ClientContent'; // 新しいClient Componentをインポート
+import dynamic from 'next/dynamic';
+
+// ClientContentを動的にインポートし、サーバーサイドレンダリングを無効にする
+const ClientContent = dynamic(() => import('@/components/home/ClientContent'), { ssr: false });
 
 export default function HomePage() {
   return (
