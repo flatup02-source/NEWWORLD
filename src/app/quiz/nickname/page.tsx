@@ -5,15 +5,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import quizData from '@/src/data/quizData.json';
 
-interface QuizItem {
-  id: number;
-  type: string;
-  question: string;
-  correct_answer: string;
-  options: string[];
-  category: string;
-  trivia: string;
-}
+import { QuizItem } from '@/src/types/quiz';
 
 export default function NicknameQuizPage() {
   const router = useRouter();

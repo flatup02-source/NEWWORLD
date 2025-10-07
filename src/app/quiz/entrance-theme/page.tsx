@@ -5,14 +5,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import quizData from '@/src/data/quizData.json';
 
-interface QuizItem {
-  id: number;
-  type: string;
-  audio_file: string;
-  correct_answer: string;
-  options: string[];
-  trivia: string;
-}
+import { QuizItem } from '@/src/types/quiz';
 
 export default function EntranceThemeQuizPage() {
   const router = useRouter();

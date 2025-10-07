@@ -23,7 +23,7 @@
     "bio": "PRIDEミドル級の絶対王者として、常に激しいファイトを展開し、多くのファンを熱狂させた。",
     "major_fights": [
       {"opponent": "桜庭和志", "result": "WIN", "event": "PRIDE.13"},
-      {"opponent": "クイントン・"ランペイジ"・ジャクソン", "result": "WIN", "event": "PRIDE.28"}
+      {"opponent": "クイントン・\"ランペイジ\"・ジャクソン", "result": "WIN", "event": "PRIDE.28"}
     ]
   },
   {
@@ -74,7 +74,7 @@
     "entrance_theme_audio": "/sounds/entrance_theme_shogun_full.mp3",
     "bio": "強烈な膝蹴りで相手を圧倒したPRIDEミドル級のトップファイター。",
     "major_fights": [
-      {"opponent": "クイントン・"ランペイジ"・ジャクソン", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 2nd ROUND"},
+      {"opponent": "クイントン・\"ランペイジ\"・ジャクソン", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 2nd ROUND"},
       {"opponent": "アリスター・オーフレイム", "result": "WIN", "event": "PRIDE GRAND PRIX 2005 決勝戦"}
     ]
   },
