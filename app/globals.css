@@ -17,7 +17,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden; /* [Requirement #3] Overflow Fix: Prevents horizontal scroll globally. */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -31,5 +31,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  .text-shadow-lg {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
 }
-
