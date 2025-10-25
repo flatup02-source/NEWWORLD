@@ -66,7 +66,7 @@ const nextConfig: NextConfig = {
   },
   
   // 出力設定
-  output: 'export',
+  output: 'standalone',
   
   // パフォーマンス監視
   onDemandEntries: {
