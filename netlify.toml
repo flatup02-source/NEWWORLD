@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next/output/static"
+  publish = "out"  # output: 'export' で生成される静的フォルダ
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
