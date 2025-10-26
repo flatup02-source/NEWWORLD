@@ -1,10 +1,10 @@
 [build]
   command = "npm run build"
+  publish = ".next/output/static"
 
-[build.environment]
-  NODE_VERSION = "20"
+[plugins]
+  [[plugins]]
+    package = "@netlify/plugin-nextjs"
 
-[[headers]]
-  for = "/_next/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+[cache]
+  paths = ["node_modules/**", ".next/**"]
