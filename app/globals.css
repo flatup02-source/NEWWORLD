@@ -104,3 +104,11 @@ body {
     font-size: 1rem;
   }
 }
+
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  z-index: 9999;
+  pointer-events: none;
+}
