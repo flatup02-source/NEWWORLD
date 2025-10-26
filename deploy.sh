@@ -1,14 +1,8 @@
 #!/bin/bash
-# ワンクリックデプロイスクリプト
+# Netlifyのビルドキャッシュをクリアして本番環境にデプロイするスクリプト
 
-echo "🧹 古いビルドを削除中..."
-rm -rf .next out
+echo "Netlifyのビルドキャッシュをクリアしています..."
+netlify build --clear-cache
 
-echo "⚡️ 静的サイトをビルド中..."
-npm run build
-
-echo "🚀 Netlify にデプロイ中..."
-# 注意: Netlify CLIがインストールされ、ログインしている必要があります。
-npx netlify deploy --prod --dir=out
-
-echo "✅ デプロイ完了！"
+echo "本番環境にデプロイしています..."
+netlify deploy --prod
