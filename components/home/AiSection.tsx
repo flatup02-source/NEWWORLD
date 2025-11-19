@@ -22,8 +22,8 @@ const AiSection = () => {
                             {/* Placeholder for AIKA18号 - User needs to upload image to /images/aika18.png */}
                             <div className="absolute inset-0 bg-gradient-to-br from-sakura-pink/20 to-mint-green/20 rounded-full animate-pulse blur-xl"></div>
                             <OptimizedImage
-                                src="/images/aika18.png"
-                                alt="AIKA18号"
+                                src="/images/b9d4a676-0903-444c-91d2-50222dc3294f.png"
+                                alt="AIKA19号"
                                 width={400}
                                 height={400}
                                 className="relative z-10 object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
@@ -40,7 +40,7 @@ const AiSection = () => {
                         className="w-full md:w-1/2 text-center md:text-left"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 font-rounded leading-tight">
-                            <span className="text-pink-500">AIKA18号</span>が<br />
+                            <span className="text-pink-500">AIKA19号</span>が<br />
                             24時間なんでも答えます♡
                         </h2>
 
