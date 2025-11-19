@@ -45,16 +45,20 @@ export default function Header() {
       // スクロールされている場合は、背景の透明度を下げ、影を濃くしてコンテンツとの境界を明確にします。
       className={`sticky top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-lg'
-          : 'bg-white/90 backdrop-blur-sm shadow-sm'
-      } border-b border-gray-100`}
+          ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100'
+          : 'bg-transparent shadow-none border-b-transparent'
+      }`}
     >
       <nav className="px-4 sm:px-6 lg:px-8 font-sans-japanese">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" aria-label="FLATUPGYM ホームページへ" className="flex items-center group flex-shrink-0">
             <span
-              className="text-2xl md:text-3xl font-['Pacifico'] text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500 transform group-hover:scale-105 transition-transform duration-300 inline-block align-middle whitespace-nowrap"
+              className={`text-2xl md:text-3xl font-['Pacifico'] transform group-hover:scale-105 transition-transform duration-300 inline-block align-middle whitespace-nowrap ${
+                scrolled
+                  ? 'text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500'
+                  : 'text-white'
+              }`}
             >
               FLATUPGYM
             </span>
