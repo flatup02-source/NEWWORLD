@@ -12,8 +12,6 @@
 
 @tailwind components;
 @tailwind utilities;
-@import './sparkle.css';
-@import './animations.css';
 
 :root {
   --foreground-rgb: 0, 0, 0;

@@ -1,28 +1,31 @@
-import { Zen_Kaku_Gothic_New, M_PLUS_Rounded_1c } from 'next/font/google';
-import FloatingNav from '@/components/FloatingNav';
+import { Noto_Sans_JP } from 'next/font/google';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import ClientLayout from '@/components/ClientLayout';
 import './globals.css';
+import './sparkle.css'; // ここを追加
+import './animations.css'; // ここを追加
 
-const zenKakuGothicNew = Zen_Kaku_Gothic_New({
+export const metadata: Metadata = {
+  title: 'FLAT-UP GYM - 成田市で女性・初心者も安心の格闘技ジム',
+  description: 'FLAT-UP GYMは、千葉県成田市にある女性オーナーが運営する格闘技ジムです。キックボクシング、ブラジリアン柔術、キッズクラスなど、初心者からプロまで安心して楽しめるプログラムを提供。無料体験受付中！',
+  // その他のメタデータもここに追加可能
+};
+
+const notoSansJP = Noto_Sans_JP({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   display: 'swap',
-  variable: '--font-zen-kaku',
-});
-
-const mPlusRounded1c = M_PLUS_Rounded_1c({
-  subsets: ['latin'],
-  weight: ['400', '500', '700', '800'],
-  display: 'swap',
-  variable: '--font-m-plus',
+  variable: '--font-noto-sans-jp',
 });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja" className={`${zenKakuGothicNew.variable} ${mPlusRounded1c.variable}`}>
-      <body className="bg-[#fffaf7]">
+    <html lang="ja" className={notoSansJP.variable}>
+      <body>
+        <Header />
         <ClientLayout>{children}</ClientLayout>
-        <FloatingNav />
+        <Footer />
       </body>
     </html>
   );

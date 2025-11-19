@@ -3,37 +3,54 @@ import fs from 'fs';
 import path from 'path';
 
 const inputDir = './public';
-const outputDir = './public/images/optimized';
-
-if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
-}
-
 const imageExtensions = ['.png', '.jpg', '.jpeg'];
 
-fs.readdirSync(inputDir).forEach(file => {
-  const inputPath = path.join(inputDir, file);
-
-  // Skip if it's not a file or if it's a macOS resource fork file
-  if (!fs.statSync(inputPath).isFile() || file.startsWith('._')) {
-    return;
-  }
-
-  const extension = path.extname(file).toLowerCase();
+async function optimizeImage(filePath) {
+  const extension = path.extname(filePath).toLowerCase();
+  const baseName = path.parse(filePath).name;
+  const dirName = path.dirname(filePath);
 
   if (imageExtensions.includes(extension)) {
-    const baseName = path.parse(file).name;
+    console.log(`Optimizing ${filePath}...`);
+
+    // 元の画像を圧縮 (JPEG/PNG)
+    if (extension === '.jpg' || extension === '.jpeg') {
+      await sharp(filePath)
+        .jpeg({ quality: 80, progressive: true })
+        .toFile(filePath);
+    } else if (extension === '.png') {
+      await sharp(filePath)
+        .png({ quality: 80, compressionLevel: 9 })
+        .toFile(filePath);
+    }
 
     // WebPへの変換 (品質80)
-    sharp(inputPath)
-     .webp({ quality: 80 })
-     .toFile(path.join(outputDir, `${baseName}.webp`));
+    await sharp(filePath)
+      .webp({ quality: 80 })
+      .toFile(path.join(dirName, `${baseName}.webp`));
 
     // AVIFへの変換 (品質60)
-    sharp(inputPath)
-     .avif({ quality: 60 })
-     .toFile(path.join(outputDir, `${baseName}.avif`));
+    await sharp(filePath)
+      .avif({ quality: 60 })
+      .toFile(path.join(dirName, `${baseName}.avif`));
   }
-});
+}
 
-console.log('Image optimization complete.');
+async function processDirectory(directory) {
+  const files = fs.readdirSync(directory);
+
+  for (const file of files) {
+    const filePath = path.join(directory, file);
+    const stat = fs.statSync(filePath);
+
+    if (stat.isDirectory()) {
+      await processDirectory(filePath); // サブディレクトリを再帰的に処理
+    } else if (stat.isFile()) {
+      await optimizeImage(filePath);
+    }
+  }
+}
+
+processDirectory(inputDir)
+  .then(() => console.log('Image optimization complete.'))
+  .catch(err => console.error('Image optimization failed:', err));
