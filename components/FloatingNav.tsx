@@ -10,6 +10,15 @@ const FloatingNav: React.FC = () => {
         <>
             {/* Floating Navigation Buttons */}
             <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+                {/* Trial Booking Button */}
+                <Link
+                    href="/trial-lesson"
+                    className="px-6 py-3 rounded-full bg-gradient-to-r from-pastel-pink to-pink-400 hover:from-pink-400 hover:to-pink-500 text-white flex items-center justify-center shadow-lg transform hover:scale-110 transition-all duration-300 font-bold text-sm whitespace-nowrap animate-pulse"
+                    aria-label="無料体験予約"
+                >
+                    今すぐ無料体験♡
+                </Link>
+
                 {/* Phone Button */}
                 <a
                     href="tel:070-9035-3485"
@@ -21,10 +30,10 @@ const FloatingNav: React.FC = () => {
                     </svg>
                 </a>
 
-                {/* LINE Button */}
+                {/* LINE Button - Pink */}
                 <Link
                     href="/line"
-                    className="w-16 h-16 rounded-full bg-[#06C755] hover:bg-[#05b34c] text-white flex items-center justify-center shadow-lg transform hover:scale-110 transition-all duration-300"
+                    className="w-16 h-16 rounded-full bg-gradient-to-r from-pastel-pink to-pink-400 hover:from-[#FF9EC9] hover:to-pink-500 text-white flex items-center justify-center shadow-lg transform hover:scale-110 transition-all duration-300"
                     aria-label="LINE"
                 >
                     <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24">

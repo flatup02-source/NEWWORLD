@@ -17,7 +17,7 @@ const ServicesSection = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {/* Kickboxing */}
-          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300">
+          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300 fade-up">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">キックボクシング</h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-lg mb-4">
               <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/reddy.png" alt="キックボクシング" width={300} height={200} className="w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={80} />
@@ -26,7 +26,7 @@ const ServicesSection = () => {
             <Link href="/ladies" className="text-pink-700 font-bold hover:underline">詳しく見る</Link>
           </div>
           {/* BJJ */}
-          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300">
+          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300 fade-up-delay-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">ブラジリアン柔術（BJJ）</h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-lg mb-4">
               <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/bjj2.png?updatedAt=1756897178742" alt="ブラジリアン柔術" width={300} height={200} className="w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={80} />
@@ -35,7 +35,7 @@ const ServicesSection = () => {
             <Link href="/bjj" className="text-pink-700 font-bold hover:underline">詳しく見る</Link>
           </div>
           {/* Kids Class */}
-          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300">
+          <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300 fade-up-delay-2">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">キッズクラス</h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-lg mb-4">
               <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/batch_IMG_9597%202.JPG" alt="キッズクラス" width={300} height={200} className="w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={80} />
