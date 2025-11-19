@@ -33,7 +33,7 @@ export default function Header() {
     };
 
     window.addEventListener('scroll', handleScroll, { passive: true });
-    
+
     // クリーンアップ関数：コンポーネントがアンマウントされる際にイベントリスナーを削除します。
     // これにより、メモリリークを防ぎます。
     return () => window.removeEventListener('scroll', handleScroll);
@@ -43,22 +43,20 @@ export default function Header() {
     <header
       // `scrolled` 状態に基づいて、ヘッダーのスタイルを動的に変更します。
       // スクロールされている場合は、背景の透明度を下げ、影を濃くしてコンテンツとの境界を明確にします。
-      className={`sticky top-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`sticky top-0 z-50 transition-all duration-500 ${scrolled
           ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100'
           : 'bg-transparent shadow-none border-b-transparent'
-      }`}
+        }`}
     >
       <nav className="px-4 sm:px-6 lg:px-8 font-sans-japanese">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" aria-label="FLATUPGYM ホームページへ" className="flex items-center group flex-shrink-0">
             <span
-              className={`text-2xl md:text-3xl font-['Pacifico'] transform group-hover:scale-105 transition-transform duration-300 inline-block align-middle whitespace-nowrap ${
-                scrolled
+              className={`text-2xl md:text-3xl font-['Pacifico'] transform group-hover:scale-105 transition-transform duration-300 inline-block align-middle whitespace-nowrap ${scrolled
                   ? 'text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500'
                   : 'text-white'
-              }`}
+                }`}
             >
               FLATUPGYM
             </span>
@@ -70,9 +68,7 @@ export default function Header() {
           {/* Desktop CTA Button */}
           <div className="hidden md:flex items-center">
             <Link
-              href="https://lin.ee/21ape6V"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/line"
               className="group relative bg-green-800 hover:bg-green-600 text-white px-6 py-3 rounded-full transition-all duration-300 whitespace-nowrap font-bold text-base shadow-lg transform hover:scale-105"
             >
               <span className="relative z-10">LINE 友だち追加</span>

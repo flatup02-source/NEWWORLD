@@ -19,7 +19,7 @@ export default function Contact() {
         description="FLATUPGYMの無料体験レッスンのお申し込みはこちらから。LINE登録後、Googleフォームにて簡単にお申し込みいただけます。ご不明な点もお気軽にお問い合わせください。"
         jsonLd={contactBreadcrumbs}
       />
-      
+
 
       <main>
         {/* Hero Section */}
@@ -48,9 +48,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-pink-700 mb-4">STEP 1: LINE公式アカウントを友だち追加</h3>
                 <p className="text-gray-700 leading-relaxed mb-4">まずはFLATUPGYMのLINE公式アカウントを友だち追加してください。最新情報やお得なキャンペーン情報も受け取れます。</p>
                 <a
-                  href="https://lin.ee/21ape6V"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/line"
                   className="inline-block bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-8 py-4 rounded-full text-xl font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105 animate-bounce"
                 >
                   <i className="ri-line-fill w-6 h-6 inline-block align-middle mr-2"></i>
@@ -83,9 +81,7 @@ export default function Contact() {
               <p className="text-xl text-gray-700 mb-8">LINEチャットまたはお電話にて、お気軽にご質問ください。</p>
               <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <a
-                  href="https://lin.ee/21ape6V"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/line"
                   className="inline-block bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-8 py-4 rounded-full text-xl font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105"
                 >
                   <i className="ri-line-fill w-6 h-6 inline-block align-middle mr-2"></i>
@@ -105,7 +101,7 @@ export default function Contact() {
 
       </main>
 
-      
+
     </div>
   );
 }

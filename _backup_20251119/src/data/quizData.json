@@ -1,0 +1,693 @@
+
+[
+  {
+    "id": 1,
+    "type": "nickname",
+    "question": "60億分の1の男",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "セルゲイ・ハリトーノフ"],
+    "category": "ヘビー級",
+    "trivia": "PRIDE無敗を誇り、絶対王者として君臨した。その圧倒的な強さからこの異名が付けられた。"
+  },
+  {
+    "id": 2,
+    "type": "nickname",
+    "question": "氷の皇帝",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "ヴァンダレイ・シウバ"],
+    "category": "ヘビー級",
+    "trivia": "冷静沈着な試合運びと表情からこの異名がついた。"
+  },
+  {
+    "id": 3,
+    "type": "nickname",
+    "question": "人類最強の男",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["マーク・ハント", "ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ"],
+    "category": "ヘビー級",
+    "trivia": "その圧倒的な強さから、多くのファンが彼を人類最強と呼んだ。"
+  },
+  {
+    "id": 4,
+    "type": "nickname",
+    "question": "PRIDEの番長",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["桜庭和志", "ミルコ・クロコップ", "ヒース・ヒーリング"],
+    "category": "ミドル級",
+    "trivia": "PRIDEミドル級の絶対王者として、常に激しいファイトを展開した。"
+  },
+  {
+    "id": 5,
+    "type": "nickname",
+    "question": "クレイジーホース",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["チャック・リデル", "マウリシオ・ショーグン", "ダン・ヘンダーソン"],
+    "category": "ミドル級",
+    "trivia": "その狂気的なファイトスタイルからこの異名が付けられた。"
+  },
+  {
+    "id": 6,
+    "type": "nickname",
+    "question": "IQレスラー",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "category": "ミドル級",
+    "trivia": "トリッキーな動きと頭脳的な戦術で、数々の強敵を破った。"
+  },
+  {
+    "id": 7,
+    "type": "nickname",
+    "question": "グレイシーハンター",
+    "correct_answer": "桜庭和志",
+    "options": ["ヒクソン・グレイシー", "ホイス・グレイシー", "ヘンゾ・グレイシー"],
+    "category": "ミドル級",
+    "trivia": "グレイシー一族を次々と撃破し、その名を轟かせた。"
+  },
+  {
+    "id": 8,
+    "type": "nickname",
+    "question": "霊長類最強の柔術家",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ミノワマン", "マーク・コールマン"],
+    "category": "ヘビー級",
+    "trivia": "その卓越した柔術スキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 9,
+    "type": "nickname",
+    "question": "暴走柔術",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ヒース・ヒーリング", "ミルコ・クロコップ", "エメリヤーエンコ・ヒョードル"],
+    "category": "ヘビー級",
+    "trivia": "アグレッシブな柔術スタイルで、観客を魅了した。"
+  },
+  {
+    "id": 10,
+    "type": "nickname",
+    "question": "クロアチアの最終兵器",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["アリスター・オーフレイム", "イゴール・ボブチャンチン", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "左ハイキックを武器に、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 11,
+    "type": "nickname",
+    "question": "ハイキックの魔術師",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["レミー・ボンヤスキー", "ピーター・アーツ", "ジェロム・レ・バンナ"],
+    "category": "ヘビー級",
+    "trivia": "その正確無比な左ハイキックは、多くの選手をマットに沈めた。"
+  },
+  {
+    "id": 12,
+    "type": "nickname",
+    "question": "戦慄の膝小僧",
+    "correct_answer": "マウリシオ・ショーグン",
+    "options": ["ヴァンダレイ・シウバ", "ヒカルド・アローナ", "ダン・ヘンダーソン"],
+    "category": "ミドル級",
+    "trivia": "強烈な膝蹴りで相手を圧倒した。"
+  },
+  {
+    "id": 13,
+    "type": "nickname",
+    "question": "PRIDEの門番",
+    "correct_answer": "ダン・ヘンダーソン",
+    "options": ["ヴァンダレイ・シウバ", "桜庭和志", "ヒカルド・アローナ"],
+    "category": "ミドル級",
+    "trivia": "PRIDEミドル級のトップ戦線で活躍し、多くの強豪と激闘を繰り広げた。"
+  },
+  {
+    "id": 14,
+    "type": "nickname",
+    "question": "柔術マジシャン",
+    "correct_answer": "ファブリシオ・ヴェウドゥム",
+    "options": ["アントニオ・ホドリゴ・ノゲイラ", "ホジャー・グレイシー", "ミノワマン"],
+    "category": "ヘビー級",
+    "trivia": "その柔術スキルで、多くの強敵を極めてきた。"
+  },
+  {
+    "id": 15,
+    "type": "nickname",
+    "question": "PRIDEの最終兵器",
+    "correct_answer": "マーク・ハント",
+    "options": ["ミルコ・クロコップ", "イゴール・ボブチャンチン", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "その強烈なパンチで、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 16,
+    "type": "nickname",
+    "question": "鉄人",
+    "correct_answer": "マーク・コールマン",
+    "options": ["ケビン・ランデルマン", "ドン・フライ", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "そのタフネスとスタミナで、多くの激闘を繰り広げた。"
+  },
+  {
+    "id": 17,
+    "type": "nickname",
+    "question": "怪力",
+    "correct_answer": "ケビン・ランデルマン",
+    "options": ["マーク・コールマン", "ボブ・サップ", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "その圧倒的なパワーで、多くの選手を投げ飛ばした。"
+  },
+  {
+    "id": 18,
+    "type": "nickname",
+    "question": "PRIDEの切り込み隊長",
+    "correct_answer": "ヒカルド・アローナ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "ダン・ヘンダーソン"],
+    "category": "ミドル級",
+    "trivia": "そのアグレッシブなファイトスタイルで、常に試合を盛り上げた。"
+  },
+  {
+    "id": 19,
+    "type": "nickname",
+    "question": "PRIDEの用心棒",
+    "correct_answer": "イゴール・ボブチャンチン",
+    "options": ["マーク・ハント", "ゲーリー・グッドリッジ", "ドン・フライ"],
+    "category": "ヘビー級",
+    "trivia": "その強靭な肉体と打撃で、多くの強敵を退けた。"
+  },
+  {
+    "id": 20,
+    "type": "nickname",
+    "question": "PRIDEの最終兵器",
+    "correct_answer": "アリスター・オーフレイム",
+    "options": ["ミルコ・クロコップ", "マーク・ハント", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "その圧倒的なフィジカルと打撃で、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 21,
+    "type": "nickname",
+    "question": "PRIDEの暴君",
+    "correct_answer": "ゲーリー・グッドリッジ",
+    "options": ["マーク・ハント", "イゴール・ボブチャンチン", "ドン・フライ"],
+    "category": "ヘビー級",
+    "trivia": "その狂気的なファイトスタイルで、多くの観客を熱狂させた。"
+  },
+  {
+    "id": 22,
+    "type": "nickname",
+    "question": "PRIDEの喧嘩番長",
+    "correct_answer": "ドン・フライ",
+    "options": ["マーク・コールマン", "ケビン・ランデルマン", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "そのタフネスと打撃で、多くの激闘を繰り広げた。"
+  },
+  {
+    "id": 23,
+    "type": "nickname",
+    "question": "PRIDEの柔道王",
+    "correct_answer": "吉田秀彦",
+    "options": ["小川直也", "瀧本誠", "泉浩"],
+    "category": "ミドル級",
+    "trivia": "柔道金メダリストとして、PRIDEに参戦し、多くの激闘を繰り広げた。"
+  },
+  {
+    "id": 24,
+    "type": "nickname",
+    "question": "PRIDEの破壊王",
+    "correct_answer": "小川直也",
+    "options": ["吉田秀彦", "瀧本誠", "泉浩"],
+    "category": "ヘビー級",
+    "trivia": "柔道銀メダリストとして、PRIDEに参戦し、その圧倒的なパワーで多くの選手をKOした。"
+  },
+  {
+    "id": 25,
+    "type": "nickname",
+    "question": "PRIDEの番人",
+    "correct_answer": "高田延彦",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "category": "ヘビー級",
+    "trivia": "PRIDEの創設者の一人として、その歴史を支えた。"
+  },
+  {
+    "id": 26,
+    "type": "nickname",
+    "question": "PRIDEの超人",
+    "correct_answer": "ミノワマン",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "category": "ライトヘビー級",
+    "trivia": "その独特なファイトスタイルと、数々の番狂わせで、多くのファンを魅了した。"
+  },
+  {
+    "id": 27,
+    "type": "nickname",
+    "question": "PRIDEの喧嘩師",
+    "correct_answer": "美濃輪育久",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "category": "ライトヘビー級",
+    "trivia": "そのアグレッシブなファイトスタイルで、多くの激闘を繰り広げた。"
+  },
+  {
+    "id": 28,
+    "type": "nickname",
+    "question": "PRIDEの柔術家",
+    "correct_answer": "ヒカルド・アローナ",
+    "options": ["アントニオ・ホドリゴ・ノゲイラ", "ファブリシオ・ヴェウドゥム", "ホジャー・グレイシー"],
+    "category": "ミドル級",
+    "trivia": "その卓越した柔術スキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 29,
+    "type": "nickname",
+    "question": "PRIDEのストライカー",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ヘビー級",
+    "trivia": "その強烈な打撃で、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 30,
+    "type": "nickname",
+    "question": "PRIDEのグラップラー",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ホジャー・グレイシー", "桜庭和志"],
+    "category": "ヘビー級",
+    "trivia": "その卓越したグラップリングスキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 31,
+    "type": "nickname",
+    "question": "PRIDEのKOアーティスト",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["ミルコ・クロコップ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ミドル級",
+    "trivia": "その強烈な打撃で、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 32,
+    "type": "nickname",
+    "question": "PRIDEのテクニシャン",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "category": "ミドル級",
+    "trivia": "そのトリッキーな動きと頭脳的な戦術で、数々の強敵を破った。"
+  },
+  {
+    "id": 33,
+    "type": "nickname",
+    "question": "PRIDEの怪物",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "ヴァンダレイ・シウバ"],
+    "category": "ヘビー級",
+    "trivia": "その圧倒的な強さから、多くのファンが彼を怪物と呼んだ。"
+  },
+  {
+    "id": 34,
+    "type": "nickname",
+    "question": "PRIDEの皇帝",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "ヴァンダレイ・シウバ"],
+    "category": "ヘビー級",
+    "trivia": "PRIDE無敗を誇り、絶対王者として君臨した。"
+  },
+  {
+    "id": 35,
+    "type": "nickname",
+    "question": "PRIDEの破壊神",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["ミルコ・クロコップ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ミドル級",
+    "trivia": "その狂気的なファイトスタイルで、多くの観客を熱狂させた。"
+  },
+  {
+    "id": 36,
+    "type": "nickname",
+    "question": "PRIDEのカリスマ",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "category": "ミドル級",
+    "trivia": "その独特なキャラクターと、数々の名勝負で、多くのファンを魅了した。"
+  },
+  {
+    "id": 37,
+    "type": "nickname",
+    "question": "PRIDEの柔術マスター",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ホジャー・グレイシー", "桜庭和志"],
+    "category": "ヘビー級",
+    "trivia": "その卓越した柔術スキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 38,
+    "type": "nickname",
+    "question": "PRIDEの左ハイキック",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ヘビー級",
+    "trivia": "その正確無比な左ハイキックは、多くの選手をマットに沈めた。"
+  },
+  {
+    "id": 39,
+    "type": "nickname",
+    "question": "PRIDEの膝蹴り",
+    "correct_answer": "マウリシオ・ショーグン",
+    "options": ["ヴァンダレイ・シウバ", "ヒカルド・アローナ", "ダン・ヘンダーソン"],
+    "category": "ミドル級",
+    "trivia": "強烈な膝蹴りで相手を圧倒した。"
+  },
+  {
+    "id": 40,
+    "type": "nickname",
+    "question": "PRIDEの鉄槌",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["ミルコ・クロコップ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ミドル級",
+    "trivia": "その強烈な鉄槌で、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 41,
+    "type": "nickname",
+    "question": "PRIDEの関節技",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "category": "ミドル級",
+    "trivia": "そのトリッキーな関節技で、数々の強敵を破った。"
+  },
+  {
+    "id": 42,
+    "type": "nickname",
+    "question": "PRIDEの寝技",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ホジャー・グレイシー", "桜庭和志"],
+    "category": "ヘビー級",
+    "trivia": "その卓越した寝技スキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 43,
+    "type": "nickname",
+    "question": "PRIDEの打撃",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ヘビー級",
+    "trivia": "その強烈な打撃で、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 44,
+    "type": "nickname",
+    "question": "PRIDEのタックル",
+    "correct_answer": "マーク・コールマン",
+    "options": ["ケビン・ランデルマン", "ドン・フライ", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "その強烈なタックルで、多くの選手をテイクダウンした。"
+  },
+  {
+    "id": 45,
+    "type": "nickname",
+    "question": "PRIDEの投げ",
+    "correct_answer": "ケビン・ランデルマン",
+    "options": ["マーク・コールマン", "ボブ・サップ", "ゲーリー・グッドリッジ"],
+    "category": "ヘビー級",
+    "trivia": "その圧倒的なパワーで、多くの選手を投げ飛ばした。"
+  },
+  {
+    "id": 46,
+    "type": "nickname",
+    "question": "PRIDEのパウンド",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["ミルコ・クロコップ", "マウリシオ・ショーグン", "マーク・ハント"],
+    "category": "ミドル級",
+    "trivia": "その強烈なパウンドで、多くのKO勝利を収めた。"
+  },
+  {
+    "id": 47,
+    "type": "nickname",
+    "question": "PRIDEのサブミッション",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ホジャー・グレイシー", "桜庭和志"],
+    "category": "ヘビー級",
+    "trivia": "その卓越したサブミッションスキルで、多くの強豪を極めてきた。"
+  },
+  {
+    "id": 48,
+    "type": "nickname",
+    "question": "PRIDEのレジェンド",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "ヴァンダレイ・シウバ"],
+    "category": "ヘビー級",
+    "trivia": "PRIDEの歴史に名を刻んだ伝説的な選手。"
+  },
+  {
+    "id": 49,
+    "type": "nickname",
+    "question": "PRIDEの英雄",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "category": "ミドル級",
+    "trivia": "その数々の名勝負で、多くのファンを魅了した日本の英雄。"
+  },
+  {
+    "id": 50,
+    "type": "nickname",
+    "question": "PRIDEの絶対王者",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["ミルコ・クロコップ", "マウリシオ・ショーグン", "ダン・ヘンダーソン"],
+    "category": "ミドル級",
+    "trivia": "PRIDEミドル級の絶対王者として、常に激しいファイトを展開した。"
+  },
+  {
+    "id": 51,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_fedor.mp3",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "桜庭和志"],
+    "trivia": "彼が入場する際の静謐な雰囲気から一転、会場全体が緊張感に包まれた。"
+  },
+  {
+    "id": 52,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_wanderlei.mp3",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["桜庭和志", "ミルコ・クロコップ", "ヒース・ヒーリング"],
+    "trivia": "彼の入場曲は、その狂気的なファイトスタイルを象徴していた。"
+  },
+  {
+    "id": 53,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_sakuraba.mp3",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "trivia": "彼の入場曲は、多くのファンに愛された。"
+  },
+  {
+    "id": 54,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_nogueira.mp3",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ミノワマン", "マーク・コールマン"],
+    "trivia": "彼の入場曲は、その柔術スキルを象徴していた。"
+  },
+  {
+    "id": 55,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_mirko.mp3",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["アリスター・オーフレイム", "イゴール・ボブチャンチン", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その左ハイキックを象徴していた。"
+  },
+  {
+    "id": 56,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_shogun.mp3",
+    "correct_answer": "マウリシオ・ショーグン",
+    "options": ["ヴァンダレイ・シウバ", "ヒカルド・アローナ", "ダン・ヘンダーソン"],
+    "trivia": "彼の入場曲は、その強烈な膝蹴りを象徴していた。"
+  },
+  {
+    "id": 57,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_randleman.mp3",
+    "correct_answer": "ケビン・ランデルマン",
+    "options": ["マーク・コールマン", "ボブ・サップ", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その圧倒的なパワーを象徴していた。"
+  },
+  {
+    "id": 58,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_coleman.mp3",
+    "correct_answer": "マーク・コールマン",
+    "options": ["ケビン・ランデルマン", "ドン・フライ", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、そのタフネスとスタミナを象徴していた。"
+  },
+  {
+    "id": 59,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_henderson.mp3",
+    "correct_answer": "ダン・ヘンダーソン",
+    "options": ["ヴァンダレイ・シウバ", "桜庭和志", "ヒカルド・アローナ"],
+    "trivia": "彼の入場曲は、そのPRIDEでの活躍を象徴していた。"
+  },
+  {
+    "id": 60,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_arona.mp3",
+    "correct_answer": "ヒカルド・アローナ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "ダン・ヘンダーソン"],
+    "trivia": "彼の入場曲は、そのアグレッシブなファイトスタイルを象徴していた。"
+  },
+  {
+    "id": 61,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_minowa.mp3",
+    "correct_answer": "ミノワマン",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "trivia": "彼の入場曲は、その独特なファイトスタイルを象徴していた。"
+  },
+  {
+    "id": 62,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_ogawa.mp3",
+    "correct_answer": "小川直也",
+    "options": ["吉田秀彦", "瀧本誠", "泉浩"],
+    "trivia": "彼の入場曲は、その圧倒的なパワーを象徴していた。"
+  },
+  {
+    "id": 63,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_yoshida.mp3",
+    "correct_answer": "吉田秀彦",
+    "options": ["小川直也", "瀧本誠", "泉浩"],
+    "trivia": "彼の入場曲は、その柔道スキルを象徴していた。"
+  },
+  {
+    "id": 64,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_takada.mp3",
+    "correct_answer": "高田延彦",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "trivia": "彼の入場曲は、PRIDEの歴史を象徴していた。"
+  },
+  {
+    "id": 65,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_kikuta.mp3",
+    "correct_answer": "菊田早苗",
+    "options": ["桜庭和志", "船木誠勝", "田村潔司"],
+    "trivia": "彼の入場曲は、そのPRIDEでの活躍を象徴していた。"
+  },
+  {
+    "id": 66,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_ishii.mp3",
+    "correct_answer": "石井慧",
+    "options": ["吉田秀彦", "小川直也", "瀧本誠"],
+    "trivia": "彼の入場曲は、その柔道スキルを象徴していた。"
+  },
+  {
+    "id": 67,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_saku.mp2",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "trivia": "彼の入場曲は、多くのファンに愛された。"
+  },
+  {
+    "id": 68,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_baroni.mp3",
+    "correct_answer": "フィル・バローニ",
+    "options": ["ヴァンダレイ・シウバ", "マウリシオ・ショーグン", "ダン・ヘンダーソン"],
+    "trivia": "彼の入場曲は、そのPRIDEでの活躍を象徴していた。"
+  },
+  {
+    "id": 69,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_silva.mp3",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["桜庭和志", "ミルコ・クロコップ", "ヒース・ヒーリング"],
+    "trivia": "彼の入場曲は、その狂気的なファイトスタイルを象徴していた。"
+  },
+  {
+    "id": 70,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_overeem.mp3",
+    "correct_answer": "アリスター・オーフレイム",
+    "options": ["ミルコ・クロコップ", "マーク・ハント", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その圧倒的なフィジカルを象徴していた。"
+  },
+  {
+    "id": 71,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_hunt.mp3",
+    "correct_answer": "マーク・ハント",
+    "options": ["ミルコ・クロコップ", "イゴール・ボブチャンチン", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その強烈なパンチを象徴していた。"
+  },
+  {
+    "id": 72,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_barnett.mp3",
+    "correct_answer": "ジョシュ・バーネット",
+    "options": ["マーク・コールマン", "ケビン・ランデルマン", "ドン・フライ"],
+    "trivia": "彼の入場曲は、そのPRIDEでの活躍を象徴していた。"
+  },
+  {
+    "id": 73,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_couture.mp3",
+    "correct_answer": "ランディ・クートゥア",
+    "options": ["マーク・コールマン", "ケビン・ランデルマン", "ドン・フライ"],
+    "trivia": "彼の入場曲は、そのPRIDEでの活躍を象徴していた。"
+  },
+  {
+    "id": 74,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_fedor_full.mp3",
+    "correct_answer": "エメリヤーエンコ・ヒョードル",
+    "options": ["ミルコ・クロコップ", "アントニオ・ホドリゴ・ノゲイラ", "桜庭和志"],
+    "trivia": "彼の入場曲は、その静謐な雰囲気から一転、会場全体が緊張感に包まれた。"
+  },
+  {
+    "id": 75,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_wanderlei_full.mp3",
+    "correct_answer": "ヴァンダレイ・シウバ",
+    "options": ["桜庭和志", "ミルコ・クロコップ", "ヒース・ヒーリング"],
+    "trivia": "彼の入場曲は、その狂気的なファイトスタイルを象徴していた。"
+  },
+  {
+    "id": 76,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_sakuraba_full.mp3",
+    "correct_answer": "桜庭和志",
+    "options": ["船木誠勝", "高田延彦", "田村潔司"],
+    "trivia": "彼の入場曲は、多くのファンに愛された。"
+  },
+  {
+    "id": 77,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_nogueira_full.mp3",
+    "correct_answer": "アントニオ・ホドリゴ・ノゲイラ",
+    "options": ["ファブリシオ・ヴェウドゥム", "ミノワマン", "マーク・コールマン"],
+    "trivia": "彼の入場曲は、その柔術スキルを象徴していた。"
+  },
+  {
+    "id": 78,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_mirko_full.mp3",
+    "correct_answer": "ミルコ・クロコップ",
+    "options": ["アリスター・オーフレイム", "イゴール・ボブチャンチン", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その左ハイキックを象徴していた。"
+  },
+  {
+    "id": 79,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_shogun_full.mp3",
+    "correct_answer": "マウリシオ・ショーグン",
+    "options": ["ヴァンダレイ・シウバ", "ヒカルド・アローナ", "ダン・ヘンダーソン"],
+    "trivia": "彼の入場曲は、その強烈な膝蹴りを象徴していた。"
+  },
+  {
+    "id": 80,
+    "type": "entrance_theme",
+    "audio_file": "/sounds/entrance_theme_randleman_full.mp3",
+    "correct_answer": "ケビン・ランデルマン",
+    "options": ["マーク・コールマン", "ボブ・サップ", "ゲーリー・グッドリッジ"],
+    "trivia": "彼の入場曲は、その圧倒的なパワーを象徴していた。"
+  }
+]

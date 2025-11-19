@@ -33,7 +33,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div className="group">
             <h3 className="font-bold text-white mb-6 text-lg flex items-center">
               <Map className="w-5 h-5 text-pink-700 mr-2" />
@@ -44,7 +44,7 @@ export default function Footer() {
                 <ChevronRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mr-1" />
                 ホーム
               </Link></li>
-              
+
               <li><Link href="/voice" className="text-gray-300 hover:text-pink-400 transition-all duration-300 cursor-pointer flex items-center group transform hover:translate-x-2">
                 <ChevronRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mr-1" />
                 お客様の声
@@ -67,7 +67,7 @@ export default function Footer() {
               </Link></li>
             </ul>
           </div>
-          
+
           <div className="group">
             <h3 className="font-bold text-white mb-6 text-lg flex items-center">
               <Box className="w-5 h-5 text-purple-500 mr-2" />
@@ -109,7 +109,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
             <p className="text-gray-300 text-sm">
@@ -126,16 +126,16 @@ export default function Footer() {
                 070-9035-3485
               </a>
               <span className="hidden sm:block">|</span>
-              <a href="https://lin.ee/21ape6V" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-green-400 transition-colors">
+              <Link href="/line" className="flex items-center hover:text-green-400 transition-colors">
                 <OptimizedImage
-  src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
-  alt="LINEで問い合わせ"
-  width={32}
-  height={32}
-  className="h-8 w-8 md:h-10 md:w-10"
-/>
+                  src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
+                  alt="LINEで問い合わせ"
+                  width={32}
+                  height={32}
+                  className="h-8 w-8 md:h-10 md:w-10"
+                />
                 LINE
-              </a>
+              </Link>
             </div>
           </div>
           <div className="mt-6 pt-6 border-t border-gray-800">
