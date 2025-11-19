@@ -11,19 +11,19 @@ const TestimonialsSection = () => {
     {
       name: 'M.Iさん',
       age: '30代女性',
-      image: 'https://ik.imagekit.io/FLATUPGYM/testimonial-placeholder.jpg',
+      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
       text: '運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。',
     },
     {
       name: 'K.Tさん',
       age: '20代女性',
-      image: 'https://ik.imagekit.io/FLATUPGYM/testimonial-placeholder.jpg',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
       text: '仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。',
     },
     {
       name: 'S.Yさん',
       age: '40代女性',
-      image: 'https://ik.imagekit.io/FLATUPGYM/testimonial-placeholder.jpg',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop',
       text: '産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。',
     },
   ];

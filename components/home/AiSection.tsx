@@ -22,11 +22,11 @@ const AiSection = () => {
                             {/* Placeholder for AIKA18号 - User needs to upload image to /images/aika18.png */}
                             <div className="absolute inset-0 bg-gradient-to-br from-sakura-pink/20 to-mint-green/20 rounded-full animate-pulse blur-xl"></div>
                             <OptimizedImage
-                                src="/images/b9d4a676-0903-444c-91d2-50222dc3294f.png"
+                                src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1000&auto=format&fit=crop"
                                 alt="AIKA19号"
                                 width={400}
                                 height={400}
-                                className="relative z-10 object-contain drop-shadow-2xl hover:scale-105 transition-transform duration-500"
+                                className="relative z-10 object-cover rounded-full drop-shadow-2xl hover:scale-105 transition-transform duration-500 border-4 border-white/50"
                             />
                         </div>
                     </motion.div>
