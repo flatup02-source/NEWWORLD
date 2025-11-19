@@ -144,13 +144,7 @@ export default function Footer() {
                 href="/line"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-bold rounded-full text-white bg-[#00C300] hover:bg-[#00B000] transition-colors duration-300 shadow-md transform hover:scale-105"
               >
-                <OptimizedImage
-                  src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
-                  alt="LINEアイコン"
-                  width={24}
-                  height={24}
-                  className="mr-2"
-                />
+                <LineIcon className="w-6 h-6 mr-2 text-white" />
                 LINEで無料体験・お問い合わせ
               </Link>
             </div>

@@ -2,6 +2,7 @@ import { Noto_Sans_JP } from 'next/font/google';
 import type { Metadata } from 'next'; // ここを修正
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingNav from '@/components/FloatingNav';
 import ClientLayout from '@/components/ClientLayout';
 import './globals.css';
 import './sparkle.css'; // ここを追加
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <ClientLayout>{children}</ClientLayout>
         <Footer />
+        <FloatingNav />
       </body>
     </html>
   );

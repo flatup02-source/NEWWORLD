@@ -15,7 +15,7 @@ export default function Hero() {
           className="hero-video"
         >
           <source src="https://ik.imagekit.io/FLATUPGYM/output_compressed.mp4?updatedAt=1758848662650" type="video/mp4" />
-          <track kind="captions" srclang="ja" label="日本語字幕" src="/captions.vtt" default />
+          <track kind="captions" srcLang="ja" label="日本語字幕" src="/captions.vtt" default />
         </video>
         {/* 以下にText Sectionを移動し、動画の上に重ねる */}
         <motion.section
