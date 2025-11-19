@@ -54,7 +54,7 @@ export default function Home() {
       {/* Background Image/Video Placeholder */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/pride_background.jpg" // Placeholder for a PRIDE background image
+          src="https://images.unsplash.com/photo-1552072092-801b9f36e609?q=80&w=2000&auto=format&fit=crop" // Placeholder for a PRIDE background image
           alt="PRIDE Background"
           layout="fill"
           objectFit="cover"
