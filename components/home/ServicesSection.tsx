@@ -29,7 +29,7 @@ const ServicesSection = () => {
           <div className="bg-gray-50 rounded-2xl shadow-lg p-8 text-center transform hover:-translate-y-2 transition-transform duration-300 fade-up-delay-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">ブラジリアン柔術（BJJ）</h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-lg mb-4">
-              <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/bjj2.png?updatedAt=1756897178742" alt="ブラジリアン柔術" width={300} height={200} className="w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={80} />
+              <OptimizedImage src="/images/bjj-women.png" alt="ブラジリアン柔術" width={300} height={200} className="w-full h-full object-cover" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" quality={80} />
             </div>
             <p className="text-gray-600 leading-relaxed mb-6">【年齢・体力問わず楽しめる柔術】<br />護身術や頭脳プレーを学べるブラジリアン柔術。女性やシニアにも人気の格闘技です。体力に自信がなくても技術で勝負できるのが魅力。</p>
             <Link href="/bjj" className="text-pink-700 font-bold hover:underline">詳しく見る</Link>

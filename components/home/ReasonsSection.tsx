@@ -102,7 +102,7 @@ const ReasonsSection = () => {
         {/* 女性向けジム環境 & 護身術クラス */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
           <div className="order-2 lg:order-1 space-y-8">
-            <div className="bg-gradient-to-br from-yellow-100 to-orange-200 p-8 rounded-3xl shadow-xl border-4 border-yellow-300">
+            {/*            <div className="bg-gradient-to-br from-yellow-100 to-orange-200 p-8 rounded-3xl shadow-xl border-4 border-yellow-300">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mr-4">
                   <i className="ri-home-heart-fill w-6 h-6 flex items-center justify-center text-white"></i>
@@ -113,7 +113,7 @@ const ReasonsSection = () => {
                 清潔で明るく、女性が「通いたくなる」空間作りにこだわりました。
               </p>
 
-            </div>
+            </div>*/}{/* Removed as per 150-point mission */}
 
             <div className="bg-gradient-to-br from-red-100 to-pink-200 p-8 rounded-3xl shadow-xl border-4 border-red-300">
               <div className="flex items-center mb-4">

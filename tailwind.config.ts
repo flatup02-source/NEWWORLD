@@ -16,6 +16,8 @@ const config: Config = {
         'pastel-pink': '#F8C8DC', // Sakura Pink
         'mint-green': '#B2E4D8', // Mint Green
         'off-white': '#fffaf7', // Warm Off-white
+        'sakura-pink': '#F8C8DC', // Sakura Pink (Primary)
+        'sakura-hover': '#FF9EC9', // Sakura Pink (Hover)
       },
       fontFamily: {
         sans: ['var(--font-zen-kaku)', 'sans-serif'],

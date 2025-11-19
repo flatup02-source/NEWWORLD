@@ -2,6 +2,8 @@
 'use client'; // これがClient Componentであることを示すディレクティブ
 
 import dynamic from 'next/dynamic';
+import HeroBadges from './HeroBadges';
+import AiSection from './AiSection';
 
 // ここで動的インポートを定義します
 const DynamicServicesSection = dynamic(() => import('@/components/home/ServicesSection'), { ssr: false });
@@ -13,6 +15,8 @@ export default function ClientContent() {
   return (
     <>
       {/* ここで動的インポートされたコンポーネントをレンダリングします */}
+      <HeroBadges />
+      <AiSection />
       <DynamicServicesSection />
       <DynamicThoughtsSection />
       <DynamicTestimonialsSection />

@@ -10,14 +10,14 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 mt-20 relative overflow-hidden">
       {/* 背景の洗練されたデコレーション */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-pink-500/10 to-purple-600/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-sakura-pink/10 to-purple-600/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-blue-500/10 to-green-600/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center mb-6 group">
-              <span className="text-3xl font-['Pacifico'] text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-600 to-pink-500 transform group-hover:scale-105 transition-transform duration-300">
+              <span className="text-3xl font-['Pacifico'] text-transparent bg-clip-text bg-gradient-to-r from-sakura-pink via-purple-600 to-sakura-pink transform group-hover:scale-105 transition-transform duration-300">
                 FLATUP
               </span>
             </Link>
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <Link
                 href="/trial-lesson"
-                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-pink-500 hover:bg-pink-600 transition-all duration-300 shadow-lg transform hover:scale-105 animate-pulse"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-sakura-pink hover:bg-sakura-hover transition-all duration-300 shadow-lg transform hover:scale-105 animate-pulse"
               >
                 <span className="mr-2">💖</span>
                 無料体験を予約する
@@ -43,11 +43,11 @@ export default function Footer() {
 
           <div className="group">
             <h3 className="font-bold text-white mb-6 text-lg flex items-center">
-              <Map className="w-5 h-5 text-pink-700 mr-2" />
+              <Map className="w-5 h-5 text-sakura-pink mr-2" />
               サイトマップ
             </h3>
             <ul className="space-y-3">
-              <li><Link href="/" className="text-gray-300 hover:text-pink-600 transition-all duration-300 cursor-pointer flex items-center group transform hover:translate-x-2">
+              <li><Link href="/" className="text-gray-300 hover:text-sakura-hover transition-all duration-300 cursor-pointer flex items-center group transform hover:translate-x-2">
                 <ChevronRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 mr-1" />
                 ホーム
               </Link></li>
@@ -124,7 +124,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-4 text-sm text-gray-300">
               <span className="flex items-center">
-                <MapPin className="w-4 h-4 mr-1 text-pink-700" />
+                <MapPin className="w-4 h-4 mr-1 text-sakura-pink" />
                 千葉県成田市土屋516-4 2F
               </span>
               <span className="hidden sm:block">|</span>
@@ -133,7 +133,7 @@ export default function Footer() {
                 070-9035-3485
               </a>
               <span className="hidden sm:block">|</span>
-              <Link href="/line" className="flex items-center hover:text-green-400 transition-colors">
+              <Link href="/line" className="flex items-center hover:text-sakura-hover transition-colors">
                 <OptimizedImage
                   src="https://ik.imagekit.io/FLATUPGYM/%E2%AD%90%EF%B8%8F%E3%83%95%E3%83%83%E3%82%BF%E3%83%BCGemini_Generated_Image_5ugsey5ugsey5ugs.png?updatedAt=1759296686588"
                   alt="LINEで問い合わせ"
