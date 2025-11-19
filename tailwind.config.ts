@@ -13,11 +13,13 @@ const config: Config = {
         prideBlack: '#212121', // Dark Black
         prideGold: '#FFD700', // Gold
         prideGray: '#424242', // Dark Gray for contrast
-        'pastel-pink': '#FFD1DC', // Gentle Pastel Pink
-        'mint-green': '#BDFCC9', // Fresh Mint Green
+        'pastel-pink': '#F8C8DC', // Sakura Pink
+        'mint-green': '#B2E4D8', // Mint Green
+        'off-white': '#fffaf7', // Warm Off-white
       },
       fontFamily: {
         sans: ['var(--font-zen-kaku)', 'sans-serif'],
+        rounded: ['var(--font-m-plus)', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -25,10 +27,13 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       borderRadius: {
-        lg: '12px',
-        xl: '16px',
-        '2xl': '24px',
-        '3xl': '32px',
+        lg: '20px',
+        xl: '24px',
+        '2xl': '32px',
+        '3xl': '40px',
+      },
+      boxShadow: {
+        'soft': '0 12px 32px rgba(0,0,0,0.07)',
       },
     },
   },
