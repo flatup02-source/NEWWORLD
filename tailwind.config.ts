@@ -13,14 +13,22 @@ const config: Config = {
         prideBlack: '#212121', // Dark Black
         prideGold: '#FFD700', // Gold
         prideGray: '#424242', // Dark Gray for contrast
+        'pastel-pink': '#FFD1DC', // Gentle Pastel Pink
+        'mint-green': '#BDFCC9', // Fresh Mint Green
       },
       fontFamily: {
-        sans: ['var(--font-noto-sans-jp)', 'sans-serif'],
+        sans: ['var(--font-zen-kaku)', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+      borderRadius: {
+        lg: '12px',
+        xl: '16px',
+        '2xl': '24px',
+        '3xl': '32px',
       },
     },
   },

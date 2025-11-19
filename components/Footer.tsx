@@ -26,10 +26,17 @@ export default function Footer() {
               あなたのペースで、あなたらしく。<br />
               ここは、あなたが主役になれる場所です。
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a href="tel:070-9035-3485" aria-label="電話で無料体験を予約" className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105">
+            <div className="flex flex-col gap-4">
+              <Link
+                href="/trial-lesson"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-pink-500 hover:bg-pink-600 transition-all duration-300 shadow-lg transform hover:scale-105 animate-pulse"
+              >
+                <span className="mr-2">💖</span>
+                無料体験を予約する
+              </Link>
+              <a href="tel:070-9035-3485" aria-label="電話で無料体験を予約" className="inline-flex items-center justify-center px-6 py-3 border border-gray-600 text-base font-medium rounded-full text-gray-300 hover:bg-gray-800 transition-colors duration-300">
                 <Phone className="w-5 h-5 mr-2" />
-                電話で無料体験を予約
+                電話で質問する
               </a>
             </div>
           </div>

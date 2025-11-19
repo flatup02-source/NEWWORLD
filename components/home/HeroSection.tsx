@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import OptimizedImage from '@/components/OptimizedImage'; // Assuming OptimizedImage component exists
+import Link from 'next/link';
+import OptimizedImage from '../OptimizedImage'; // Assuming OptimizedImage component exists
 
 const HeroSection: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -25,57 +26,74 @@ const HeroSection: React.FC = () => {
         fill
         priority
         className="object-cover w-full h-full z-0 hidden" // hidden class added to hide the image overlay
-        // [Requirement #3] Overflow Fix: sizes="100vw" removed to prevent horizontal scroll
+      // [Requirement #3] Overflow Fix: sizes="100vw" removed to prevent horizontal scroll
       />
-      
+
       <video
         ref={videoRef}
         autoPlay
         loop
         muted
-        playsInline
-        poster={posterUrl}
-        className="absolute top-0 left-0 w-full h-full object-cover z-10" // z-index increased
-      >
-        <source src="https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4" type="video/mp4" />
-        {/* [Requirement #4] Captions Fix:
-          - Added track element to display subtitles.
-        */}
-        <track
-          kind="subtitles"
-          src="/captions.vtt"
-          srcLang="ja"
-          label="日本語"
-          default
-        />
-        Your browser does not support the video tag.
-      </video>
+    <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+        {/* 背景画像 */}
+        <div className="absolute inset-0 z-0">
+          <OptimizedImage
+            src="https://ik.imagekit.io/FLATUPGYM/hero-bg.jpg" // 実際の画像パスに合わせて変更してください
+            alt="FLATUPGYM Hero Background"
+            fill
+            priority
+            className="object-cover object-center"
+          />
+          {/* オーバーレイ: rgba(0,0,0,0.15) */}
+          <div className="absolute inset-0 bg-black/15"></div>
+        </div>
 
-      {/* [Requirement #2] CTA Optimization:
-        - The original text elements are now hidden.
-      */}
-      <div className="relative z-20 text-white p-4 hidden">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow-lg">
-          昨日までの自分と、<br />未来の自分が入れ替わる場所。
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto text-shadow">
-          乾いた衝撃音、心と身体で感じる。その一振りが、未来を変える。
-        </p>
-      </div>
+        {/* コンテンツ */}
+        <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+          <h1 className="text-white font-bold tracking-tight mb-6" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.4)' }}>
+            <span className="block text-2xl sm:text-3xl md:text-4xl mb-4 font-medium">
+              女性・初心者大歓迎♡ 安心して始められます
+            </span>
+            <span className="block text-5xl sm:text-6xl md:text-8xl leading-relaxed">
+              強くなる、<br className="sm:hidden" />
+              美しくなる。
+            </span>
+          </h1>
 
-      {/* [Requirement #2] CTA Optimization:
-        - A new button is added at the bottom center of the screen.
-      */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30">
-        <a
-          href="#contact" // Link to the contact/trial section
-          className="bg-pink-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-pink-600 transition-transform transform hover:scale-105"
-        >
-          新しい自分を始める
-        </a>
-      </div>
-    </section>
-  );
+          <p className="mt-6 text-xl sm:text-2xl md:text-3xl text-white font-medium mb-10 leading-relaxed" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.4)' }}>
+            キックボクシングで、<br className="sm:hidden" />
+            新しい自分に出会う。
+          </p>
+
+          {/* Trust Badges */}
+          <div className="flex flex-wrap justify-center gap-4 mb-10">
+            <div className="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg flex items-center">
+              <span className="text-pink-500 font-bold text-lg mr-2">♥</span>
+              <span className="text-gray-800 font-bold">女性会員 80%以上</span>
+            </div>
+            <div className="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg flex items-center">
+              <span className="text-green-500 font-bold text-lg mr-2">🔰</span>
+              <span className="text-gray-800 font-bold">初心者率 90%</span>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+            <Link
+              href="/trial-lesson"
+              className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-pink-500 hover:bg-pink-600 transition-all duration-300 shadow-lg transform hover:scale-105 min-h-[48px]"
+            >
+              無料体験を予約する
+            </Link>
+            <Link
+              href="/line"
+              className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-[#06C755] hover:bg-[#05b34c] transition-all duration-300 shadow-lg transform hover:scale-105 min-h-[48px]"
+            >
+              LINEで相談する
+            </Link>
+          </div>
+        </div>
+      </section>
+      );
 };
 
-export default HeroSection;
+      export default HeroSection;
