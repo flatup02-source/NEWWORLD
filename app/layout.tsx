@@ -1,7 +1,5 @@
 import { Zen_Kaku_Gothic_New, M_PLUS_Rounded_1c } from 'next/font/google';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import FloatingActionBar from '@/components/FloatingActionBar';
+import FloatingNav from '@/components/FloatingNav';
 import ClientLayout from '@/components/ClientLayout';
 import './globals.css';
 
@@ -23,10 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja" className={`${zenKakuGothicNew.variable} ${mPlusRounded1c.variable}`}>
       <body className="bg-[#fffaf7]">
-        <Header />
         <ClientLayout>{children}</ClientLayout>
-        <Footer />
-        <FloatingActionBar />
+        <FloatingNav />
       </body>
     </html>
   );

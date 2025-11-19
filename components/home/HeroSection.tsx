@@ -4,7 +4,7 @@ import OptimizedImage from '../OptimizedImage';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[100dvh] min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* 背景画像 */}
       <div className="absolute inset-0 z-0">
         <OptimizedImage
