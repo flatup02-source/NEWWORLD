@@ -1,6 +1,4 @@
-import { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   // 静的エクスポートに変更
   output: 'export',
 

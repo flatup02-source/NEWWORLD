@@ -6,34 +6,31 @@ const inputDir = './public';
 const imageExtensions = ['.png', '.jpg', '.jpeg'];
 
 async function optimizeImage(filePath) {
+  // line_add_friends.png は常にスキップ
+  if (path.basename(filePath) === 'line_add_friends.png') {
+    console.log(`Skipping line_add_friends.png from optimization.`);
+    return;
+  }
+
   const extension = path.extname(filePath).toLowerCase();
   const baseName = path.parse(filePath).name;
   const dirName = path.dirname(filePath);
 
-  if (imageExtensions.includes(extension)) {
-    console.log(`Optimizing ${filePath}...`);
+  // 画像拡張子を持つファイルのみを処理
+  if (!imageExtensions.includes(extension)) {
+    console.log(`Skipping non-image file: ${filePath}`);
+    return;
+  }
 
-    // 元の画像を圧縮 (JPEG/PNG)
-    if (extension === '.jpg' || extension === '.jpeg') {
-      await sharp(filePath)
-        .jpeg({ quality: 80, progressive: true })
-        .toFile(filePath);
-    } else if (extension === '.png') {
-      await sharp(filePath)
-        .png({ quality: 80, compressionLevel: 9 })
-        .toFile(filePath);
-    }
-
-    // WebPへの変換 (品質80)
+    // WebPへの変換 (品質80) - 元のファイルはそのままに、新しいファイルとして保存
     await sharp(filePath)
       .webp({ quality: 80 })
       .toFile(path.join(dirName, `${baseName}.webp`));
 
-    // AVIFへの変換 (品質60)
+    // AVIFへの変換 (品質60) - 元のファイルはそのままに、新しいファイルとして保存
     await sharp(filePath)
       .avif({ quality: 60 })
       .toFile(path.join(dirName, `${baseName}.avif`));
-  }
 }
 
 async function processDirectory(directory) {

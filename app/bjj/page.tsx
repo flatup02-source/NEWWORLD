@@ -130,6 +130,51 @@ export default function BJJ() {
           </div>
         </section>
 
+        {/* 画像ギャラリーセクション */}
+        <section className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-8">
+                📸 クラスの様子 📸
+              </h2>
+              <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                FLATUPGYMのブラジリアン柔術クラスは、いつも笑顔と活気に満ちています。
+                初心者の方も安心して参加できる、和やかな雰囲気をご覧ください。
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="/images/bjj/bjj_training1.jpg"
+                  alt="ブラジリアン柔術のトレーニング風景"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="/images/bjj/bjj_class.jpg"
+                  alt="ブラジリアン柔術のクラス風景"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="/images/bjj/bjj_students.jpg"
+                  alt="ブラジリアン柔術の生徒たちの笑顔"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 担当トレーナー紹介 */}
         <section className="py-24 bg-gradient-to-br from-white to-purple-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
