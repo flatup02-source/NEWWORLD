@@ -11,8 +11,8 @@ const TestimonialsSection = () => {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-12">お客様の声</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-pink-300 text-left flex flex-col h-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-white p-8 rounded-2xl shadow-xl text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
                 <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center mr-4 flex-shrink-0">
                   <span className="text-white text-2xl font-bold">MI</span>
@@ -26,7 +26,7 @@ const TestimonialsSection = () => {
                 <p className="text-gray-700 leading-relaxed">運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。</p>
               </div>
           </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-purple-300 text-left flex flex-col h-full">
+          <div className="bg-white p-8 rounded-2xl shadow-xl text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
                 <div className="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center mr-4 flex-shrink-0">
                   <span className="text-white text-2xl font-bold">KT</span>
@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
                 <p className="text-gray-700 leading-relaxed">仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。</p>
               </div>
           </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-blue-300 text-left flex flex-col h-full">
+          <div className="bg-white p-8 rounded-2xl shadow-xl text-left flex flex-col h-full">
               <div className="flex items-center mb-4">
                 <div className="w-16 h-16 rounded-full bg-blue-500 flex items-center justify-center mr-4 flex-shrink-0">
                   <span className="text-white text-2xl font-bold">SY</span>

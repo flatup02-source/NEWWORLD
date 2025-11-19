@@ -15,8 +15,7 @@ const config: Config = {
         prideGray: '#424242', // Dark Gray for contrast
       },
       fontFamily: {
-        sans: ['"Zen Kaku Gothic New"', 'sans-serif'], // Default sans-serif to Zen Kaku Gothic New
-        // You can add more specific fonts if needed
+        sans: ['var(--font-noto-sans-jp)', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
