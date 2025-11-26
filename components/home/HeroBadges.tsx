@@ -19,10 +19,10 @@ const HeroBadges = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.2, duration: 0.5 }}
-                        className="flex items-center space-x-2 px-6 py-3 bg-sakura-pink/10 rounded-full border border-sakura-pink shadow-sm"
+                        className="flex items-center space-x-2 px-6 py-3 bg-kawaii-cream rounded-full border-2 border-kawaii-pink shadow-soft hover:scale-105 transform transition-transform duration-300"
                     >
                         <span className="text-2xl">{badge.icon}</span>
-                        <span className="text-lg md:text-xl font-bold text-pink-600 font-sans-japanese">
+                        <span className="text-lg md:text-xl font-bold text-kawaii-text font-kawaii">
                             {badge.text}
                         </span>
                     </motion.div>

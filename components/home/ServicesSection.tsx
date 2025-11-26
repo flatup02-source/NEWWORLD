@@ -12,9 +12,16 @@ const ServicesSection = () => {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-rounded">提供サービス</h2>
-          <p className="text-xl text-gray-600">あなたに合ったプログラムがきっと見つかる</p>
-          <div className="w-24 h-1 bg-pastel-pink mx-auto mt-6 rounded-full"></div>
+          <h2 className="text-3xl md:text-4xl font-bold text-kawaii-text mb-4 font-kawaii">
+            <span className="inline-block transform hover:rotate-2 transition-transform duration-300">提</span>
+            <span className="inline-block transform hover:-rotate-2 transition-transform duration-300">供</span>
+            <span className="inline-block transform hover:rotate-2 transition-transform duration-300">サ</span>
+            <span className="inline-block transform hover:-rotate-2 transition-transform duration-300">ー</span>
+            <span className="inline-block transform hover:rotate-2 transition-transform duration-300">ビ</span>
+            <span className="inline-block transform hover:-rotate-2 transition-transform duration-300">ス</span>
+          </h2>
+          <p className="text-xl text-gray-600 font-rounded">あなたに合ったプログラムがきっと見つかる♡</p>
+          <div className="w-24 h-2 bg-kawaii-pink mx-auto mt-6 rounded-full opacity-50"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">

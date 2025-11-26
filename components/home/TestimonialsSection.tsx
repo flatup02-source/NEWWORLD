@@ -29,9 +29,14 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-12 font-rounded">お客様の声</h2>
+    <section className="py-20 bg-white relative overflow-hidden">
+      {/* Background Decoration */}
+      <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-kawaii-cream to-white"></div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-kawaii-text mb-12 font-kawaii">
+          <span className="text-kawaii-pink">♥</span> お客様の声 <span className="text-kawaii-pink">♥</span>
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-8 rounded-[20px] shadow-soft transform hover:scale-105 transition-transform duration-300">

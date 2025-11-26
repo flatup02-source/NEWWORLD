@@ -8,10 +8,10 @@ import OptimizedImage from './OptimizedImage';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 mt-20 relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 mt-20 relative overflow-hidden">
       {/* 背景の洗練されたデコレーション */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-sakura-pink/10 to-purple-600/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-blue-500/10 to-green-600/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
+      <div className="absolute top-0 left-0 w-64 h-64 bg-kawaii-pink/20 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-kawaii-mint/20 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12">
@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1 lg:col-span-2 flex flex-col justify-between">
             <div>
               <Link href="/" className="flex items-center mb-6 group">
-                <span className="text-4xl font-['Pacifico'] text-transparent bg-clip-text bg-gradient-to-r from-sakura-pink via-purple-600 to-sakura-pink transform group-hover:scale-105 transition-transform duration-300">
+                <span className="text-4xl font-kawaii font-bold text-transparent bg-clip-text bg-gradient-to-r from-kawaii-pink via-purple-400 to-kawaii-pink transform group-hover:scale-105 transition-transform duration-300">
                   FLATUP
                 </span>
               </Link>

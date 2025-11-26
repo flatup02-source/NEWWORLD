@@ -1,4 +1,4 @@
-import { Noto_Sans_JP } from 'next/font/google';
+import { Noto_Sans_JP, Zen_Maru_Gothic } from 'next/font/google';
 import type { Metadata } from 'next'; // ここを修正
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -23,9 +23,16 @@ const notoSansJP = Noto_Sans_JP({
   variable: '--font-noto-sans-jp',
 });
 
+const zenMaruGothic = Zen_Maru_Gothic({
+  subsets: ['latin'],
+  weight: ['400', '500', '700', '900'],
+  display: 'swap',
+  variable: '--font-zen-maru',
+});
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja" className={notoSansJP.variable}>
+    <html lang="ja" className={`${notoSansJP.variable} ${zenMaruGothic.variable}`}>
       <body>
         <Header />
         <ClientLayout>{children}</ClientLayout>

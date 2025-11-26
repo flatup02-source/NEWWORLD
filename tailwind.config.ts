@@ -18,9 +18,16 @@ const config: Config = {
         'off-white': '#fffaf7', // Warm Off-white
         'sakura-pink': '#F8C8DC', // Sakura Pink (Primary)
         'sakura-hover': '#FF9EC9', // Sakura Pink (Hover)
+        // 2025 Kawaii Palette
+        'kawaii-pink': '#FFB7C5', // Cherry Blossom
+        'kawaii-mint': '#BCE2D0', // Soft Mint
+        'kawaii-lavender': '#E6E6FA', // Lavender
+        'kawaii-cream': '#FFFDD0', // Cream
+        'kawaii-text': '#4A4A4A', // Soft Black
       },
       fontFamily: {
-        sans: ['var(--font-zen-kaku)', 'sans-serif'],
+        sans: ['var(--font-noto-sans-jp)', 'sans-serif'],
+        kawaii: ['var(--font-zen-maru)', 'sans-serif'],
         rounded: ['var(--font-m-plus)', 'sans-serif'],
       },
       backgroundImage: {

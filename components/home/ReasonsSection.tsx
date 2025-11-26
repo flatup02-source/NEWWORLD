@@ -3,14 +3,14 @@ import OptimizedImage from '@/components/OptimizedImage';
 
 const ReasonsSection = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
+    <section className="py-24 bg-gradient-to-b from-white to-kawaii-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600 mb-6 font-rounded">
+          <h2 className="text-3xl md:text-4xl font-bold text-kawaii-text mb-6 font-kawaii">
             💖 私たちが選ばれる理由 💖
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            なぜFLAT-UPが愛され続けるのか、その秘密をお教えします
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-rounded">
+            なぜFLAT-UPが愛され続けるのか、その秘密をお教えします♡
           </p>
         </div>
 
