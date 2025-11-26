@@ -39,7 +39,7 @@ const ReasonsSection = () => {
                 <h3 className="text-2xl font-bold text-gray-800">24時間使えるシステム</h3>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                格闘技ジムでは珍しい24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。
+                24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。
               </p>
               <ul className="space-y-2 text-gray-700 mb-6">
                 <li className="flex items-center space-x-3">
@@ -76,7 +76,7 @@ const ReasonsSection = () => {
                 <h3 className="text-2xl font-bold text-gray-800">女性クラスが充実</h3>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                格闘技ジムでは珍しい女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。
+                女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。
               </p>
               <ul className="space-y-2 text-gray-700 mb-6">
                 <li className="flex items-center space-x-3">

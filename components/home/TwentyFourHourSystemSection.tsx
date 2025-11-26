@@ -13,7 +13,7 @@ const TwentyFourHourSystemSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-2xl font-bold text-gray-800">24時間使えるシステム</h2>
-          <p className="text-xl text-gray-600 mt-4">格闘技ジムでは珍しい24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。</p>
+          <p className="text-xl text-gray-600 mt-4">24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>

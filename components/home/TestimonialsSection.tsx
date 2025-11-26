@@ -29,19 +29,22 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-white relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-b from-kawaii-cream to-white relative overflow-hidden">
       {/* Background Decoration */}
-      <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-kawaii-cream to-white"></div>
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-20 right-20 text-8xl opacity-5 animate-pulse text-kawaii-pink">♥</div>
+        <div className="absolute bottom-10 left-10 text-6xl opacity-10 animate-bounce text-kawaii-lavender">✨</div>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold text-kawaii-text mb-12 font-kawaii">
-          <span className="text-kawaii-pink">♥</span> お客様の声 <span className="text-kawaii-pink">♥</span>
+          <span className="text-kawaii-pink inline-block animate-bounce">♥</span> お客様の声 <span className="text-kawaii-pink inline-block animate-bounce" style={{ animationDelay: '0.1s' }}>♥</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-white p-8 rounded-[20px] shadow-soft transform hover:scale-105 transition-transform duration-300">
+            <div key={index} className="bg-white/90 backdrop-blur-sm p-8 rounded-[32px] shadow-cute hover:shadow-lg transform hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-kawaii-pink">
               <div className="flex items-center mb-6">
-                <div className="w-20 h-20 rounded-full overflow-hidden mr-4 flex-shrink-0 border-4 border-pastel-pink">
+                <div className="w-20 h-20 rounded-full overflow-hidden mr-4 flex-shrink-0 border-4 border-kawaii-pink shadow-md">
                   <OptimizedImage
                     src={testimonial.image}
                     alt={testimonial.name}
@@ -50,28 +53,32 @@ const TestimonialsSection = () => {
                     className="object-cover w-full h-full"
                   />
                 </div>
-                <div>
+                <div className="text-left">
                   <h3 className="font-bold text-xl text-gray-800 font-rounded">{testimonial.name}</h3>
-                  <p className="text-sm text-gray-500">{testimonial.age}</p>
+                  <p className="text-sm text-kawaii-text font-medium bg-kawaii-cream px-2 py-1 rounded-full inline-block mt-1">{testimonial.age}</p>
                   <div className="flex mt-1">
                     {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-lg">★</span>
+                      <span key={i} className="text-yellow-400 text-lg drop-shadow-sm">★</span>
                     ))}
                   </div>
                 </div>
               </div>
-              <p className="text-gray-700 leading-relaxed text-base">{testimonial.text}</p>
+              <p className="text-gray-600 leading-relaxed text-base text-left font-medium">
+                <span className="text-2xl text-kawaii-pink opacity-50 font-serif">"</span>
+                {testimonial.text}
+                <span className="text-2xl text-kawaii-pink opacity-50 font-serif">"</span>
+              </p>
             </div>
           ))}
         </div>
         <div className="mt-12 text-center">
-          <Link href="/voice" className="inline-block bg-gradient-to-r from-pastel-pink to-pink-400 hover:from-pink-400 hover:to-pink-500 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
-            もっとお客様の声を見る
+          <Link href="/voice" className="inline-block bg-gradient-to-r from-kawaii-pink to-pink-400 hover:from-pink-400 hover:to-pink-500 text-white px-10 py-4 rounded-full font-bold transition-all duration-300 cursor-pointer shadow-lg transform hover:scale-105 hover:-translate-y-1">
+            もっとお客様の声を見る 💕
           </Link>
         </div>
         <div className="mt-8 text-center">
-          <Link href="/trial-lesson" className="inline-block bg-gradient-to-r from-mint-green to-green-400 hover:from-green-400 hover:to-green-500 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
-            無料体験レッスンを予約する
+          <Link href="/trial-lesson" className="inline-block bg-gradient-to-r from-kawaii-mint to-green-400 hover:from-green-400 hover:to-green-500 text-white px-10 py-4 rounded-full font-bold transition-all duration-300 cursor-pointer shadow-lg transform hover:scale-105 hover:-translate-y-1">
+            無料体験レッスンを予約する 🍀
           </Link>
         </div>
       </div>

@@ -2,11 +2,13 @@
 
 @layer base {
   h2 {
-    font-size: clamp(2.4rem, 4vw, 3.6rem); /* 1rem=10px基準で調整 */
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    /* 1rem=10px基準で調整 */
   }
 
   p {
-    font-size: clamp(1.6rem, 2.5vw, 1.8rem); /* 1rem=10px基準で調整 */
+    font-size: clamp(1.6rem, 2.5vw, 1.8rem);
+    /* 1rem=10px基準で調整 */
   }
 }
 
@@ -17,6 +19,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* 2025 Kawaii Palette */
+  --kawaii-pink: #FFB6D9;
+  --kawaii-lavender: #D4A5FF;
+  --kawaii-mint: #B4E7D6;
+  --kawaii-cream: #FFF9F5;
+  --kawaii-text: #5A4A6A;
+  --kawaii-accent: #FFE5B4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +39,8 @@
 
 /* Fullscreen Immersive Setup */
 html {
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%;
+  /* 1rem = 10px */
 }
 
 html,
@@ -99,8 +110,10 @@ body {
   z-index: 2;
   /* オーバーレイの上に表示 */
   text-align: center;
-  padding: 2rem 1.5rem 4rem; /* padding-bottom を追加して字幕領域を確保 */
-  background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%); /* 半透明のグラデーションを追加 */
+  padding: 2rem 1.5rem 4rem;
+  /* padding-bottom を追加して字幕領域を確保 */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  /* 半透明のグラデーションを追加 */
   color: #fff;
   /* 文字色を白に */
   width: 90%;
