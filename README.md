@@ -2,7 +2,7 @@
 
 これは、千葉県成田市にある女性・初心者向けの格闘技ジム「FLAT-UP GYM」の公式ウェブサイトのソースコードです。
 
-**公式サイト:** [https://flat-up.jp](https://flat-up.jp)
+**公式サイト:** https://flatupnarita.jp/
 
 ## プロジェクトの目的
 
