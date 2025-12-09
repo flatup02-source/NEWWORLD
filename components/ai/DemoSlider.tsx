@@ -24,7 +24,13 @@ export default function DemoSlider() {
             <div className={styles.sliderContainer}>
                 {demoItems.map((item, idx) => (
                     <div key={idx} className={styles.slide}>
-                        <Image src={item.src} alt={item.alt} width={800} height={450} priority />
+                        <Image
+                            src={item.src}
+                            alt={item.alt}
+                            width={800}
+                            height={450}
+                            sizes="(max-width: 768px) 100vw, 800px"
+                        />
                     </div>
                 ))}
             </div>
