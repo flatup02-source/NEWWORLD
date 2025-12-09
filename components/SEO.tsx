@@ -14,9 +14,9 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = '成田 女性キックボクシング | 千葉 初心者 格闘技ジム | FLAT-UP',
-  description = '成田市で女性が安心して通えるキックボクシングジム。初心者大歓迎！更衣室完備。女性・子供OK。千葉県成田市の世界一優しい格闘技ジムで、新しい自分に出会いましょう。',
-  keywords = '成田,女性キックボクシング,千葉,初心者,格闘技ジム,女性専用,子供OK,更衣室完備,キックボクシング',
+  title = '成田 女性フィットネス | 千葉 初心者 運動スタジオ | FLAT-UP',
+  description = '成田市で女性が安心して通えるフィットネススタジオ。初心者大歓迎！女性・子供OK。千葉県成田市の世界一優しい運動スタジオで、新しい自分に出会いましょう。',
+  keywords = '成田,女性フィットネス,千葉,初心者,運動スタジオ,女性専用,子供OK,キックボクシング',
   ogImage = 'https://flat-up.jp/og-image.jpg',
   ogType = 'website',
   canonicalUrl,
@@ -94,7 +94,7 @@ export const gymJsonLd = {
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
   "name": "FLAT-UP GYM",
-  "description": "千葉県成田市の世界一優しい格闘技ジム",
+  "description": "千葉県成田市の世界一優しい運動スタジオ",
   "url": "https://flat-up.jp",
   "telephone": "070-9035-3485",
   "address": {

@@ -21,9 +21,9 @@ const questions = [
         question: "今の目標は？ 🎯",
         options: [
             { label: "ダイエット・シェイプアップ 👙", score: { kick: 3, bjj: 1, diet: 3 } },
-            { label: "護身術を身につけたい 🛡️", score: { kick: 1, bjj: 3, diet: 0 } },
+            { label: "自分を守る力をつけたい 🛡️", score: { kick: 1, bjj: 3, diet: 0 } },
             { label: "ストレス発散！ 💥", score: { kick: 3, bjj: 0, diet: 1 } },
-            { label: "強くなりたい 🔥", score: { kick: 2, bjj: 3, diet: 0 } },
+            { label: "体を動かして気分転換 🌈", score: { kick: 2, bjj: 3, diet: 0 } },
         ]
     },
     {
@@ -38,10 +38,10 @@ const questions = [
     },
     {
         id: 4,
-        question: "興味があるのは？ 🥊",
+        question: "どんな運動に興味がある？ ✨",
         options: [
-            { label: "パンチとキック！ 🥊", score: { kick: 3, bjj: 0, diet: 2 } },
-            { label: "寝技・組み技 🥋", score: { kick: 0, bjj: 3, diet: 0 } },
+            { label: "リズムに合わせて体を動かす 💃", score: { kick: 3, bjj: 0, diet: 2 } },
+            { label: "頭を使って体を動かす 🧩", score: { kick: 0, bjj: 3, diet: 0 } },
             { label: "とにかく痩せたい 💦", score: { kick: 2, bjj: 1, diet: 3 } },
             { label: "まだわからない 🤔", score: { kick: 1, bjj: 1, diet: 1 } },
         ]
@@ -76,24 +76,24 @@ export default function QuizPage() {
     const getResult = () => {
         if (scores.kick >= scores.bjj && scores.kick >= scores.diet) {
             return {
-                title: "キックボクシングクラス",
-                description: "パンチやキックで楽しくストレス発散！全身運動でシェイプアップ効果も抜群です。",
-                image: "🥊",
+                title: "楽しい全身運動クラス",
+                description: "リズムに合わせて体を動かすだけで、ストレス発散・シェイプアップ・体力アップが叶います！楽しく続けられる運動です♡",
+                image: "💃",
                 color: "from-pink-400 to-red-400",
                 link: "/program#kickboxing"
             };
         } else if (scores.bjj > scores.kick && scores.bjj >= scores.diet) {
             return {
-                title: "ブラジリアン柔術クラス",
-                description: "「体を使ったチェス」とも呼ばれる頭脳戦。護身術としても最適で、力に頼らない技術が身につきます。",
-                image: "🥋",
+                title: "頭を使う運動クラス",
+                description: "まるでパズルのような運動で、頭を使って体を動かします。力に頼らず、コツを掴めば誰でも楽しめます♡",
+                image: "🧘",
                 color: "from-blue-400 to-indigo-400",
                 link: "/program#bjj"
             };
         } else {
             return {
                 title: "ダイエット・フィットネス",
-                description: "まずは楽しく体を動かすことから！無理なく続けられるプログラムで理想のボディを目指しましょう。",
+                description: "まずは楽しく体を動かすことから！無理なく続けられるプログラムで理想のボディを目指しましょう♡",
                 image: "✨",
                 color: "from-green-400 to-teal-400",
                 link: "/program"

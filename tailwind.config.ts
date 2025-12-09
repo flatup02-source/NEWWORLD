@@ -20,16 +20,11 @@ const config: Config = {
         'sakura-hover': '#FF9EC9',
         // 2025 Kawaii Palette
         'kawaii-pink': '#FFB6D9',
-        'kawaii-pink-light': '#FFEBF5',
         'kawaii-lavender': '#D4A5FF',
         'kawaii-mint': '#B4E7D6',
-        'kawaii-mint-light': '#E0F7FA',
-        'kawaii-sky': '#B3E5FC',
-        'kawaii-yellow': '#FFF9C4',
         'kawaii-cream': '#FFF9F5',
         'kawaii-text': '#5A4A6A',
         'kawaii-accent': '#FFE5B4',
-        'asken-green': '#DFF8E1',
       },
       fontFamily: {
         sans: ['var(--font-zen-kaku)', 'sans-serif'],

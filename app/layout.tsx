@@ -11,8 +11,8 @@ import './sparkle.css';
 import './animations.css';
 
 export const metadata: Metadata = {
-  title: 'FLAT-UP GYM - 成田市で女性・初心者も安心の格闘技ジム',
-  description: 'FLAT-UP GYMは、千葉県成田市にある女性オーナーが運営する格闘技ジムです。キックボクシング、ブラジリアン柔術、キッズクラスなど、初心者からプロまで安心して楽しめるプログラムを提供。無料体験受付中！',
+  title: 'FLAT-UP GYM - 成田市で女性・初心者も安心の運動スタジオ',
+  description: 'FLAT-UP GYMは、千葉県成田市にある女性オーナーが運営する運動スタジオです。楽しい全身運動、頭を使う運動、キッズクラスなど、初心者から経験者まで安心して楽しめるプログラムを提供。無料体験受付中！',
 };
 
 const zenKaku = Zen_Kaku_Gothic_New({

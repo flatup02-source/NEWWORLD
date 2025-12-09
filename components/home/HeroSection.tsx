@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0 z-0">
         <OptimizedImage
           src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=2070&auto=format&fit=crop"
-          alt="FLATUPGYM Kickboxing & BJJ"
+          alt="楽しく運動する女性たち - FLATUPGYM"
           fill
           priority
           className="object-cover object-center"
@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
             💖 成田市No.1 女性・初心者大歓迎 💖
           </span>
           <br className="hidden sm:block" />
-          <span className="inline-block mt-2">更衣室完備で安心の格闘技ジム</span>
+          <span className="inline-block mt-2">安心して通えるフィットネススタジオ</span>
         </p>
 
         {/* Trust Badges - Responsive Grid */}
@@ -64,8 +64,8 @@ const HeroSection: React.FC = () => {
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer"></span>
             <span className="relative flex items-center">
-              <span className="mr-2 text-2xl">🔮</span>
-              3分で適性診断
+              <span className="mr-2 text-2xl">✨</span>
+              あなたに合う運動を見つける
             </span>
           </Link>
           <Link
@@ -74,16 +74,16 @@ const HeroSection: React.FC = () => {
           >
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer"></span>
             <span className="relative flex items-center">
-              <i className="ri-calendar-check-fill mr-2"></i>
-              今すぐ無料体験予約
+              <span className="mr-2 text-xl">💕</span>
+              無料体験してみる
             </span>
           </Link>
           <Link
             href="/line"
             className="inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-[#06C755] hover:bg-[#05b34c] transition-all duration-300 shadow-lg transform hover:scale-105 hover:-translate-y-1"
           >
-            <i className="ri-line-fill mr-2 text-2xl"></i>
-            LINEで相談する
+            <span className="mr-2 text-xl">💬</span>
+            気軽にLINEで相談
           </Link>
         </div>
       </div>

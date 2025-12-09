@@ -11,7 +11,7 @@ interface NotScaryLPOSectionProps {
 }
 
 const NotScaryLPOSection: React.FC<NotScaryLPOSectionProps> = ({
-  headline = '格闘技ジムは怖いと思っていませんか？',
+  headline = 'ジムは怖いと思っていませんか？',
   subheadline = 'FLAT-UP ジムは、あなたの不安を「楽しい！」に変える場所です。',
   imageUrl = '/NEWTOP.png', // Default to NEWTOP.png from public folder
   ctaText = '今すぐ体験を予約する',

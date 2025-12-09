@@ -51,7 +51,7 @@ const AboutPage: NextPage = () => {
                         <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/MISAKI3.jpg?updatedAt=1756897191157" alt="24時間使えるシステム" width={300} height={200} className="mt-4 rounded-lg shadow-md w-full h-auto object-cover" />
                     </div>
                     <div className="bg-gray-50 p-6 rounded-lg border"><h4>女性クラスが充実</h4><ul className="mt-2 list-disc list-inside"><li>レディース専用時間帯</li><li>産後ママクラス</li><li>護身術専門クラス</li></ul></div>
-                    <div className="bg-gray-50 p-6 rounded-lg border"><h4>女性向けのジム内環境</h4><ul className="mt-2 list-disc list-inside"><li>明るく清潔な更衣室</li><li>女性専用設備完備</li><li>アメニティも充実</li></ul></div>
+                    <div className="bg-gray-50 p-6 rounded-lg border"><h4>女性向けのジム内環境</h4><ul className="mt-2 list-disc list-inside"><li>明るく清潔な空間</li><li>女性専用設備完備</li><li>アメニティも充実</li></ul></div>
                     <div className="bg-gray-50 p-6 rounded-lg border"><h4>実用的な護身術クラス</h4><ul className="mt-2 list-disc list-inside"><li>痴漢対策の実践的技術</li><li>危険察知能力の向上</li><li>自信につながる心の強さ</li></ul>
                         <OptimizedImage src="https://ik.imagekit.io/FLATUPGYM/MISAKI2.png?updatedAt=1756897204004" alt="女性向け護身術クラス" width={300} height={200} className="mt-4 rounded-lg shadow-md w-full h-auto object-cover" />
                     </div>

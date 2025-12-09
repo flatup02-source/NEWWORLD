@@ -20,7 +20,7 @@ const PainPointSection = () => {
           <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-yellow-200">
             <Icon name="QuestionLine" className="text-5xl text-yellow-500 mb-4" />
             <h3 className="text-xl font-bold text-gray-800 mb-2">ジムって怖い？</h3>
-            <p className="text-gray-600">格闘技ジムは男性ばかりで、厳しそう…初心者でも大丈夫？</p>
+            <p className="text-gray-600">ジムは男性ばかりで、厳しそう…初心者でも大丈夫？</p>
           </div>
           <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-blue-200">
             <Icon name="TimeLine" className="text-5xl text-blue-500 mb-4" />

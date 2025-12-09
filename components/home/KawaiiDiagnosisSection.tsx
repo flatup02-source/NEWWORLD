@@ -28,16 +28,16 @@ const KawaiiDiagnosisSection = () => {
                             </span>
                             <h2 className="text-3xl md:text-4xl font-kawaii font-bold text-kawaii-text mb-4 leading-tight">
                                 あなたにピッタリの<br />
-                                <span className="text-kawaii-pink">格闘技スタイル</span>は？
+                                <span className="text-kawaii-pink">運動スタイル</span>は？
                             </h2>
                             <p className="text-gray-600 mb-8 leading-relaxed">
                                 「私にもできるかな？」「どんなクラスが合ってる？」<br />
                                 そんな不安を30秒で解決！<br />
-                                簡単な質問に答えるだけで、あなたの才能が見つかります♡
+                                簡単な質問に答えるだけで、あなたにぴったりの運動が見つかります♡
                             </p>
 
-                            <KawaiiButton href="/diagnosis" variant="primary" className="w-full md:w-auto">
-                                🥊 今すぐ診断してみる！
+                            <KawaiiButton href="/quiz" variant="primary" className="w-full md:w-auto">
+                                ✨ 今すぐ診断してみる！
                             </KawaiiButton>
                         </motion.div>
                     </div>
@@ -54,7 +54,7 @@ const KawaiiDiagnosisSection = () => {
                             <div className="absolute inset-0 bg-kawaii-mint rounded-full transform rotate-6 opacity-20 blur-lg"></div>
                             <OptimizedImage
                                 src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=800&auto=format&fit=crop"
-                                alt="楽しくキックボクシングをする女性"
+                                alt="楽しく運動する女性たち"
                                 width={600}
                                 height={400}
                                 className="rounded-3xl shadow-lg relative z-10 transform transition-transform hover:scale-105 duration-500"

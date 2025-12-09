@@ -34,13 +34,13 @@ const ServicesSection = () => {
           {/* Kickboxing */}
           <div className="bg-white/80 backdrop-blur-sm rounded-[32px] shadow-cute hover:shadow-lg p-6 sm:p-8 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border-2 border-white hover:border-kawaii-pink">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center justify-center font-rounded">
-              <span className="text-3xl mr-2">🥊</span>
-              キックボクシング
+              <span className="text-3xl mr-2">💪</span>
+              楽しい全身運動
             </h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl mb-6 shadow-md relative group">
               <OptimizedImage
                 src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=2069&auto=format&fit=crop"
-                alt="キックボクシング"
+                alt="楽しく運動する女性たち"
                 width={400}
                 height={300}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -50,8 +50,8 @@ const ServicesSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-kawaii-pink/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </div>
             <p className="text-gray-600 leading-relaxed mb-6 flex-grow text-left">
-              <span className="block font-bold text-kawaii-pink mb-2 text-center">【女性に最適な全身運動】</span>
-              ストレス発散、筋力アップ、脂肪燃焼、そして何より自信がつきます。女性オーナーによる丁寧な指導で、運動が苦手な方も安心してスタート。
+              <span className="block font-bold text-kawaii-pink mb-2 text-center">【楽しく続けられる全身運動】</span>
+              リズムに合わせて体を動かすだけで、ストレス発散・シェイプアップ・体力アップが叶います。女性オーナーが優しくサポートするので、運動初心者の方も安心して始められます♡
             </p>
             <Link href="/ladies" className="inline-block w-full py-3 px-6 bg-kawaii-cream hover:bg-kawaii-pink text-kawaii-text hover:text-white font-bold rounded-xl transition-all duration-300 shadow-sm hover:shadow-md">
               詳しく見る <i className="ri-arrow-right-line ml-1"></i>
@@ -61,13 +61,13 @@ const ServicesSection = () => {
           {/* BJJ */}
           <div className="bg-white/80 backdrop-blur-sm rounded-[32px] shadow-cute hover:shadow-lg p-6 sm:p-8 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border-2 border-white hover:border-kawaii-lavender">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center justify-center font-rounded">
-              <span className="text-3xl mr-2">🥋</span>
-              ブラジリアン柔術
+              <span className="text-3xl mr-2">🧘</span>
+              頭を使う運動
             </h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl mb-6 shadow-md relative group">
               <OptimizedImage
                 src="/images/bjj-women.png"
-                alt="ブラジリアン柔術"
+                alt="楽しく体を動かす女性たち"
                 width={400}
                 height={300}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -78,7 +78,7 @@ const ServicesSection = () => {
             </div>
             <p className="text-gray-600 leading-relaxed mb-6 flex-grow text-left">
               <span className="block font-bold text-kawaii-lavender mb-2 text-center">【年齢・体力問わず楽しめる】</span>
-              護身術や頭脳プレーを学べるブラジリアン柔術。女性やシニアにも人気の格闘技です。体力に自信がなくても技術で勝負できるのが魅力。
+              頭を使って体を動かす、まるでパズルのような運動です。力に頼らず、コツを掴めば誰でも楽しめます。女性やシニアの方にも大人気！体力に自信がなくても大丈夫です♡
             </p>
             <Link href="/bjj" className="inline-block w-full py-3 px-6 bg-kawaii-cream hover:bg-kawaii-lavender text-kawaii-text hover:text-white font-bold rounded-xl transition-all duration-300 shadow-sm hover:shadow-md">
               詳しく見る <i className="ri-arrow-right-line ml-1"></i>
@@ -88,13 +88,13 @@ const ServicesSection = () => {
           {/* Kids Class */}
           <div className="bg-white/80 backdrop-blur-sm rounded-[32px] shadow-cute hover:shadow-lg p-6 sm:p-8 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col h-full border-2 border-white hover:border-kawaii-accent">
             <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center justify-center font-rounded">
-              <span className="text-3xl mr-2">🐣</span>
+              <span className="text-3xl mr-2">👶</span>
               キッズクラス
             </h3>
             <div className="aspect-[3/2] w-full overflow-hidden rounded-2xl mb-6 shadow-md relative group">
               <OptimizedImage
                 src="https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?q=80&w=2000&auto=format&fit=crop"
-                alt="キッズクラス"
+                alt="楽しく運動する子どもたち"
                 width={400}
                 height={300}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -105,7 +105,7 @@ const ServicesSection = () => {
             </div>
             <p className="text-gray-600 leading-relaxed mb-6 flex-grow text-left">
               <span className="block font-bold text-yellow-500 mb-2 text-center">【5歳から中学生まで対応】</span>
-              礼儀や協調性も身につく、楽しい格闘技体験。体力づくりや集中力アップにも最適です。保護者見学も可能で安心。
+              楽しく体を動かしながら、礼儀や協調性も自然に身につきます。体力づくりや集中力アップにも最適！保護者見学も可能なので安心です♡
             </p>
             <Link href="/kids-boys" className="inline-block w-full py-3 px-6 bg-kawaii-cream hover:bg-kawaii-accent text-kawaii-text hover:text-white font-bold rounded-xl transition-all duration-300 shadow-sm hover:shadow-md">
               詳しく見る <i className="ri-arrow-right-line ml-1"></i>

@@ -24,12 +24,12 @@ export default function Footer() {
                 </span>
               </Link>
               <p className="text-gray-300 mb-6 leading-relaxed text-base">
-                女性オーナーが創る、世界一優しい格闘技ジム。<br />
+                女性オーナーが創る、世界一優しい運動スタジオ。<br />
                 あなたのペースで、あなたらしく。<br />
                 ここは、あなたが主役になれる場所です。
               </p>
               <p className="text-sm text-gray-400 leading-relaxed mb-8">
-                FLATUPGYMは、すべての人が安心して通える格闘技ジムです。初心者の方から経験者まで、あなたのペースに合わせて優しく指導いたします。
+                FLATUPGYMは、すべての人が安心して通える運動スタジオです。初心者の方から経験者まで、あなたのペースに合わせて優しく指導いたします。
               </p>
             </div>
             <div className="flex flex-col gap-4 mt-auto">
