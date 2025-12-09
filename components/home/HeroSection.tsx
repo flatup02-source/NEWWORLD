@@ -59,6 +59,16 @@ const HeroSection: React.FC = () => {
         {/* CTA Buttons - Responsive Stack */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 w-full max-w-md sm:max-w-none mx-auto">
           <Link
+            href="/quiz"
+            className="group relative inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-gradient-to-r from-purple-400 to-indigo-500 hover:from-purple-500 hover:to-indigo-600 transition-all duration-300 shadow-[0_0_20px_rgba(167,139,250,0.6)] transform hover:scale-105 hover:-translate-y-1 overflow-hidden"
+          >
+            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer"></span>
+            <span className="relative flex items-center">
+              <span className="mr-2 text-2xl">🔮</span>
+              3分で適性診断
+            </span>
+          </Link>
+          <Link
             href="/trial-lesson"
             className="group relative inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-gradient-to-r from-pastel-pink to-pink-500 hover:from-pink-400 hover:to-pink-600 transition-all duration-300 shadow-[0_0_20px_rgba(248,200,220,0.6)] transform hover:scale-105 hover:-translate-y-1 overflow-hidden"
           >

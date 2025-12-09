@@ -10,6 +10,14 @@ const FloatingNav: React.FC = () => {
         <>
             {/* Floating Navigation Buttons */}
             <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+                <Link
+                    href="/quiz"
+                    className="px-6 py-3 rounded-full bg-gradient-to-r from-purple-400 to-indigo-500 hover:from-purple-500 hover:to-indigo-600 text-white flex items-center justify-center shadow-lg transform hover:scale-110 transition-all duration-300 font-bold text-sm whitespace-nowrap animate-bounce"
+                    aria-label="適性診断"
+                >
+                    🔮 3分で適性診断
+                </Link>
+
                 {/* Trial Booking Button */}
                 <Link
                     href="/trial-lesson"

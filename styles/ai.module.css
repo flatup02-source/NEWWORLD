@@ -1,0 +1,28 @@
+.hero { display: flex; flex-direction: column; align-items: center; padding: 4rem 2rem; background: #fff; }
+.heroContent { max-width: 800px; text-align: center; }
+.title { font-size: 2.5rem; font-weight: 600; margin-bottom: 1rem; color: #212121; }
+.subtitle { font-size: 1.25rem; margin-bottom: 2rem; color: #4CAF50; }
+.ctaButton { display: inline-block; padding: 0.75rem 1.5rem; background: linear-gradient(45deg, #FFB6C1, #FFD700); color: #fff; border-radius: 8px; font-weight: 600; text-decoration: none; transition: transform 0.2s; }
+.ctaButton:hover { transform: scale(1.05); }
+.heroImage { margin-top: 2rem; }
+.features { padding: 4rem 2rem; background: #f9f9f9; }
+.sectionTitle { font-size: 2rem; font-weight: 600; margin-bottom: 2rem; text-align: center; color: #212121; }
+.cardContainer { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+.card { background: #fff; border-radius: 8px; padding: 1.5rem; width: 260px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; }
+.icon { font-size: 2rem; margin-bottom: 0.5rem; }
+.cardTitle { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: #212121; }
+.cardDesc { font-size: 1rem; color: #555; }
+.demoSlider { padding: 4rem 2rem; background: #fff; }
+.sliderContainer { display: flex; overflow-x: auto; gap: 1rem; }
+.slide { min-width: 300px; }
+.ctaSection { padding: 3rem 2rem; text-align: center; background: #fff; }
+.testimonials { padding: 4rem 2rem; background: #f0f0f0; }
+.testimonialContainer { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+.testimonialCard { background: #fff; border-radius: 8px; padding: 1rem; width: 260px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.avatar { border-radius: 50%; margin-bottom: 0.5rem; }
+.comment { font-style: italic; margin-bottom: 0.5rem; }
+.name { font-weight: 600; color: #212121; }
+.faq { padding: 4rem 2rem; background: #fff; }
+.faqItem { margin-bottom: 1rem; }
+.question { width: 100%; text-align: left; background: #ffb6c1; border: none; padding: 0.75rem; font-weight: 600; cursor: pointer; border-radius: 8px; }
+.answer { padding: 0.75rem; background: #fff; border-left: 4px solid #ffd700; margin-top: 0.5rem; }
