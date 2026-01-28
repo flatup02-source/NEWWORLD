@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
+
 @tailwind base;
+
+@layer base {
+  h2 {
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    /* 1rem=10px基準で調整 */
+  }
+
+  p {
+    font-size: clamp(1.6rem, 2.5vw, 1.8rem);
+    /* 1rem=10px基準で調整 */
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -6,6 +21,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* 2025 Kawaii Palette */
+  --kawaii-pink: #FFB6D9;
+  --kawaii-lavender: #D4A5FF;
+  --kawaii-mint: #B4E7D6;
+  --kawaii-cream: #FFF9F5;
+  --kawaii-text: #5A4A6A;
+  --kawaii-accent: #FFE5B4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,19 +39,31 @@
   }
 }
 
+/* Fullscreen Immersive Setup */
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+html,
 body {
-  background: #fff;
-  transition: background 0.3s ease;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
+  background: #fffaf7;
+  transition: background 0.3s ease;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+
   .text-shadow {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   }
+
   .text-shadow-lg {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
   }
@@ -38,9 +73,25 @@ body {
 .hero {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 100dvh;
+  min-height: 100dvh;
   overflow: hidden;
   background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  /* より薄い単色の黒に変更 */
+  z-index: 1;
 }
 
 .hero-video {
@@ -48,26 +99,47 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 /* === テキスト部分 === */
 .hero-text {
+  position: relative;
+  /* z-indexを効かせるために変更 */
+  z-index: 2;
+  /* オーバーレイの上に表示 */
   text-align: center;
-  padding: 5rem 1.5rem;
-  background: #fff;
-  color: #111;
+  padding: 2rem 1.5rem 4rem;
+  /* padding-bottom を追加して字幕領域を確保 */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  /* 半透明のグラデーションを追加 */
+  color: #fff;
+  /* 文字色を白に */
+  width: 90%;
+  max-width: 800px;
 }
 
 .hero-text h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  /* 画面幅に応じて可変 */
+  font-weight: 700;
+  /* 太さを調整 */
   margin-bottom: 1rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  /* 繊細な影に変更 */
 }
 
 .hero-text p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
+  font-size: 1.4rem;
+  /* サイズ調整 */
+  margin-bottom: 2.5rem;
+  /* 間隔を調整 */
+  opacity: 0.95;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  /* 繊細な影に変更 */
 }
 
 .cta {
@@ -89,21 +161,23 @@ body {
 /* === モバイル対応 === */
 @media (max-width: 768px) {
   .hero {
-    height: 60vh;
+    height: 80svh;
+    /* モバイルでの表示領域に最適化 */
   }
 
   .hero-text {
-    padding: 3.5rem 1rem;
+    padding: 1rem;
   }
 
   .hero-text h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .hero-text p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
+
 
 .loading-overlay {
   position: fixed;

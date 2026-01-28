@@ -7,62 +7,78 @@ import OptimizedImage from '../OptimizedImage';
  * @returns {JSX.Element} The rendered TestimonialsSection component.
  */
 const TestimonialsSection = () => {
+  const testimonials = [
+    {
+      name: 'M.Iさん',
+      age: '30代女性',
+      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
+      text: '運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。',
+    },
+    {
+      name: 'K.Tさん',
+      age: '20代女性',
+      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop',
+      text: '仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。',
+    },
+    {
+      name: 'S.Yさん',
+      age: '40代女性',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop',
+      text: '産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。',
+    },
+  ];
+
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-12">お客様の声</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-pink-300 text-left flex flex-col h-full">
-              <div className="flex items-center mb-4">
-                <div className="w-16 h-16 rounded-full bg-pink-500 flex items-center justify-center mr-4 flex-shrink-0">
-                  <span className="text-white text-2xl font-bold">MI</span>
+    <section className="py-20 bg-gradient-to-b from-kawaii-cream to-white relative overflow-hidden">
+      {/* Background Decoration */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-20 right-20 text-8xl opacity-5 animate-pulse text-kawaii-pink">♥</div>
+        <div className="absolute bottom-10 left-10 text-6xl opacity-10 animate-bounce text-kawaii-lavender">✨</div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <h2 className="text-4xl md:text-5xl font-bold text-kawaii-text mb-12 font-kawaii">
+          <span className="text-kawaii-pink inline-block animate-bounce">♥</span> お客様の声 <span className="text-kawaii-pink inline-block animate-bounce" style={{ animationDelay: '0.1s' }}>♥</span>
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="bg-white/90 backdrop-blur-sm p-8 rounded-[32px] shadow-cute hover:shadow-lg transform hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-kawaii-pink">
+              <div className="flex items-center mb-6">
+                <div className="w-20 h-20 rounded-full overflow-hidden mr-4 flex-shrink-0 border-4 border-kawaii-pink shadow-md">
+                  <OptimizedImage
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    width={80}
+                    height={80}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800">M.Iさん (30代女性)</h3>
-                </div>
-              </div>
-              <div className="flex-grow">
-                <p className="text-lg font-semibold text-pink-600 mb-2">自分に自信が持てるようになりました！</p>
-                <p className="text-gray-700 leading-relaxed">運動経験が全くなく不安でしたが、トレーナーさんが優しく丁寧に教えてくれるので、楽しく続けられています。体重が減っただけでなく、気持ちも前向きになり、自分に自信が持てるようになりました。</p>
-              </div>
-          </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-purple-300 text-left flex flex-col h-full">
-              <div className="flex items-center mb-4">
-                <div className="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center mr-4 flex-shrink-0">
-                  <span className="text-white text-2xl font-bold">KT</span>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800">K.Tさん (20代女性)</h3>
-                </div>
-              </div>
-              <div className="flex-grow">
-                <p className="text-lg font-semibold text-purple-600 mb-2">ストレス発散に最高です！</p>
-                <p className="text-gray-700 leading-relaxed">仕事のストレスが溜まっていましたが、キックボクシングのミット打ちは最高のストレス発散になります。今では週2回通うのが楽しみです。</p>
-              </div>
-          </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl border-2 border-blue-300 text-left flex flex-col h-full">
-              <div className="flex items-center mb-4">
-                <div className="w-16 h-16 rounded-full bg-blue-500 flex items-center justify-center mr-4 flex-shrink-0">
-                  <span className="text-white text-2xl font-bold">SY</span>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800">S.Yさん (40代女性)</h3>
+                <div className="text-left">
+                  <h3 className="font-bold text-xl text-gray-800 font-rounded">{testimonial.name}</h3>
+                  <p className="text-sm text-kawaii-text font-medium bg-kawaii-cream px-2 py-1 rounded-full inline-block mt-1">{testimonial.age}</p>
+                  <div className="flex mt-1">
+                    {[...Array(5)].map((_, i) => (
+                      <span key={i} className="text-yellow-400 text-lg drop-shadow-sm">★</span>
+                    ))}
+                  </div>
                 </div>
               </div>
-              <div className="flex-grow">
-                <p className="text-lg font-semibold text-blue-600 mb-2">産後の体型戻しに成功しました</p>
-                <p className="text-gray-700 leading-relaxed">産後太りがなかなか解消されませんでしたが、キックボクシングトレーニングで効率的に体を絞ることができました。子連れでもOKなのが嬉しいです。</p>
-              </div>
-          </div>
+              <p className="text-gray-600 leading-relaxed text-base text-left font-medium">
+                <span className="text-2xl text-kawaii-pink opacity-50 font-serif">"</span>
+                {testimonial.text}
+                <span className="text-2xl text-kawaii-pink opacity-50 font-serif">"</span>
+              </p>
+            </div>
+          ))}
         </div>
         <div className="mt-12 text-center">
-          <Link href="/voice" className="inline-block bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
-            もっとお客様の声を見る
+          <Link href="/voice" className="inline-block bg-gradient-to-r from-kawaii-pink to-pink-400 hover:from-pink-400 hover:to-pink-500 text-white px-10 py-4 rounded-full font-bold transition-all duration-300 cursor-pointer shadow-lg transform hover:scale-105 hover:-translate-y-1">
+            もっとお客様の声を見る 💕
           </Link>
         </div>
         <div className="mt-8 text-center">
-          <Link href="/trial-lesson" className="inline-block bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white px-8 py-4 rounded-full font-bold transition-transform duration-300 cursor-pointer shadow-lg transform hover:scale-105">
-            無料体験レッスンを予約する
+          <Link href="/trial-lesson" className="inline-block bg-gradient-to-r from-kawaii-mint to-green-400 hover:from-green-400 hover:to-green-500 text-white px-10 py-4 rounded-full font-bold transition-all duration-300 cursor-pointer shadow-lg transform hover:scale-105 hover:-translate-y-1">
+            無料体験レッスンを予約する 🍀
           </Link>
         </div>
       </div>

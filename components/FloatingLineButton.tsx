@@ -8,9 +8,7 @@ import Image from 'next/image';
 const FloatingLineButton = () => {
   return (
     <Link
-      href="https://page.line.me/jfl0054o?oat_content=url&openQrModal=true"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="/line"
       className="fixed bottom-5 right-5 z-50 transform hover:scale-110 transition-transform duration-300"
       aria-label="LINEで無料体験はこちら"
     >

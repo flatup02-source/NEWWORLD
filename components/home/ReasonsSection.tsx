@@ -3,122 +3,116 @@ import OptimizedImage from '@/components/OptimizedImage';
 
 const ReasonsSection = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-green-50 via-blue-50 to-purple-50">
+    <section className="py-24 bg-gradient-to-b from-white to-kawaii-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600 mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-kawaii-text mb-6 font-kawaii">
             💖 私たちが選ばれる理由 💖
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            なぜFLAT-UPが愛され続けるのか、その秘密をお教えします
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-rounded">
+            なぜFLAT-UPが愛され続けるのか、その秘密をお教えします♡
           </p>
         </div>
 
         {/* 24時間システム & 女性クラス充実 */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
-          <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-24">
+          <div className="relative group">
+            <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-blue-500 rounded-3xl opacity-20 group-hover:opacity-30 blur-lg transition-opacity duration-300"></div>
             <OptimizedImage
               width={800}
               height={600}
-              src="https://ik.imagekit.io/FLATUPGYM/%E5%A4%96%E8%A6%B3.png"
+              src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop"
               alt="24時間使えるアクセスシステム"
-              className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-green-300"
+              className="relative w-full h-96 object-cover object-center rounded-3xl shadow-2xl border-4 border-white"
               sizes="(max-width: 1024px) 100vw, 50vw"
               quality={90}
               priority
             />
           </div>
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-blue-100 to-green-200 p-8 rounded-3xl shadow-xl border-4 border-blue-300">
+            {/* 24h System */}
+            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border-l-8 border-blue-400 hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-green-600 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-time-fill w-6 h-6 flex items-center justify-center text-white"></i>
+                <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-green-600 rounded-full flex items-center justify-center mr-4 shadow-md">
+                  <i className="ri-time-fill w-6 h-6 flex items-center justify-center text-white text-xl"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800">24時間使えるシステム</h3>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                格闘技ジムでは珍しい24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。
+                24時間アクセス可能なシステム。あなたのライフスタイルに合わせて、いつでも理想の体作りができます。
               </p>
-              <ul className="space-y-2 text-gray-700 mb-4">
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-green-600"></i>
-                  <span>早朝・深夜も利用可能</span>
+              <ul className="space-y-2 text-gray-700 mb-6">
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-green-500 text-xl"></i>
+                  <span className="font-medium">早朝・深夜も利用可能</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-green-600"></i>
-                  <span>セキュリティ万全</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-green-500 text-xl"></i>
+                  <span className="font-medium">セキュリティ万全</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-green-600"></i>
-                  <span>忙しい方でも継続しやすい</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-green-500 text-xl"></i>
+                  <span className="font-medium">忙しい方でも継続しやすい</span>
                 </li>
               </ul>
-              <OptimizedImage
-                src="https://ik.imagekit.io/FLATUPGYM/tiny.png"
-                alt="24時間使えるシステム"
-                width={300}
-                height={200}
-                className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
-                quality={80}
-              />
+              <div className="h-40 w-full rounded-xl overflow-hidden shadow-inner">
+                <OptimizedImage
+                  src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop"
+                  alt="24時間使えるシステム"
+                  width={400}
+                  height={200}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  quality={80}
+                />
+              </div>
             </div>
 
-            <div className="bg-gradient-to-br from-pink-100 to-purple-200 p-8 rounded-3xl shadow-xl border-4 border-pink-300">
+            {/* Women Class */}
+            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border-l-8 border-pink-400 hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-women-fill w-6 h-6 flex items-center justify-center text-white"></i>
+                <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full flex items-center justify-center mr-4 shadow-md">
+                  <i className="ri-women-fill w-6 h-6 flex items-center justify-center text-white text-xl"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800">女性クラスが充実</h3>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                格闘技ジムでは珍しい女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。
+                女性専用クラスを多数ご用意。女性が安心して楽しめる環境を徹底しています。
               </p>
-              <ul className="space-y-2 text-gray-700 mb-4">
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-pink-700"></i>
-                  <span>レディース専用時間帯</span>
+              <ul className="space-y-2 text-gray-700 mb-6">
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-pink-500 text-xl"></i>
+                  <span className="font-medium">レディース専用時間帯</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-pink-700"></i>
-                  <span>産後ママクラス</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-pink-500 text-xl"></i>
+                  <span className="font-medium">産後ママクラス</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-pink-700"></i>
-                  <span>護身術専門クラス</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-pink-500 text-xl"></i>
+                  <span className="font-medium">護身術専門クラス</span>
                 </li>
               </ul>
-              <OptimizedImage
-                src="https://ik.imagekit.io/FLATUPGYM/MISAKI2.png"
-                alt="女性クラスが充実"
-                width={300}
-                height={200}
-                className="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
-                quality={80}
-              />
+              <div className="h-40 w-full rounded-xl overflow-hidden shadow-inner">
+                <OptimizedImage
+                  src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop"
+                  alt="女性クラスが充実"
+                  width={400}
+                  height={200}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  quality={80}
+                />
+              </div>
             </div>
           </div>
         </div>
 
         {/* 女性向けジム環境 & 護身術クラス */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 lg:order-1 space-y-8">
-            <div className="bg-gradient-to-br from-yellow-100 to-orange-200 p-8 rounded-3xl shadow-xl border-4 border-yellow-300">
+            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl border-l-8 border-red-400 hover:shadow-2xl transition-shadow duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-home-heart-fill w-6 h-6 flex items-center justify-center text-white"></i>
-                </div>
-                <h3 className="text-2xl font-bold text-gray-800">女性向けのジム内環境</h3>
-              </div>
-              <p className="text-gray-700 leading-relaxed text-lg mb-4">
-                清潔で明るく、女性が「通いたくなる」空間作りにこだわりました。
-              </p>
-
-            </div>
-
-            <div className="bg-gradient-to-br from-red-100 to-pink-200 p-8 rounded-3xl shadow-xl border-4 border-red-300">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-pink-600 rounded-full flex items-center justify-center mr-4">
-                  <i className="ri-shield-star-fill w-6 h-6 flex items-center justify-center text-white"></i>
+                <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-pink-600 rounded-full flex items-center justify-center mr-4 shadow-md">
+                  <i className="ri-shield-star-fill w-6 h-6 flex items-center justify-center text-white text-xl"></i>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800">実用的な護身術クラス</h3>
               </div>
@@ -126,28 +120,29 @@ const ReasonsSection = () => {
                 日常で本当に使える護身術を、女性の視点で分かりやすく指導します。
               </p>
               <ul className="space-y-2 text-gray-700">
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-red-600"></i>
-                  <span>痴漢対策の実践的技術</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-red-500 text-xl"></i>
+                  <span className="font-medium">痴漢対策の実践的技術</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-red-600"></i>
-                  <span>危険察知能力の向上</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-red-500 text-xl"></i>
+                  <span className="font-medium">危険察知能力の向上</span>
                 </li>
-                <li className="flex items-center space-x-2">
-                  <i className="ri-check-fill w-4 h-4 flex items-center justify-center text-red-600"></i>
-                  <span>自信につながる心の強さ</span>
+                <li className="flex items-center space-x-3">
+                  <i className="ri-checkbox-circle-fill text-red-500 text-xl"></i>
+                  <span className="font-medium">自信につながる心の強さ</span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="order-1 lg:order-2 relative group">
+            <div className="absolute -inset-4 bg-gradient-to-l from-red-400 to-pink-500 rounded-3xl opacity-20 group-hover:opacity-30 blur-lg transition-opacity duration-300"></div>
             <OptimizedImage
               width={800}
               height={600}
-              src="https://ik.imagekit.io/FLATUPGYM/reddy.png"
+              src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop"
               alt="女性向け護身術クラス"
-              className="w-full h-96 object-cover object-top rounded-3xl shadow-2xl border-4 border-red-300"
+              className="relative w-full h-96 object-cover object-center rounded-3xl shadow-2xl border-4 border-white"
               sizes="(max-width: 1024px) 100vw, 50vw"
               quality={90}
               priority

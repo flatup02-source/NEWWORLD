@@ -1,0 +1,42 @@
+[
+    {
+        "id": "rice",
+        "label": "ごはん・パン・麺",
+        "icon": "🍚"
+    },
+    {
+        "id": "main",
+        "label": "お肉・お魚",
+        "icon": "🍖"
+    },
+    {
+        "id": "side",
+        "label": "野菜・きのこ",
+        "icon": "🥗"
+    },
+    {
+        "id": "soup",
+        "label": "汁物",
+        "icon": "🍲"
+    },
+    {
+        "id": "dairy",
+        "label": "乳製品・卵",
+        "icon": "🥛"
+    },
+    {
+        "id": "fruit",
+        "label": "果物",
+        "icon": "🍎"
+    },
+    {
+        "id": "snack",
+        "label": "お菓子",
+        "icon": "🍪"
+    },
+    {
+        "id": "drink",
+        "label": "飲み物",
+        "icon": "☕"
+    }
+]

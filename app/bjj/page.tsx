@@ -19,11 +19,11 @@ export default function BJJ() {
         description="成田のFLATUPGYMでブラジリアン柔術（BJJ）を始めませんか？体格や力に関係なく、技術で相手を制する「人間チェス」。護身術にも最適で、初心者から経験者まで楽しめます。"
         jsonLd={bjjBreadcrumbs}
       />
-      
+
 
       <main>
         {/* ヒーローセクション */}
-        <section 
+        <section
           className="relative min-h-screen bg-cover bg-center flex items-center"
           style={{
             backgroundImage: "url('https://static.readdy.ai/image/2b67e91b93297abf46fa657fa406cc3b/fb1cbf13043a9fcd8a4b7f315e39a548.png')",
@@ -37,7 +37,7 @@ export default function BJJ() {
                   BJJ<br />
                   <span className="text-purple-300">ブラジリアン柔術</span>
                 </h1>
-                
+
                 <div className="space-y-4 sm:space-y-6 text-white drop-shadow-lg">
                   <p className="text-lg sm:text-xl md:text-2xl font-bold">
                     「人間チェス」と呼ばれる知的格闘技
@@ -65,13 +65,13 @@ export default function BJJ() {
                 ブラジリアン柔術 (BJJ)
               </h1>
               <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed font-medium max-w-3xl mx-auto">
-                【年齢・体力問わず楽しめる柔術】<br/>
+                【年齢・体力問わず楽しめる柔術】<br />
                 護身術や頭脳プレーを学べるブラジリアン柔術。女性やシニアにも人気の格闘技です。体力に自信がなくても技術で勝負できるのが魅力。
               </p>
               <div className="flex justify-center flex-wrap gap-4">
-                  <span className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-semibold">初心者〜上級者</span>
-                  <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-semibold">年齢制限なし</span>
-                  <span className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-semibold">24時間利用可能</span>
+                <span className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-semibold">初心者〜上級者</span>
+                <span className="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-semibold">年齢制限なし</span>
+                <span className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-semibold">24時間利用可能</span>
               </div>
             </div>
 
@@ -130,6 +130,51 @@ export default function BJJ() {
           </div>
         </section>
 
+        {/* 画像ギャラリーセクション */}
+        <section className="py-24 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600 mb-8">
+                📸 クラスの様子 📸
+              </h2>
+              <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                FLATUPGYMのブラジリアン柔術クラスは、いつも笑顔と活気に満ちています。
+                初心者の方も安心して参加できる、和やかな雰囲気をご覧ください。
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=600&auto=format&fit=crop"
+                  alt="ブラジリアン柔術のトレーニング風景"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="https://images.unsplash.com/photo-1605296867304-6f26fd843ca8?q=80&w=600&auto=format&fit=crop"
+                  alt="ブラジリアン柔術のクラス風景"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl">
+                <OptimizedImage
+                  src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=600&auto=format&fit=crop"
+                  alt="ブラジリアン柔術の生徒たちの笑顔"
+                  width={600}
+                  height={450}
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 担当トレーナー紹介 */}
         <section className="py-24 bg-gradient-to-br from-white to-purple-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -146,7 +191,7 @@ export default function BJJ() {
                     <OptimizedImage
                       width={160}
                       height={160}
-                      src="/miichi%20-%20%E7%B7%A8%E9%9B%86%E6%B8%88%E3%81%BF.jpg"
+                      src="https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?q=80&w=400&auto=format&fit=crop"
                       alt="柔術専門トレーナー MIICHI"
                       className="w-40 h-40 rounded-2xl object-cover object-top border-6 border-purple-400 shadow-xl"
                     />
@@ -196,7 +241,7 @@ export default function BJJ() {
                 📅 BJJクラススケジュール 📅
               </h2>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-white/90 p-8 rounded-3xl shadow-2xl border-4 border-purple-200">
                 <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center flex items-center justify-center">
@@ -383,7 +428,7 @@ export default function BJJ() {
         </div>
       </main>
 
-      
+
     </div>
   );
 }

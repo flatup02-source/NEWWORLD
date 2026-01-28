@@ -39,7 +39,7 @@ export default function TrialLesson() {
                 <i className="ri-information-fill w-8 h-8 flex items-center justify-center text-pink-700 mr-3"></i>
                 体験レッスン内容
               </h2>
-              
+
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
                 {/* 体験内容の詳細 */}
                 <div className="space-y-6">
@@ -150,7 +150,7 @@ export default function TrialLesson() {
               <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-8 text-center">
                 📝 申込方法
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                 {/* LINEでの申込 */}
                 <div className="bg-gradient-to-br from-green-100 to-green-200 p-6 sm:p-8 rounded-2xl border-4 border-green-300 text-center transform hover:scale-105 transition-all duration-300">
@@ -165,11 +165,9 @@ export default function TrialLesson() {
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-bold transition-all duration-300 cursor-pointer text-center block whitespace-nowrap shadow-lg transform hover:scale-105"
                     style={{
-                      backgroundImage: `url('https://ik.imagekit.io/FLATUPGYM/6b740781-fd30-4ede-b37a-fb323a45f96f.png?tr=w-200,h-100,fo-center,bl-10,f-auto,q-75')`,
-                      backgroundBlendMode: 'soft-light',
-                      backgroundSize: '150%',
-                      backgroundPosition: 'center',
-                      animation: 'pulse-bg 4s infinite ease-in-out'
+                      background: 'linear-gradient(135deg, #06c755 0%, #00b900 100%)',
+                      boxShadow: '0 4px 15px rgba(6, 199, 85, 0.4)',
+                      animation: 'pulse 2s infinite'
                     }}
                   >
                     🌟 LINEで体験申込 🌟
@@ -215,23 +213,23 @@ export default function TrialLesson() {
               <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-8 text-center">
                 ❓ よくある質問
               </h2>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h4 className="font-bold text-gray-800 mb-3">Q. 運動経験がなくても大丈夫？</h4>
                   <p className="text-gray-700">A. もちろんです！お一人お一人のレベルに合わせて丁寧に指導いたします。</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h4 className="font-bold text-gray-800 mb-3">Q. 女性でも安心して参加できる？</h4>
                   <p className="text-gray-700">A. 女性オーナーが運営しており、女性の方も安心してご参加いただけます。</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h4 className="font-bold text-gray-800 mb-3">Q. 子供も体験できる？</h4>
                   <p className="text-gray-700">A. 小学生から体験可能です。キッズ専用の時間もご用意しております。</p>
                 </div>
-                
+
                 <div className="bg-white p-6 rounded-2xl shadow-lg">
                   <h4 className="font-bold text-gray-800 mb-3">Q. 駐車場はある？</h4>
                   <p className="text-gray-700">A. 無料駐車場を完備しております。お車でもお気軽にお越しください。</p>
@@ -241,17 +239,7 @@ export default function TrialLesson() {
           </div>
         </section>
 
-        {/* フローティングLINEボタン */}
-        <div className="fixed bottom-6 right-6 z-50">
-          <a
-            href="https://lin.ee/21ape6V"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl cursor-pointer transform hover:scale-110 transition-all duration-300 animate-bounce"
-          >
-            <i className="ri-line-fill w-8 h-8 flex items-center justify-center"></i>
-          </a>
-        </div>
+        {/* フローティングLINEボタンはGlobal Layout (FloatingNav) で管理するため削除 */}
       </main>
 
       <Footer />

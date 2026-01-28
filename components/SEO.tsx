@@ -14,9 +14,9 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = 'FLAT-UP - 世界一優しい格闘技ジム | 千葉県成田市',
-  description = '千葉県成田市の女性オーナーが創る、世界一優しい格闘技ジム。キッズからシニアまで、あなたのペースで楽しく通えます。無料体験レッスン受付中！',
-  keywords = 'キックボクシング,格闘技,ジム,成田市,女性,キッズ,シニア,産後,ダイエット,護身術',
+  title = '成田 女性フィットネス | 千葉 初心者 運動スタジオ | FLAT-UP',
+  description = '成田市で女性が安心して通えるフィットネススタジオ。初心者大歓迎！女性・子供OK。千葉県成田市の世界一優しい運動スタジオで、新しい自分に出会いましょう。',
+  keywords = '成田,女性フィットネス,千葉,初心者,運動スタジオ,女性専用,子供OK,キックボクシング',
   ogImage = 'https://flat-up.jp/og-image.jpg',
   ogType = 'website',
   canonicalUrl,
@@ -35,14 +35,14 @@ export default function SEO({
       <meta name="author" content="FLAT-UP GYM" />
       <meta name="creator" content="FLAT-UP GYM" />
       <meta name="publisher" content="FLAT-UP GYM" />
-      
+
       {/* Robots */}
       {noindex && <meta name="robots" content="noindex, nofollow" />}
       {!noindex && <meta name="robots" content="index, follow" />}
-      
+
       {/* Canonical URL */}
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
-      
+
       {/* Open Graph */}
       <meta property="og:type" content={ogType} />
       <meta property="og:title" content={fullTitle} />
@@ -54,20 +54,20 @@ export default function SEO({
       <meta property="og:image:height" content="630" />
       <meta property="og:image:alt" content="FLAT-UP GYM" />
       <meta property="og:locale" content="ja_JP" />
-      
+
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={ogImage} />
-      
+
       {/* Additional meta tags for Japanese sites */}
       <meta name="format-detection" content="telephone=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content="FLAT-UP" />
-      
+
       {/* Structured Data */}
       {jsonLd && (
         <script
@@ -75,13 +75,13 @@ export default function SEO({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       )}
-      
+
       {/* Prefetch DNS */}
       <link rel="dns-prefetch" href="//fonts.googleapis.com" />
       <link rel="dns-prefetch" href="//static.readdy.ai" />
       <link rel="dns-prefetch" href="//lin.ee" />
       <link rel="dns-prefetch" href="//maps.google.com" />
-      
+
       {/* Preconnect */}
       <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -94,14 +94,14 @@ export const gymJsonLd = {
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
   "name": "FLAT-UP GYM",
-  "description": "千葉県成田市の世界一優しい格闘技ジム",
+  "description": "千葉県成田市の世界一優しい運動スタジオ",
   "url": "https://flat-up.jp",
   "telephone": "070-9035-3485",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "土屋516-4 2F",
     "addressLocality": "成田市",
-    "addressRegion": "千葉県", 
+    "addressRegion": "千葉県",
     "postalCode": "286-0021",
     "addressCountry": "JP"
   },

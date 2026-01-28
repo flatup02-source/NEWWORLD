@@ -19,7 +19,7 @@
   "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development next dev -H 0.0.0.0 -p 3000",
-    "build": "next build",
+    "build": "npm run optimize-images && next build",
     "build:analyze": "cross-env ANALYZE=true npm run build",
     "build:production": "cross-env NODE_ENV=production npm run build",
     "export": "next export",
@@ -54,7 +54,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.542.0",
-    "next": "15.3.2",
+    "next": "^14.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.34.3",

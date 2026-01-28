@@ -16,3 +16,7 @@ node_modules
 
 # Sitemap files
 public/sitemap*.xml
+
+# Optimized images
+public/images/*.avif
+public/images/*.webp

@@ -1,78 +1,91 @@
-import React, { useEffect, useRef } from 'react';
-import OptimizedImage from '@/components/OptimizedImage'; // Assuming OptimizedImage component exists
+import React from 'react';
+import Link from 'next/link';
+import OptimizedImage from '../OptimizedImage';
 
 const HeroSection: React.FC = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 1.0;
-    }
-  }, []);
-
-  // Manually optimized poster URL
-  const posterUrl = "https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg?tr=w-463,h-823,q-80";
-
   return (
-    <section className="relative h-screen flex items-center justify-center text-center overflow-hidden bg-black">
-      {/* [Requirement #1] Video Display Fix:
-        - The background image is now hidden.
-        - The video is brought to the foreground with a higher z-index.
-      */}
-      <OptimizedImage
-        src="https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4/ik-thumbnail.jpg"
-        alt="Background"
-        fill
-        priority
-        className="object-cover w-full h-full z-0 hidden" // hidden class added to hide the image overlay
-        // [Requirement #3] Overflow Fix: sizes="100vw" removed to prevent horizontal scroll
-      />
-      
-      <video
-        ref={videoRef}
-        autoPlay
-        loop
-        muted
-        playsInline
-        poster={posterUrl}
-        className="absolute top-0 left-0 w-full h-full object-cover z-10" // z-index increased
-      >
-        <source src="https://ik.imagekit.io/flatup/FLATUPGYM/output_compressed.mp4" type="video/mp4" />
-        {/* [Requirement #4] Captions Fix:
-          - Added track element to display subtitles.
-        */}
-        <track
-          kind="subtitles"
-          src="/captions.vtt"
-          srcLang="ja"
-          label="日本語"
-          default
+    <section className="relative h-[100dvh] min-h-[100dvh] flex items-center justify-center overflow-hidden">
+      {/* 背景画像: Unsplash High Quality Gym Image */}
+      <div className="absolute inset-0 z-0">
+        <OptimizedImage
+          src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=2070&auto=format&fit=crop"
+          alt="楽しく運動する女性たち - FLATUPGYM"
+          fill
+          priority
+          className="object-cover object-center"
         />
-        Your browser does not support the video tag.
-      </video>
-
-      {/* [Requirement #2] CTA Optimization:
-        - The original text elements are now hidden.
-      */}
-      <div className="relative z-20 text-white p-4 hidden">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow-lg">
-          昨日までの自分と、<br />未来の自分が入れ替わる場所。
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto text-shadow">
-          乾いた衝撃音、心と身体で感じる。その一振りが、未来を変える。
-        </p>
+        {/* オーバーレイ: Sakura Pink Gradient with better visibility */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-pastel-pink/20 to-purple-500/20 mix-blend-overlay"></div>
       </div>
 
-      {/* [Requirement #2] CTA Optimization:
-        - A new button is added at the bottom center of the screen.
-      */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30">
-        <a
-          href="#contact" // Link to the contact/trial section
-          className="bg-pink-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-pink-600 transition-transform transform hover:scale-105"
-        >
-          新しい自分を始める
-        </a>
+      {/* コンテンツ */}
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+        <h1 className="text-white font-bold tracking-tight mb-8 font-rounded drop-shadow-lg">
+          <span className="block text-xl sm:text-3xl md:text-4xl mb-4 sm:mb-6 font-medium tracking-widest text-pink-100">
+            新しい自分へ、心と身体で優しく変わる。
+          </span>
+          <span className="block leading-tight font-extrabold" style={{ fontSize: 'clamp(2.5rem, 8vw, 6rem)', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
+            その一振りが、<br className="sm:hidden" />
+            あなたの未来を<br className="lg:hidden" />
+            優しく変える。
+          </span>
+        </h1>
+
+        <p className="mt-6 sm:mt-8 text-lg sm:text-2xl md:text-3xl text-white font-bold mb-10 sm:mb-12 leading-relaxed font-rounded drop-shadow-md">
+          <span className="bg-pink-600/80 px-4 py-2 rounded-full backdrop-blur-sm inline-block mb-2 sm:mb-0">
+            💖 成田市No.1 女性・初心者大歓迎 💖
+          </span>
+          <br className="hidden sm:block" />
+          <span className="inline-block mt-2">安心して通えるフィットネススタジオ</span>
+        </p>
+
+        {/* Trust Badges - Responsive Grid */}
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-6 mb-10 sm:mb-16">
+          <div className="bg-white/95 backdrop-blur-md px-6 py-3 rounded-full shadow-lg flex items-center transform hover:scale-105 transition-transform duration-300 border-2 border-pink-100">
+            <span className="text-pastel-pink font-bold text-xl mr-2">♥</span>
+            <span className="text-gray-800 font-bold text-sm sm:text-lg">女性会員 82%</span>
+          </div>
+          <div className="bg-white/95 backdrop-blur-md px-6 py-3 rounded-full shadow-lg flex items-center transform hover:scale-105 transition-transform duration-300 border-2 border-green-100">
+            <span className="text-mint-green font-bold text-xl mr-2">🔰</span>
+            <span className="text-gray-800 font-bold text-sm sm:text-lg">初心者率 91%</span>
+          </div>
+          <div className="bg-white/95 backdrop-blur-md px-6 py-3 rounded-full shadow-lg flex items-center transform hover:scale-105 transition-transform duration-300 border-2 border-yellow-100">
+            <span className="text-yellow-400 font-bold text-xl mr-2">☺</span>
+            <span className="text-gray-800 font-bold text-sm sm:text-lg">キッズクラスあり</span>
+          </div>
+        </div>
+
+        {/* CTA Buttons - Responsive Stack */}
+        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 w-full max-w-md sm:max-w-none mx-auto">
+          <Link
+            href="/quiz"
+            className="group relative inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-gradient-to-r from-purple-400 to-indigo-500 hover:from-purple-500 hover:to-indigo-600 transition-all duration-300 shadow-[0_0_20px_rgba(167,139,250,0.6)] transform hover:scale-105 hover:-translate-y-1 overflow-hidden"
+          >
+            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer"></span>
+            <span className="relative flex items-center">
+              <span className="mr-2 text-2xl">✨</span>
+              あなたに合う運動を見つける
+            </span>
+          </Link>
+          <Link
+            href="/trial-lesson"
+            className="group relative inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-gradient-to-r from-pastel-pink to-pink-500 hover:from-pink-400 hover:to-pink-600 transition-all duration-300 shadow-[0_0_20px_rgba(248,200,220,0.6)] transform hover:scale-105 hover:-translate-y-1 overflow-hidden"
+          >
+            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer"></span>
+            <span className="relative flex items-center">
+              <span className="mr-2 text-xl">💕</span>
+              無料体験してみる
+            </span>
+          </Link>
+          <Link
+            href="/line"
+            className="inline-flex items-center justify-center px-8 py-4 sm:px-10 sm:py-5 border border-transparent text-lg sm:text-xl font-bold rounded-full text-white bg-[#06C755] hover:bg-[#05b34c] transition-all duration-300 shadow-lg transform hover:scale-105 hover:-translate-y-1"
+          >
+            <span className="mr-2 text-xl">💬</span>
+            気軽にLINEで相談
+          </Link>
+        </div>
       </div>
     </section>
   );

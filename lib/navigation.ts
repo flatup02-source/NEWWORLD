@@ -4,6 +4,8 @@ export const navLinks = [
   { href: '/schedule', label: 'スケジュール' },
   { href: '/trainers', label: 'インストラクター' },
   { href: '/voice', label: 'お客様の声' },
+  { href: '/aika', label: 'AIKA 19号' },
+  { href: '/ai', label: '🤖 AI診断' }, // AI診断を追加
 ];
 
 export const classLinks = [

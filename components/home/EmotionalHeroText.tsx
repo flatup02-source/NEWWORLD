@@ -56,7 +56,7 @@ export const EmotionalHeroText = () => {
 
                 {/* NEW TEXT */}
                 <div className="text-white text-3xl md:text-5xl font-bold mb-8 drop-shadow-lg tracking-wide">
-                <p>世界一優しい格闘技ジム</p>
+                <p>世界一優しい運動スタジオ</p>
                 <p>FLATUPGYM</p>
                 </div>
                 {/* メインタイトル */}

@@ -18,7 +18,7 @@ export default function Pricing() {
         description="あなたの目的やライフスタイルに合わせた最適なプランをご提案。キックボクシング、ブラジリアン柔術、キッズクラスなど、多彩なプログラムをご用意しています。"
         jsonLd={pricingBreadcrumbs}
       />
-      
+
 
       <main>
         {/* ヒーローセクション */}
@@ -26,7 +26,7 @@ export default function Pricing() {
           className="relative min-h-screen bg-cover bg-center flex items-center"
         >
           <OptimizedImage
-            src="https://ik.imagekit.io/FLATUPGYM/ryoukinn.png"
+            src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2000&auto=format&fit=crop"
             alt="プログラムページの背景画像"
             fill
             priority
@@ -39,7 +39,7 @@ export default function Pricing() {
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
                 料金・システム
                 <br />
-                明朗会計で安心 
+                明朗会計で安心
               </h1>
               <p className="text-2xl md:text-3xl text-white/95 mb-12 leading-relaxed font-medium">
                 分かりやすい料金設定で
@@ -520,7 +520,7 @@ export default function Pricing() {
         </section>
       </main>
 
-      
+
     </div>
   );
 }
