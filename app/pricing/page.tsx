@@ -99,7 +99,7 @@ const PricingPage: NextPage = () => {
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-4">料金プラン</h2>
-            <p className="text-center text-gray-600 mb-12">入会金・年会費なし！月額制で安心して続けられます♪</p>
+            <p className="text-center text-gray-600 mb-12">年会費なし！月額制で安心して続けられます♪（入会金10,000円、初回のみ）</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {monthlyPlans.map((plan) => (
                 <div key={plan.title} className="bg-white rounded-2xl shadow-lg p-8 text-center flex flex-col relative border-2 border-transparent hover:border-pink-500 transition-all duration-300 transform hover:-translate-y-2">
@@ -168,7 +168,7 @@ const PricingPage: NextPage = () => {
           <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-12">安心のシステム・特典</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">入会金半額</h3><p>通常¥10,000の入会金が今なら半額！体験からそのまま入会でさらにお得に。</p></div>
+                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">入会金半額キャンペーン</h3><p>入会金10,000円が今なら半額5,000円！体験からそのまま入会でさらにお得に。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">体験時は手ぶらでOK</h3><p>グローブ・プロテクターは無料レンタル。タオルと飲み物だけお持ちください。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">ひとりにさせません</h3><p>いつでもジム公式LINEで相談・サポート可能。24時間対応。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">グローブプレゼント</h3><p>毎月先着5名様限定で新品グローブをプレゼント！</p></div>

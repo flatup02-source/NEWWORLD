@@ -143,6 +143,7 @@ export default function Access() {
                           <h4 className="font-bold text-gray-800 mb-2">住所</h4>
                           {/* Address updated by Agent based on user request */}
                           <p className="text-gray-700 text-lg">〒286-0021 千葉県成田市土屋516-4 青柳ビル 2F</p>
+                          <p className="text-sm text-gray-500 mt-1">（百香亭の上・2階）</p>
                         </div>
                       </div>
                       <div className="group flex items-start space-x-4 p-4 rounded-xl hover:bg-green-50 transition-colors duration-300">
@@ -243,9 +244,13 @@ export default function Access() {
                         <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-2xl border-2 border-green-200 transform hover:scale-105 transition-all duration-300">
                           <h4 className="font-bold text-gray-800 mb-4 flex items-center text-xl">
                             <i className="ri-train-fill w-6 h-6 flex items-center justify-center text-green-600 mr-3"></i>
-                            電車でお越しの方
+                            電車・バスでお越しの方
                           </h4>
                           <ul className="text-gray-700 space-y-3 text-left">
+                            <li className="flex items-start space-x-2">
+                              <i className="ri-bus-fill w-4 h-4 flex items-center justify-center text-green-500 mt-1 flex-shrink-0"></i>
+                              <span><span className="font-semibold">バス（おすすめ）：</span>成田駅からイオンモール行きバス乗車 → イオンバス停下車 → 徒歩約5分</span>
+                            </li>
                             <li className="flex items-center space-x-2">
                               <i className="ri-check-line w-4 h-4 flex items-center justify-center text-green-500"></i>
                               <span>JR成田駅から車で15分</span>
@@ -256,7 +261,7 @@ export default function Access() {
                             </li>
                             <li className="flex items-center space-x-2">
                               <i className="ri-check-line w-4 h-4 flex items-center justify-center text-green-500"></i>
-                              <span>タクシーをご利用ください</span>
+                              <span>タクシーもご利用いただけます</span>
                             </li>
                           </ul>
                         </div>
