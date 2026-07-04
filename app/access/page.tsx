@@ -57,7 +57,7 @@ export default function Access() {
               </h1>
               <p className="text-2xl md:text-3xl text-white/95 mb-12 leading-relaxed font-medium transform hover:scale-105 transition-transform duration-300">
                 お気軽にお越しください♪<br />
-                まずは無料体験から始めませんか？
+                まずは体験レッスン（初回500円）から始めませんか？
               </p>
               
               {/* 洗練されたクイックアクションボタン群 */}
@@ -277,7 +277,7 @@ export default function Access() {
                   <div className="bg-gradient-to-br from-white to-pink-50 p-10 rounded-3xl shadow-2xl border-4 border-pink-200 max-w-4xl mx-auto">
                     <div className="text-center mb-12">
                       <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 mb-4">
-                        🎉 無料体験レッスン予約 🎉
+                        🎉 体験レッスン予約（初回500円） 🎉
                       </h2>
                       <p className="text-xl text-gray-700">初めての方でも安心！まずは気軽に体験してみませんか？</p>
                     </div>
@@ -344,7 +344,7 @@ export default function Access() {
                             <i className="ri-money-dollar-circle-fill w-5 h-5 flex items-center justify-center text-green-600"></i>
                             <div>
                               <span className="font-bold text-gray-800">参加費：</span>
-                              <span className="text-gray-700 ml-2 font-bold text-green-600">完全無料</span>
+                              <span className="text-gray-700 ml-2 font-bold text-green-600">初回体験 500円</span>
                             </div>
                           </div>
                         </div>

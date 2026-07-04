@@ -176,7 +176,7 @@ const PricingPage: NextPage = () => {
             <div className="mt-16 bg-blue-50 p-8 rounded-2xl text-center">
                 <h3 className="text-2xl font-bold mb-4">体験レッスンについて</h3>
                 <p className="mb-4">より気軽に体験していただけるよう、体験時間が<span className="font-bold">60分</span>から<span className="font-bold text-xl text-pink-700">30分</span>に変更になりました♪</p>
-                <p>無料体験は1回限りですが、不安な方は有料体験(¥3,000)も可能です。納得してからの入会をおすすめします。</p>
+                <p>初回体験は500円、2回目以降はビジター料金3,000円/回です。納得してからの入会をおすすめします。</p>
             </div>
             <div className="mt-16">
                 <h3 className="text-2xl font-bold text-center mb-8">お支払い方法</h3>
@@ -191,10 +191,10 @@ const PricingPage: NextPage = () => {
 
         {/* Final CTA */}
         <section className="bg-pink-500 text-white text-center py-16">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">まずは無料体験から始めませんか？</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">まずは体験レッスン（初回500円）から始めませんか？</h2>
             <p className="mb-8">料金やシステムについて詳しく説明いたします。<br/>不安な点は何でもお聞きください♪</p>
             <Link href="/contact" className="bg-white text-pink-700 font-bold py-4 px-10 rounded-full text-lg hover:bg-gray-100 transition-colors duration-300">
-                無料体験・相談予約
+                体験・相談予約（初回500円）
             </Link>
         </section>
       </main>
