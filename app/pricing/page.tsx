@@ -99,7 +99,7 @@ const PricingPage: NextPage = () => {
         <section className="py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-4">料金プラン</h2>
-            <p className="text-center text-gray-600 mb-12">入会金・年会費なし！月額制で安心して続けられます♪</p>
+            <p className="text-center text-gray-600 mb-12">年会費なし！月額制で安心して続けられます♪（入会金10,000円、初回のみ）</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {monthlyPlans.map((plan) => (
                 <div key={plan.title} className="bg-white rounded-2xl shadow-lg p-8 text-center flex flex-col relative border-2 border-transparent hover:border-pink-500 transition-all duration-300 transform hover:-translate-y-2">
@@ -168,7 +168,7 @@ const PricingPage: NextPage = () => {
           <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-xl md:text-2xl font-bold text-center mb-12">安心のシステム・特典</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">入会金半額</h3><p>通常¥10,000の入会金が今なら半額！体験からそのまま入会でさらにお得に。</p></div>
+                <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">入会金半額キャンペーン</h3><p>入会金10,000円が今なら半額5,000円！体験からそのまま入会でさらにお得に。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">体験時は手ぶらでOK</h3><p>グローブ・プロテクターは無料レンタル。タオルと飲み物だけお持ちください。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">ひとりにさせません</h3><p>いつでもジム公式LINEで相談・サポート可能。24時間対応。</p></div>
                 <div className="bg-white p-6 rounded-lg shadow-md"> <h3 className="font-bold text-lg">グローブプレゼント</h3><p>毎月先着5名様限定で新品グローブをプレゼント！</p></div>
@@ -176,7 +176,7 @@ const PricingPage: NextPage = () => {
             <div className="mt-16 bg-blue-50 p-8 rounded-2xl text-center">
                 <h3 className="text-2xl font-bold mb-4">体験レッスンについて</h3>
                 <p className="mb-4">より気軽に体験していただけるよう、体験時間が<span className="font-bold">60分</span>から<span className="font-bold text-xl text-pink-700">30分</span>に変更になりました♪</p>
-                <p>無料体験は1回限りですが、不安な方は有料体験(¥3,000)も可能です。納得してからの入会をおすすめします。</p>
+                <p>初回体験は500円、2回目以降はビジター料金3,000円/回です。納得してからの入会をおすすめします。</p>
             </div>
             <div className="mt-16">
                 <h3 className="text-2xl font-bold text-center mb-8">お支払い方法</h3>
@@ -191,10 +191,10 @@ const PricingPage: NextPage = () => {
 
         {/* Final CTA */}
         <section className="bg-pink-500 text-white text-center py-16">
-            <h2 className="text-xl md:text-2xl font-bold mb-4">まずは無料体験から始めませんか？</h2>
+            <h2 className="text-xl md:text-2xl font-bold mb-4">まずは体験レッスン（初回500円）から始めませんか？</h2>
             <p className="mb-8">料金やシステムについて詳しく説明いたします。<br/>不安な点は何でもお聞きください♪</p>
             <Link href="/contact" className="bg-white text-pink-700 font-bold py-4 px-10 rounded-full text-lg hover:bg-gray-100 transition-colors duration-300">
-                無料体験・相談予約
+                体験・相談予約（初回500円）
             </Link>
         </section>
       </main>

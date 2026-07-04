@@ -57,7 +57,7 @@ export default function Access() {
               </h1>
               <p className="text-2xl md:text-3xl text-white/95 mb-12 leading-relaxed font-medium transform hover:scale-105 transition-transform duration-300">
                 お気軽にお越しください♪<br />
-                まずは無料体験から始めませんか？
+                まずは体験レッスン（初回500円）から始めませんか？
               </p>
               
               {/* 洗練されたクイックアクションボタン群 */}
@@ -143,6 +143,7 @@ export default function Access() {
                           <h4 className="font-bold text-gray-800 mb-2">住所</h4>
                           {/* Address updated by Agent based on user request */}
                           <p className="text-gray-700 text-lg">〒286-0021 千葉県成田市土屋516-4 青柳ビル 2F</p>
+                          <p className="text-sm text-gray-500 mt-1">（百香亭の上・2階）</p>
                         </div>
                       </div>
                       <div className="group flex items-start space-x-4 p-4 rounded-xl hover:bg-green-50 transition-colors duration-300">
@@ -243,9 +244,13 @@ export default function Access() {
                         <div className="bg-gradient-to-br from-green-50 to-emerald-100 p-6 rounded-2xl border-2 border-green-200 transform hover:scale-105 transition-all duration-300">
                           <h4 className="font-bold text-gray-800 mb-4 flex items-center text-xl">
                             <i className="ri-train-fill w-6 h-6 flex items-center justify-center text-green-600 mr-3"></i>
-                            電車でお越しの方
+                            電車・バスでお越しの方
                           </h4>
                           <ul className="text-gray-700 space-y-3 text-left">
+                            <li className="flex items-start space-x-2">
+                              <i className="ri-bus-fill w-4 h-4 flex items-center justify-center text-green-500 mt-1 flex-shrink-0"></i>
+                              <span><span className="font-semibold">バス（おすすめ）：</span>成田駅からイオンモール行きバス乗車 → イオンバス停下車 → 徒歩約5分</span>
+                            </li>
                             <li className="flex items-center space-x-2">
                               <i className="ri-check-line w-4 h-4 flex items-center justify-center text-green-500"></i>
                               <span>JR成田駅から車で15分</span>
@@ -256,7 +261,7 @@ export default function Access() {
                             </li>
                             <li className="flex items-center space-x-2">
                               <i className="ri-check-line w-4 h-4 flex items-center justify-center text-green-500"></i>
-                              <span>タクシーをご利用ください</span>
+                              <span>タクシーもご利用いただけます</span>
                             </li>
                           </ul>
                         </div>
@@ -272,7 +277,7 @@ export default function Access() {
                   <div className="bg-gradient-to-br from-white to-pink-50 p-10 rounded-3xl shadow-2xl border-4 border-pink-200 max-w-4xl mx-auto">
                     <div className="text-center mb-12">
                       <h2 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600 mb-4">
-                        🎉 無料体験レッスン予約 🎉
+                        🎉 体験レッスン予約（初回500円） 🎉
                       </h2>
                       <p className="text-xl text-gray-700">初めての方でも安心！まずは気軽に体験してみませんか？</p>
                     </div>
@@ -339,7 +344,7 @@ export default function Access() {
                             <i className="ri-money-dollar-circle-fill w-5 h-5 flex items-center justify-center text-green-600"></i>
                             <div>
                               <span className="font-bold text-gray-800">参加費：</span>
-                              <span className="text-gray-700 ml-2 font-bold text-green-600">完全無料</span>
+                              <span className="text-gray-700 ml-2 font-bold text-green-600">初回体験 500円</span>
                             </div>
                           </div>
                         </div>
